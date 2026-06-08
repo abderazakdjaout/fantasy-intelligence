@@ -49,6 +49,14 @@ budget = st.sidebar.slider(
     step=0.5
 )
 
+seuil = st.sidebar.slider(
+    "Choisi par combien de managers",
+    min_value=0.0,
+    max_value=100.0,
+    value=50.0,
+    step=1.0
+)
+
 pays_choisie = st.sidebar.selectbox(
     "Pays",
     ["Tous"] + sorted(df["team"].unique().tolist())
@@ -77,6 +85,8 @@ if position_choisie != "Toutes":
 
 df_filtre = df_filtre[df_filtre["price"] <= budget]
 
+df_filtre = df_filtre[df_filtre["owned_percentage"] <= seuil]
+
 if pays_choisie != "Tous":
     df_filtre = df_filtre[df_filtre["team"] == pays_choisie]
 
@@ -91,7 +101,7 @@ if favori_filtre != "Tous":
 
 # CONTENU PRINCIPAL
 st.header("Joueurs")
-st.dataframe(df_filtre[["name", "team", "group", "difficulty", "position", "price", "total_score", "score_valeur", "statut"]])
+st.dataframe(df_filtre[["name", "team", "group", "difficulty", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage"]])
 
 # Graphique
 st.header("Score valeur")
