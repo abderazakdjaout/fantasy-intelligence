@@ -23,6 +23,11 @@ df = df.merge(df_groups, on="team", how="left")
 df_strength = pd.read_csv("data/raw/group_strength.csv")
 df = df.merge(df_strength, on="group", how="left")
 
+# Charger les tireurs de penalties et joindre
+df_penalties = pd.read_csv("data/raw/penalty_takers.csv")
+df = df.merge(df_penalties[["name", "is_penalty_taker"]], on="name", how="left")
+df["is_penalty_taker"] = df["is_penalty_taker"].fillna(False)
+
 # Calculer les colonnes
 df["score_valeur"] = df["total_score"] / df["price"]
 moyennes = df.groupby("position")["score_valeur"].mean()
@@ -35,6 +40,8 @@ df["statut"] = np.where(
 
 # SIDEBAR — filtres à gauche
 st.sidebar.header("Filtres")
+
+penalty_seulement = st.sidebar.checkbox("Tireurs de penalties seulement")
 
 position_choisie = st.sidebar.selectbox(
     "Position",
@@ -79,6 +86,9 @@ favori_filtre = st.sidebar.selectbox(
 
 # Appliquer les filtres
 df_filtre = df.copy()
+
+if penalty_seulement:
+    df_filtre = df_filtre[df_filtre["is_penalty_taker"] == True]
 
 if position_choisie != "Toutes":
     df_filtre = df_filtre[df_filtre["position"] == position_choisie]
