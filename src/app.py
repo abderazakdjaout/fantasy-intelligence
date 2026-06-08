@@ -19,6 +19,10 @@ df = pd.read_csv("data/raw/players_sofascore.csv")
 df_groups = pd.read_csv("data/raw/groups.csv")
 df = df.merge(df_groups, on="team", how="left")
 
+# Charger la force des groupes et joindre
+df_strength = pd.read_csv("data/raw/group_strength.csv")
+df = df.merge(df_strength, on="group", how="left")
+
 # Calculer les colonnes
 df["score_valeur"] = df["total_score"] / df["price"]
 moyennes = df.groupby("position")["score_valeur"].mean()
@@ -55,6 +59,11 @@ groupe_choisi = st.sidebar.selectbox(
     ["Tous"] + sorted(df["group"].dropna().unique().tolist())
 )
 
+difficulty_choisi = st.sidebar.selectbox(
+    "Difficulty",
+    ["Toutes"] + sorted(df["difficulty"].dropna().unique().tolist())
+)
+
 # Appliquer les filtres
 df_filtre = df.copy()
 
@@ -69,9 +78,13 @@ if pays_choisie != "Tous":
 if groupe_choisi != "Tous":
     df_filtre = df_filtre[df_filtre["group"] == groupe_choisi]
 
+if difficulty_choisi != "Toutes":
+    df_filtre = df_filtre[df_filtre["difficulty"] == difficulty_choisi]
+
+
 # CONTENU PRINCIPAL
 st.header("Joueurs")
-st.dataframe(df_filtre[["name", "team", "position", "price", "total_score", "score_valeur", "statut"]])
+st.dataframe(df_filtre[["name", "team", "group", "difficulty", "position", "price", "total_score", "score_valeur", "statut"]])
 
 # Graphique
 st.header("Score valeur")
@@ -81,4 +94,4 @@ st.plotly_chart(fig)
 
 # Joueurs sous-évalués
 st.header("Joueurs sous-évalués")
-st.dataframe(joueurs_sous_evalues(df_filtre)[["name", "team", "position", "price", "total_score", "score_valeur"]])
+st.dataframe(joueurs_sous_evalues(df_filtre)[["name", "team", "group", "difficulty", "position", "price", "total_score", "score_valeur"]])
