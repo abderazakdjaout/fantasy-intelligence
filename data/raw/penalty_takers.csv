@@ -1,49 +1,95 @@
-name,team,is_penalty_taker
-Raul Jimenez,Mexico,True
-Oswin Appollis,South Africa,True
-Son Heung-Min,South Korea,True
-Patrik Schick,Czechia,True
-Jonathan David,Canada,True
-Akram Afif,Qatar,True
-Granit Xhaka,Switzerland,True
-Kerim Alajbegovic,Bosnia & Herzegovina,True
-Raphinha,Brazil,True
-Brahim Diaz,Morocco,True
-Duckens Nazon,Haiti,True
-Scott McTominay,Scotland,True
-Christian Pulisic,USA,True
-Julio Enciso,Paraguay,True
-Ajdin Hrustic,Australia,True
-Hakan Calhanoglu,Türkiye,True
-Kai Havertz,Germany,True
-Leandro Bacuna,Curacao,True
-Franck Kessie,Ivory Coast,True
-Enner Valencia,Ecuador,True
-Memphis Depay,Netherlands,True
-Ayase Ueda,Japan,True
-Viktor Gyokeres,Sweden,True
-Ali Abdi,Tunisia,True
-Kevin De Bruyne,Belgium,True
-Mohamed Salah,Egypt,True
-Mehdi Taremi,Iran,True
-Chris Wood,New Zealand,True
-Mikel Oyarzabal,Spain,True
-Dailon Livramento,Cabo Verde,True
-Salem Al-Dawsari,Saudi Arabia,True
-Federico Valverde,Uruguay,True
-Kylian Mbappé,France,True
-Sadio Mané,Senegal,True
-Erling Haaland,Norway,True
-Aymen Hussein,Iraq,True
-Lionel Messi,Argentina,True
-Riyad Mahrez,Algeria,True
-Marko Arnautovic,Austria,True
-Ali Olwan,Jordan,True
-Bruno Fernandes,Portugal,True
-Otabek Shukurov,Uzbekistan,True
-James Rodriguez,Colombia,True
-Yoane Wissa,DR Congo,True
-Harry Kane,England,True
-Luka Modric,Croatia,True
-Jordan Ayew,Ghana,True
-Eric Davis,Panama,True
+name,team,is_penalty_taker,penalty_order
+Raul Jimenez,Mexico,True,1
+Orbelin Pineda,Mexico,True,2
+Oswin Appollis,South Africa,True,1
+Lyle Foster,South Africa,True,2
+Son Heung-Min,South Korea,True,1
+Hwang Hee-Chan,South Korea,True,2
+Patrik Schick,Czechia,True,1
+Tomas Soucek,Czechia,True,2
+Jonathan David,Canada,True,1
+Akram Afif,Qatar,True,1
+Almoez Ali,Qatar,True,2
+Granit Xhaka,Switzerland,True,1
+Breel Embolo,Switzerland,True,2
+Zeki Amdouni,Switzerland,True,3
+Kerim Alajbegovic,Bosnia & Herzegovina,True,1
+Amir Hadziahmetovic,Bosnia & Herzegovina,True,2
+Raphinha,Brazil,True,1
+Igor Thiago,Brazil,True,2
+Lucas Paqueta,Brazil,True,3
+Brahim Diaz,Morocco,True,1
+Achraf Hakimi,Morocco,True,2
+Soufiane Rahimi,Morocco,True,3
+Duckens Nazon,Haiti,True,1
+Wilson Isidor,Haiti,True,2
+Scott McTominay,Scotland,True,1
+John McGinn,Scotland,True,2
+Christian Pulisic,USA,True,1
+Folarin Balogun,USA,True,2
+Julio Enciso,Paraguay,True,1
+Diego Gomez,Paraguay,True,2
+Miguel Almiron,Paraguay,True,3
+Ajdin Hrustic,Australia,True,1
+Nestory Irankunda,Australia,True,2
+Hakan Calhanoglu,Türkiye,True,1
+Kerem Akturkoglu,Türkiye,True,2
+Kai Havertz,Germany,True,1
+Joshua Kimmich,Germany,True,2
+Leandro Bacuna,Curacao,True,1
+Juninho Bacuna,Curacao,True,2
+Franck Kessie,Ivory Coast,True,1
+Ibrahim Sangare,Ivory Coast,True,2
+Enner Valencia,Ecuador,True,1
+Jordy Caicedo,Ecuador,True,2
+Memphis Depay,Netherlands,True,1
+Cody Gakpo,Netherlands,True,2
+Wout Weghorst,Netherlands,True,3
+Ayase Ueda,Japan,True,1
+Ritsu Doan,Japan,True,2
+Viktor Gyokeres,Sweden,True,1
+Alexander Isak,Sweden,True,2
+Ali Abdi,Tunisia,True,1
+Ismael Gharbi,Tunisia,True,2
+Kevin De Bruyne,Belgium,True,1
+Romelu Lukaku,Belgium,True,2
+Youri Tielemans,Belgium,True,3
+Mohamed Salah,Egypt,True,1
+Omar Marmoush,Egypt,True,2
+Mehdi Taremi,Iran,True,1
+Chris Wood,New Zealand,True,1
+Ben Waine,New Zealand,True,2
+Mikel Oyarzabal,Spain,True,1
+Lamine Yamal,Spain,True,2
+Dailon Livramento,Cabo Verde,True,1
+Salem Al-Dawsari,Saudi Arabia,True,1
+Federico Valverde,Uruguay,True,1
+Darwin Nunez,Uruguay,True,2
+Kylian Mbappé,France,True,1
+Ousmane Dembélé,France,True,2
+Sadio Mané,Senegal,True,1
+Nicolas Jackson,Senegal,True,2
+Erling Haaland,Norway,True,1
+Aymen Hussein,Iraq,True,1
+Lionel Messi,Argentina,True,1
+Lautaro Martinez,Argentina,True,2
+Julian Alvarez,Argentina,True,3
+Riyad Mahrez,Algeria,True,1
+Mohamed Amoura,Algeria,True,2
+Marko Arnautovic,Austria,True,1
+Marcel Sabitzer,Austria,True,2
+Ali Olwan,Jordan,True,1
+Bruno Fernandes,Portugal,True,1
+Cristiano Ronaldo,Portugal,True,2
+Otabek Shukurov,Uzbekistan,True,1
+James Rodriguez,Colombia,True,1
+Luis Diaz,Colombia,True,2
+Yoane Wissa,DR Congo,True,1
+Cedric Bakambu,DR Congo,True,2
+Harry Kane,England,True,1
+Marcus Rashford,England,True,2
+Luka Modric,Croatia,True,1
+Ante Budimir,Croatia,True,2
+Jordan Ayew,Ghana,True,1
+Eric Davis,Panama,True,1
+Adalberto Carrasquilla,Panama,True,2

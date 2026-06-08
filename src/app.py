@@ -25,8 +25,9 @@ df = df.merge(df_strength, on="group", how="left")
 
 # Charger les tireurs de penalties et joindre
 df_penalties = pd.read_csv("data/raw/penalty_takers.csv")
-df = df.merge(df_penalties[["name", "is_penalty_taker"]], on="name", how="left")
+df = df.merge(df_penalties[["name", "is_penalty_taker", "penalty_order"]], on="name", how="left")
 df["is_penalty_taker"] = df["is_penalty_taker"].fillna(False)
+df["penalty_order"] = df["penalty_order"].fillna(0).astype(int)
 
 # Calculer les colonnes
 df["score_valeur"] = df["total_score"] / df["price"]
@@ -41,7 +42,10 @@ df["statut"] = np.where(
 # SIDEBAR — filtres à gauche
 st.sidebar.header("Filtres")
 
-penalty_seulement = st.sidebar.checkbox("Tireurs de penalties seulement")
+penalty_filtre = st.sidebar.selectbox(
+    "Tireur de penalty",
+    ["Tous", "Tireur principal (1)", "Backup (2)", "Tous les tireurs"]
+)
 
 position_choisie = st.sidebar.selectbox(
     "Position",
@@ -87,9 +91,13 @@ favori_filtre = st.sidebar.selectbox(
 # Appliquer les filtres
 df_filtre = df.copy()
 
-if penalty_seulement:
+if penalty_filtre == "Tireur principal (1)":
+    df_filtre = df_filtre[df_filtre["penalty_order"] == 1]
+elif penalty_filtre == "Backup (2)":
+    df_filtre = df_filtre[df_filtre["penalty_order"] == 2]
+elif penalty_filtre == "Tous les tireurs":
     df_filtre = df_filtre[df_filtre["is_penalty_taker"] == True]
-
+    
 if position_choisie != "Toutes":
     df_filtre = df_filtre[df_filtre["position"] == position_choisie]
 
@@ -111,7 +119,7 @@ if favori_filtre != "Tous":
 
 # CONTENU PRINCIPAL
 st.header("Joueurs")
-st.dataframe(df_filtre[["name", "team", "group", "difficulty", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage"]])
+st.dataframe(df_filtre[["name", "team", "group", "difficulty", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage", "penalty_order"]])
 
 # Graphique
 st.header("Score valeur")
