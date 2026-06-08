@@ -14,16 +14,10 @@ st.subheader("Coupe du Monde 2026")
 
 # Charger les données
 df = pd.read_csv("data/raw/players_sofascore.csv")
-
-# Charger les groupes et joindre
 df_groups = pd.read_csv("data/raw/groups.csv")
 df = df.merge(df_groups, on="team", how="left")
-
-# Charger la force des groupes et joindre
 df_strength = pd.read_csv("data/raw/group_strength.csv")
 df = df.merge(df_strength, on="group", how="left")
-
-# Charger les tireurs de penalties et joindre
 df_penalties = pd.read_csv("data/raw/penalty_takers.csv")
 df = df.merge(df_penalties[["name", "is_penalty_taker", "penalty_order"]], on="name", how="left")
 df["is_penalty_taker"] = df["is_penalty_taker"].fillna(False)
@@ -39,13 +33,10 @@ df["statut"] = np.where(
     "SUR-EVALUE"
 )
 
-# SIDEBAR — filtres à gauche
+# SIDEBAR
 st.sidebar.header("Filtres")
 
-penalty_filtre = st.sidebar.selectbox(
-    "Tireur de penalty",
-    ["Tous", "Tireur principal (1)", "Backup (2)", "Tous les tireurs"]
-)
+recherche = st.sidebar.text_input("Rechercher un joueur")
 
 position_choisie = st.sidebar.selectbox(
     "Position",
@@ -79,7 +70,7 @@ groupe_choisi = st.sidebar.selectbox(
 )
 
 difficulty_choisi = st.sidebar.selectbox(
-    "Difficulty",
+    "Difficulté",
     ["Toutes"] + sorted(df["difficulty"].dropna().unique().tolist())
 )
 
@@ -88,21 +79,21 @@ favori_filtre = st.sidebar.selectbox(
     ["Tous", "strong", "likely", "unclear", "none"]
 )
 
-# Appliquer les filtres
+penalty_filtre = st.sidebar.selectbox(
+    "Tireur de penalty",
+    ["Tous", "Tireur principal (1)", "Backup (2)", "Tous les tireurs"]
+)
+
+# APPLIQUER LES FILTRES
 df_filtre = df.copy()
 
-if penalty_filtre == "Tireur principal (1)":
-    df_filtre = df_filtre[df_filtre["penalty_order"] == 1]
-elif penalty_filtre == "Backup (2)":
-    df_filtre = df_filtre[df_filtre["penalty_order"] == 2]
-elif penalty_filtre == "Tous les tireurs":
-    df_filtre = df_filtre[df_filtre["is_penalty_taker"] == True]
-    
+if recherche:
+    df_filtre = df_filtre[df_filtre["name"].str.contains(recherche, case=False, na=False)]
+
 if position_choisie != "Toutes":
     df_filtre = df_filtre[df_filtre["position"] == position_choisie]
 
 df_filtre = df_filtre[df_filtre["price"] <= budget]
-
 df_filtre = df_filtre[df_filtre["owned_percentage"] <= seuil]
 
 if pays_choisie != "Tous":
@@ -117,9 +108,17 @@ if difficulty_choisi != "Toutes":
 if favori_filtre != "Tous":
     df_filtre = df_filtre[df_filtre["is_favorite"] == favori_filtre]
 
+if penalty_filtre == "Tireur principal (1)":
+    df_filtre = df_filtre[df_filtre["penalty_order"] == 1]
+elif penalty_filtre == "Backup (2)":
+    df_filtre = df_filtre[df_filtre["penalty_order"] == 2]
+elif penalty_filtre == "Tous les tireurs":
+    df_filtre = df_filtre[df_filtre["is_penalty_taker"] == True]
+
 # CONTENU PRINCIPAL
 st.header("Joueurs")
-st.dataframe(df_filtre[["name", "team", "group", "difficulty", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage", "penalty_order"]])
+st.write(f"{df_filtre.shape[0]} joueurs trouvés")
+st.dataframe(df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage", "penalty_order"]])
 
 # Graphique
 st.header("Score valeur")
@@ -129,4 +128,5 @@ st.plotly_chart(fig)
 
 # Joueurs sous-évalués
 st.header("Joueurs sous-évalués")
+st.write(f"{joueurs_sous_evalues(df_filtre).shape[0]} joueurs trouvés")
 st.dataframe(joueurs_sous_evalues(df_filtre)[["name", "team", "group", "difficulty", "position", "price", "total_score", "score_valeur"]])
