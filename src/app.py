@@ -15,6 +15,10 @@ st.subheader("Coupe du Monde 2026")
 # Charger les données
 df = pd.read_csv("data/raw/players_sofascore.csv")
 
+# Charger les groupes et joindre
+df_groups = pd.read_csv("data/raw/groups.csv")
+df = df.merge(df_groups, on="team", how="left")
+
 # Calculer les colonnes
 df["score_valeur"] = df["total_score"] / df["price"]
 moyennes = df.groupby("position")["score_valeur"].mean()
@@ -46,6 +50,10 @@ pays_choisie = st.sidebar.selectbox(
     ["Tous"] + sorted(df["team"].unique().tolist())
 )
 
+groupe_choisi = st.sidebar.selectbox(
+    "Groupe",
+    ["Tous"] + sorted(df["group"].dropna().unique().tolist())
+)
 
 # Appliquer les filtres
 df_filtre = df.copy()
@@ -58,6 +66,8 @@ df_filtre = df_filtre[df_filtre["price"] <= budget]
 if pays_choisie != "Tous":
     df_filtre = df_filtre[df_filtre["team"] == pays_choisie]
 
+if groupe_choisi != "Tous":
+    df_filtre = df_filtre[df_filtre["group"] == groupe_choisi]
 
 # CONTENU PRINCIPAL
 st.header("Joueurs")
