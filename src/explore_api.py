@@ -43,7 +43,7 @@ print("\n=== Joueurs du plus cher au moins cher ===")
 print(df[df["position"] == 'ATT'].sort_values("price", ascending = False))
 
 #Creer une nouvelle colonne point par prix
-df["score_valeur"] = df["points"] / df["price"]
+df["score_valeur"] = df["total_score"] / df["price"]
 print(df["score_valeur"])
 
 #On veut voir le classement des joueurs par score valeur — du meilleur rapport qualité/prix au moins bon.

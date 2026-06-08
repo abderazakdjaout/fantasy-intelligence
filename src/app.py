@@ -13,10 +13,10 @@ st.title("⚽ Fantasy Football Intelligence")
 st.subheader("Coupe du Monde 2026")
 
 # Charger les données
-df = pd.read_csv("data/raw/players.csv")
+df = pd.read_csv("data/raw/players_sofascore.csv")
 
 # Calculer les colonnes
-df["score_valeur"] = df["points"] / df["price"]
+df["score_valeur"] = df["total_score"] / df["price"]
 moyennes = df.groupby("position")["score_valeur"].mean()
 df["moyenne_position"] = df["position"].map(moyennes)
 df["statut"] = np.where(
@@ -30,7 +30,7 @@ st.sidebar.header("Filtres")
 
 position_choisie = st.sidebar.selectbox(
     "Position",
-    ["Toutes", "ATT", "MID", "DEF", "GKP"]
+    ["Toutes", "F", "M", "D", "G"]
 )
 
 budget = st.sidebar.slider(
@@ -51,7 +51,7 @@ df_filtre = df_filtre[df_filtre["price"] <= budget]
 
 # CONTENU PRINCIPAL
 st.header("Joueurs")
-st.dataframe(df_filtre[["name", "team", "position", "price", "points", "score_valeur", "statut"]])
+st.dataframe(df_filtre[["name", "team", "position", "price", "total_score", "score_valeur", "statut"]])
 
 # Graphique
 st.header("Score valeur")
@@ -61,4 +61,4 @@ st.plotly_chart(fig)
 
 # Joueurs sous-évalués
 st.header("Joueurs sous-évalués")
-st.dataframe(joueurs_sous_evalues(df_filtre)[["name", "team", "position", "price", "points", "score_valeur"]])
+st.dataframe(joueurs_sous_evalues(df_filtre)[["name", "team", "position", "price", "total_score", "score_valeur"]])
