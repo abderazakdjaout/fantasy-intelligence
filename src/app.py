@@ -64,6 +64,11 @@ difficulty_choisi = st.sidebar.selectbox(
     ["Toutes"] + sorted(df["difficulty"].dropna().unique().tolist())
 )
 
+favori_filtre = st.sidebar.selectbox(
+    "Statut favori",
+    ["Tous", "strong", "likely", "unclear", "none"]
+)
+
 # Appliquer les filtres
 df_filtre = df.copy()
 
@@ -81,6 +86,8 @@ if groupe_choisi != "Tous":
 if difficulty_choisi != "Toutes":
     df_filtre = df_filtre[df_filtre["difficulty"] == difficulty_choisi]
 
+if favori_filtre != "Tous":
+    df_filtre = df_filtre[df_filtre["is_favorite"] == favori_filtre]
 
 # CONTENU PRINCIPAL
 st.header("Joueurs")

@@ -1,49 +1,49 @@
-team,group
-Mexico,A
-South Africa,A
-South Korea,A
-Czechia,A
-Canada,B
-Bosnia & Herzegovina,B
-Qatar,B
-Switzerland,B
-Brazil,C
-Morocco,C
-Haiti,C
-Scotland,C
-USA,D
-Paraguay,D
-Australia,D
-Türkiye,D
-Germany,E
-Curaçao,E
-Côte d'Ivoire,E
-Ecuador,E
-Netherlands,F
-Japan,F
-Sweden,F
-Tunisia,F
-Belgium,G
-Egypt,G
-Iran,G
+team,group,is_favorite
+Mexico,A,unclear
+South Africa,A,none
+South Korea,A,none
+Czechia,A,none
+Canada,B,none
+Bosnia & Herzegovina,B,none
+Qatar,B,none
+Switzerland,B,strong
+Brazil,C,unclear
+Morocco,C,unclear
+Haiti,C,none
+Scotland,C,none
+USA,D,none
+Paraguay,D,none
+Australia,D,none
+Türkiye,D,strong
+Germany,E,strong
+Curaçao,E,none
+Côte d'Ivoire,E,none
+Ecuador,E,none
+Netherlands,F,unclear
+Japan,F,unclear
+Sweden,F,none
+Tunisia,F,none
+Belgium,G,strong
+Egypt,G,none
+Iran,G,none
 New Zealand,G
-Spain,H
-Cabo Verde,H
-Saudi Arabia,H
-Uruguay,H
-France,I
-Senegal,I
-Iraq,I
-Norway,I
-Argentina,J
-Algeria,J
-Austria,J
-Jordan,J
-Portugal,K
-DR Congo,K
-Uzbekistan,K
-Colombia,K
-England,L
-Croatia,L
-Ghana,L
-Panama,L
+Spain,H,strong
+Cabo Verde,H,none
+Saudi Arabia,H,none
+Uruguay,H,none
+France,I,likely
+Senegal,I,unclear
+Iraq,I,none
+Norway,I,none
+Argentina,J,strong
+Algeria,J,none
+Austria,J,none
+Jordan,J,none
+Portugal,K,strong
+DR Congo,K,none
+Uzbekistan,K,none
+Colombia,K,none
+England,L,strong
+Croatia,L,unclear
+Ghana,L,none
+Panama,L,none
