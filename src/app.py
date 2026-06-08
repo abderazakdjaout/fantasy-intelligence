@@ -84,6 +84,12 @@ penalty_filtre = st.sidebar.selectbox(
     ["Tous", "Tireur principal (1)", "Backup (2)", "Tous les tireurs"]
 )
 
+joueurs_compares = st.sidebar.multiselect(
+    "Comparer des joueurs",
+    options=df["name"].tolist(),
+    default=[]
+)
+
 # APPLIQUER LES FILTRES
 df_filtre = df.copy()
 
@@ -115,6 +121,9 @@ elif penalty_filtre == "Backup (2)":
 elif penalty_filtre == "Tous les tireurs":
     df_filtre = df_filtre[df_filtre["is_penalty_taker"] == True]
 
+if len(joueurs_compares) >= 2:
+    st.header("Comparaison de joueurs")
+    st.dataframe(comparer_joueurs(df, joueurs_compares))
 # CONTENU PRINCIPAL
 st.header("Joueurs")
 st.write(f"{df_filtre.shape[0]} joueurs trouvés")
