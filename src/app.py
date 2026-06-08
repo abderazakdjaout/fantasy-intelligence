@@ -41,6 +41,12 @@ budget = st.sidebar.slider(
     step=0.5
 )
 
+pays_choisie = st.sidebar.selectbox(
+    "Pays",
+    ["Tous"] + sorted(df["team"].unique().tolist())
+)
+
+
 # Appliquer les filtres
 df_filtre = df.copy()
 
@@ -48,6 +54,10 @@ if position_choisie != "Toutes":
     df_filtre = df_filtre[df_filtre["position"] == position_choisie]
 
 df_filtre = df_filtre[df_filtre["price"] <= budget]
+
+if pays_choisie != "Tous":
+    df_filtre = df_filtre[df_filtre["team"] == pays_choisie]
+
 
 # CONTENU PRINCIPAL
 st.header("Joueurs")
