@@ -111,6 +111,22 @@ fdr_max = st.sidebar.slider(
     step=1
 )
 
+fdr_r2_max = st.sidebar.slider(
+    "FDR R2 maximum",
+    min_value=1,
+    max_value=5,
+    value=5,
+    step=1
+)
+
+fdr_r3_max = st.sidebar.slider(
+    "FDR R3 maximum",
+    min_value=1,
+    max_value=5,
+    value=5,
+    step=1
+)
+
 # APPLIQUER LES FILTRES
 df_filtre = df.copy()
 
@@ -150,6 +166,8 @@ if len(joueurs_compares) >= 2:
     st.dataframe(comparer_joueurs(df, joueurs_compares))
 
 df_filtre = df_filtre[df_filtre["fdr_r1"] <= fdr_max]
+df_filtre = df_filtre[df_filtre["fdr_r2"] <= fdr_r2_max]
+df_filtre = df_filtre[df_filtre["fdr_r3"] <= fdr_r3_max]
 
 # CONTENU PRINCIPAL
 st.header("Joueurs")
@@ -167,8 +185,8 @@ def colorier_fdr(val):
         return "background-color: #ff0000; color: white"
     return ""
 st.dataframe(
-    df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage", "penalty_order", "match_date_r1", "match_time_et", "opponent_r1", "fdr_r1"]].style.map(
-        colorier_fdr, subset=["fdr_r1"]
+    df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage", "penalty_order", "match_date_r1", "match_time_et", "opponent_r1", "fdr_r1", "fdr_r2", "fdr_r3"]].style.map(
+        colorier_fdr, subset=["fdr_r1", "fdr_r2", "fdr_r3"]
     )
 )
 # Graphique
