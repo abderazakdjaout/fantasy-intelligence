@@ -154,7 +154,23 @@ df_filtre = df_filtre[df_filtre["fdr_r1"] <= fdr_max]
 # CONTENU PRINCIPAL
 st.header("Joueurs")
 st.write(f"{df_filtre.shape[0]} joueurs trouvés")
-st.dataframe(df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage", "penalty_order", "match_date_r1", "match_time_et", "opponent_r1", "fdr_r1"]])
+def colorier_fdr(val):
+    if val == 1:
+        return "background-color: #00d2ff; color: black"
+    elif val == 2:
+        return "background-color: #00ff85; color: black"
+    elif val == 3:
+        return "background-color: #f5c400; color: black"
+    elif val == 4:
+        return "background-color: #ff8c00; color: black"
+    elif val == 5:
+        return "background-color: #ff0000; color: white"
+    return ""
+st.dataframe(
+    df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage", "penalty_order", "match_date_r1", "match_time_et", "opponent_r1", "fdr_r1"]].style.map(
+        colorier_fdr, subset=["fdr_r1"]
+    )
+)
 # Graphique
 st.header("Score valeur")
 df_tri = df_filtre.sort_values("score_valeur", ascending=False)
