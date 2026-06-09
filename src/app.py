@@ -23,6 +23,10 @@ df = df.merge(df_penalties[["name", "is_penalty_taker", "penalty_order"]], on="n
 df["is_penalty_taker"] = df["is_penalty_taker"].fillna(False)
 df["penalty_order"] = df["penalty_order"].fillna(0).astype(int)
 
+# Charger les dates des matchs R1 et joindre
+df_dates = pd.read_csv("data/raw/match_dates_r1.csv")
+df = df.merge(df_dates[["team", "match_date_r1", "match_time_et", "opponent_r1"]], on="team", how="left")
+
 # Calculer les colonnes
 df["score_valeur"] = df["total_score"] / df["price"]
 moyennes = df.groupby("position")["score_valeur"].mean()
@@ -35,6 +39,11 @@ df["statut"] = np.where(
 
 # SIDEBAR
 st.sidebar.header("Filtres")
+
+date_choisie = st.sidebar.selectbox(
+    "Date du match R1",
+    ["Toutes"] + sorted(df["match_date_r1"].dropna().unique().tolist())
+)
 
 recherche = st.sidebar.text_input("Rechercher un joueur")
 
@@ -93,6 +102,9 @@ joueurs_compares = st.sidebar.multiselect(
 # APPLIQUER LES FILTRES
 df_filtre = df.copy()
 
+if date_choisie != "Toutes":
+    df_filtre = df_filtre[df_filtre["match_date_r1"] == date_choisie]
+
 if recherche:
     df_filtre = df_filtre[df_filtre["name"].str.contains(recherche, case=False, na=False)]
 
@@ -127,8 +139,7 @@ if len(joueurs_compares) >= 2:
 # CONTENU PRINCIPAL
 st.header("Joueurs")
 st.write(f"{df_filtre.shape[0]} joueurs trouvés")
-st.dataframe(df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage", "penalty_order"]])
-
+st.dataframe(df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage", "penalty_order", "match_date_r1", "match_time_et", "opponent_r1"]])
 # Graphique
 st.header("Score valeur")
 df_tri = df_filtre.sort_values("score_valeur", ascending=False)
