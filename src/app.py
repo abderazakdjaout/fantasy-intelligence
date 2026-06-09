@@ -27,6 +27,10 @@ df["penalty_order"] = df["penalty_order"].fillna(0).astype(int)
 df_dates = pd.read_csv("data/raw/match_dates_r1.csv")
 df = df.merge(df_dates[["team", "match_date_r1", "match_time_et", "opponent_r1"]], on="team", how="left")
 
+# Charger le FDR et joindre
+df_fdr = pd.read_csv("data/raw/fdr.csv")
+df = df.merge(df_fdr, on="team", how="left")
+
 # Calculer les colonnes
 df["score_valeur"] = df["total_score"] / df["price"]
 moyennes = df.groupby("position")["score_valeur"].mean()
@@ -99,6 +103,14 @@ joueurs_compares = st.sidebar.multiselect(
     default=[]
 )
 
+fdr_max = st.sidebar.slider(
+    "FDR R1 maximum",
+    min_value=1,
+    max_value=5,
+    value=5,
+    step=1
+)
+
 # APPLIQUER LES FILTRES
 df_filtre = df.copy()
 
@@ -136,10 +148,13 @@ elif penalty_filtre == "Tous les tireurs":
 if len(joueurs_compares) >= 2:
     st.header("Comparaison de joueurs")
     st.dataframe(comparer_joueurs(df, joueurs_compares))
+
+df_filtre = df_filtre[df_filtre["fdr_r1"] <= fdr_max]
+
 # CONTENU PRINCIPAL
 st.header("Joueurs")
 st.write(f"{df_filtre.shape[0]} joueurs trouvés")
-st.dataframe(df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage", "penalty_order", "match_date_r1", "match_time_et", "opponent_r1"]])
+st.dataframe(df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage", "penalty_order", "match_date_r1", "match_time_et", "opponent_r1", "fdr_r1"]])
 # Graphique
 st.header("Score valeur")
 df_tri = df_filtre.sort_values("score_valeur", ascending=False)
