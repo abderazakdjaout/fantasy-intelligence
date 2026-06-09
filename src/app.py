@@ -8,6 +8,20 @@ import os
 sys.path.append(os.path.dirname(__file__))
 from analysis import top_joueur_par_position, joueurs_budget, comparer_joueurs, joueurs_sous_evalues
 
+# Fonction de coloration FDR
+def colorier_fdr(val):
+    if val == 1:
+        return "background-color: #00d2ff; color: black"
+    elif val == 2:
+        return "background-color: #00ff85; color: black"
+    elif val == 3:
+        return "background-color: #f5c400; color: black"
+    elif val == 4:
+        return "background-color: #ff8c00; color: black"
+    elif val == 5:
+        return "background-color: #ff0000; color: white"
+    return ""
+
 # Titre
 st.title("⚽ Fantasy Football Intelligence")
 st.subheader("Coupe du Monde 2026")
@@ -163,7 +177,11 @@ elif penalty_filtre == "Tous les tireurs":
 
 if len(joueurs_compares) >= 2:
     st.header("Comparaison de joueurs")
-    st.dataframe(comparer_joueurs(df, joueurs_compares))
+    st.dataframe(
+        comparer_joueurs(df, joueurs_compares)[["name", "team", "position", "price", "fdr_r1", "fdr_r2", "fdr_r3", "owned_percentage", "penalty_order", "match_date_r1", "opponent_r1"]].style.map(
+            colorier_fdr, subset=["fdr_r1", "fdr_r2", "fdr_r3"]
+        )
+    )
 
 df_filtre = df_filtre[df_filtre["fdr_r1"] <= fdr_max]
 df_filtre = df_filtre[df_filtre["fdr_r2"] <= fdr_r2_max]
@@ -172,18 +190,6 @@ df_filtre = df_filtre[df_filtre["fdr_r3"] <= fdr_r3_max]
 # CONTENU PRINCIPAL
 st.header("Joueurs")
 st.write(f"{df_filtre.shape[0]} joueurs trouvés")
-def colorier_fdr(val):
-    if val == 1:
-        return "background-color: #00d2ff; color: black"
-    elif val == 2:
-        return "background-color: #00ff85; color: black"
-    elif val == 3:
-        return "background-color: #f5c400; color: black"
-    elif val == 4:
-        return "background-color: #ff8c00; color: black"
-    elif val == 5:
-        return "background-color: #ff0000; color: white"
-    return ""
 st.dataframe(
     df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage", "penalty_order", "match_date_r1", "match_time_et", "opponent_r1", "fdr_r1", "fdr_r2", "fdr_r3"]].style.map(
         colorier_fdr, subset=["fdr_r1", "fdr_r2", "fdr_r3"]
