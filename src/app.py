@@ -45,6 +45,62 @@ df = df.merge(df_dates[["team", "match_date_r1", "match_time_et", "opponent_r1"]
 df_fdr = pd.read_csv("data/raw/fdr.csv")
 df = df.merge(df_fdr, on="team", how="left")
 
+# Charger les stats R1
+df_stats = pd.read_csv("data/raw/player_stats_r1.csv")
+df_stats_agg = df_stats.groupby("name").agg({
+    "goals": "sum",
+    "assists": "sum",
+    "yellowCard": "sum",
+    "redCard": "sum",
+    "cleanSheet": "sum",
+    "rating": "mean",
+    "minutesPlayed": "sum",
+    "keyPass": "sum",
+    "interceptions": "sum",
+    "wonTackles": "sum",
+    "duelsWon": "sum",
+    "duelsTotal": "sum",
+    "passesCompleted": "sum",
+    "passesTotal": "sum",
+    "wasFouled": "sum",
+    "dispossessed": "sum",
+    "offsides": "sum",
+    "dribblesWon": "sum",
+    "dribblesTotal": "sum",
+    "longBalls": "sum",
+    "totalClearances": "sum",
+    "blockedShots": "sum",
+    "penaltyWon": "sum",
+    "penaltyScored": "sum",
+    "penaltyMissed": "sum",
+    "penaltyCommitted": "sum",
+    "penaltySaved": "sum",
+    "savedShotsInside": "sum",
+    "savedShotsOutside": "sum",
+    "runsOut": "sum",
+    "punches": "sum"
+}).reset_index()
+
+df_stats_agg.columns = ["name", "goals_r1", "assists_r1", "yellow_r1",
+                         "red_r1", "cleansheet_r1", "rating_r1", "minutes_r1",
+                         "keypasses_r1", "interceptions_r1", "tackles_r1",
+                         "duels_won_r1", "duels_total_r1",
+                         "passes_completed_r1", "passes_total_r1",
+                         "was_fouled_r1", "dispossessed_r1", "offsides_r1",
+                         "dribbles_won_r1", "dribbles_total_r1",
+                         "long_balls_r1", "clearances_r1", "blocked_shots_r1",
+                         "penalty_won_r1", "penalty_scored_r1", "penalty_missed_r1",
+                         "penalty_committed_r1", "penalty_saved_r1",
+                         "saves_inside_r1", "saves_outside_r1",
+                         "runs_out_r1", "punches_r1"]
+
+df = df.merge(df_stats_agg, on="name", how="left")
+
+# Calculer les ratios
+df["pass_ratio_r1"] = (df["passes_completed_r1"] / df["passes_total_r1"]).round(2)
+df["dribble_ratio_r1"] = (df["dribbles_won_r1"] / df["dribbles_total_r1"]).round(2)
+df["duel_ratio_r1"] = (df["duels_won_r1"] / df["duels_total_r1"]).round(2)
+
 # Calculer les colonnes
 df["score_valeur"] = df["total_score"] / df["price"]
 moyennes = df.groupby("position")["score_valeur"].mean()
@@ -191,10 +247,19 @@ df_filtre = df_filtre[df_filtre["fdr_r3"] <= fdr_r3_max]
 st.header("Joueurs")
 st.write(f"{df_filtre.shape[0]} joueurs trouvés")
 st.dataframe(
-    df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price", "total_score", "score_valeur", "statut", "owned_percentage", "penalty_order", "match_date_r1", "match_time_et", "opponent_r1", "fdr_r1", "fdr_r2", "fdr_r3"]].style.map(
+    df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price", 
+               "total_score", "owned_percentage", "penalty_order",
+               "fdr_r1", "fdr_r2", "fdr_r3",
+               "goals_r1", "assists_r1", "yellow_r1", "red_r1", "cleansheet_r1",
+               "rating_r1", "minutes_r1", "keypasses_r1", "interceptions_r1", "tackles_r1",
+               "duels_won_r1", "duels_total_r1", "passes_completed_r1", "passes_total_r1",
+               "was_fouled_r1", "dispossessed_r1", "offsides_r1", "dribbles_won_r1",
+               "long_balls_r1", "clearances_r1", "blocked_shots_r1", "penalty_won_r1",
+               "saves_inside_r1", "saves_outside_r1", "pass_ratio_r1", "dribble_ratio_r1", "duel_ratio_r1"]].style.map(
         colorier_fdr, subset=["fdr_r1", "fdr_r2", "fdr_r3"]
     )
 )
+
 # Graphique
 st.header("Score valeur")
 df_tri = df_filtre.sort_values("score_valeur", ascending=False)
