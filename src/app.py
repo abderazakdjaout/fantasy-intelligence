@@ -106,6 +106,7 @@ df["score_valeur"] = df["total_score"] / df["price"]
 df_joue = df[df["minutes_r1"] > 0]
 moyennes = df_joue.groupby("position")["score_valeur"].mean()
 df["moyenne_position"] = df["position"].map(moyennes)
+df["minutes_r1"] = df["minutes_r1"].fillna(0)
 df["statut"] = np.where(
     df["minutes_r1"] > 0,
     np.where(df["score_valeur"] > df["moyenne_position"], "SOUS-EVALUE", "SUR-EVALUE"),
@@ -249,7 +250,7 @@ st.header("Joueurs")
 st.write(f"{df_filtre.shape[0]} joueurs trouvés")
 st.dataframe(
     df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price", 
-               "total_score", "owned_percentage", "penalty_order",
+               "total_score", "owned_percentage", "penalty_order", "statut",
                "fdr_r1", "fdr_r2", "fdr_r3",
                "goals_r1", "assists_r1", "yellow_r1", "red_r1", "cleansheet_r1",
                "rating_r1", "minutes_r1", "keypasses_r1", "interceptions_r1", "tackles_r1",
