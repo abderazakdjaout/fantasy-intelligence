@@ -103,12 +103,13 @@ df["duel_ratio_r1"] = (df["duels_won_r1"] / df["duels_total_r1"]).round(2)
 
 # Calculer les colonnes
 df["score_valeur"] = df["total_score"] / df["price"]
-moyennes = df.groupby("position")["score_valeur"].mean()
+df_joue = df[df["minutes_r1"] > 0]
+moyennes = df_joue.groupby("position")["score_valeur"].mean()
 df["moyenne_position"] = df["position"].map(moyennes)
 df["statut"] = np.where(
-    df["score_valeur"] > df["moyenne_position"],
-    "SOUS-EVALUE",
-    "SUR-EVALUE"
+    df["minutes_r1"] > 0,
+    np.where(df["score_valeur"] > df["moyenne_position"], "SOUS-EVALUE", "SUR-EVALUE"),
+    "PAS JOUÉ"
 )
 
 # SIDEBAR
