@@ -261,6 +261,50 @@ df_filtre = df_filtre[df_filtre["fdr_r1"] <= fdr_max]
 df_filtre = df_filtre[df_filtre["fdr_r2"] <= fdr_r2_max]
 df_filtre = df_filtre[df_filtre["fdr_r3"] <= fdr_r3_max]
 
+# SECTION MON ÉQUIPE
+st.sidebar.header("Mon équipe")
+
+equipe_sauvegardee = []
+if os.path.exists("data/raw/mon_equipe.csv"):
+    equipe_sauvegardee = pd.read_csv("data/raw/mon_equipe.csv")["name"].tolist()
+
+mon_equipe = st.sidebar.multiselect(
+    "Sélectionne tes 15 joueurs",
+    options=df["name"].tolist(),
+    default=equipe_sauvegardee
+)
+
+if st.sidebar.button("Sauvegarder mon équipe"):
+    pd.DataFrame({"name": mon_equipe}).to_csv("data/raw/mon_equipe.csv", index=False)
+    st.sidebar.success("Équipe sauvegardée !")
+
+if len(mon_equipe) > 0:
+    st.header("📋 Mon équipe")
+    df_mon_equipe = df[df["name"].isin(mon_equipe)].copy()
+
+    budget_utilise = df_mon_equipe["price"].sum()
+    st.write(f"Budget utilisé : {budget_utilise}M sur 15 joueurs sélectionnés ({len(mon_equipe)}/15)")
+
+    # Alertes
+    alertes_fdr = df_mon_equipe[df_mon_equipe["fdr_r2"] >= 4]
+    if len(alertes_fdr) > 0:
+        st.warning(f"⚠️ {len(alertes_fdr)} joueur(s) avec un FDR R2 difficile (4-5) : " + ", ".join(alertes_fdr["name"].tolist()))
+
+    alertes_perf = df_mon_equipe[(df_mon_equipe["minutes_r1"] > 0) & (df_mon_equipe["rating_r1"] < 6.5)]
+    if len(alertes_perf) > 0:
+        st.warning(f"⚠️ {len(alertes_perf)} joueur(s) avec un rating R1 faible (<6.5) : " + ", ".join(alertes_perf["name"].tolist()))
+
+    pas_joue = df_mon_equipe[df_mon_equipe["statut"] == "PAS JOUÉ"]
+    if len(pas_joue) > 0:
+        st.info(f"ℹ️ {len(pas_joue)} joueur(s) n'ont pas encore joué : " + ", ".join(pas_joue["name"].tolist()))
+
+    st.dataframe(
+        df_mon_equipe[["name", "team", "position", "price", "total_score", "fdr_r1", "fdr_r2", "fdr_r3",
+                       "goals_r1", "assists_r1", "rating_r1", "minutes_r1", "statut"]].style.map(
+            colorier_fdr, subset=["fdr_r1", "fdr_r2", "fdr_r3"]
+        )
+    )
+
 # CONTENU PRINCIPAL
 st.header("Joueurs")
 st.write(f"{df_filtre.shape[0]} joueurs trouvés")
