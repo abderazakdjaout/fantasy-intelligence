@@ -1,16 +1,16 @@
 name,short_name,position,team,price,total_score,average_score,owned_percentage,form
 Cristiano Ronaldo,C. Ronaldo,F,Portugal,9,0,0,15.7,0
-Lionel Messi,L. Messi,F,Argentina,10,0,0,17.7,0
+Lionel Messi,L. Messi,F,Argentina,10,18,18,17.7,0
 Lamine Yamal,L. Yamal,M,Spain,11.5,1,1,20.5,0
-Kylian Mbappé,K. Mbappé,F,France,12,0,0,33.6,0
+Kylian Mbappé,K. Mbappé,F,France,12,12,12,33.6,0
 Vinícius Júnior,Vinícius Jr.,M,Brazil,11,11,11,9.6,0
 Neymar,Neymar,M,Brazil,6.5,0,0,3.8,0
 Jude Bellingham,J. Bellingham,M,England,8.5,0,0,6.2,0
 Raphinha,Raphinha,M,Brazil,10.5,3,3,10,0
-Erling Haaland,E. Haaland,F,Norway,10,0,0,12.1,0
+Erling Haaland,E. Haaland,F,Norway,10,14,14,12.1,0
 Pedri,Pedri,M,Spain,9,9,9,14.8,0
 Mohamed Salah,M. Salah,M,Egypt,8,7,7,1.9,0
-Federico Valverde,F. Valverde,M,Uruguay,8,0,0,5.4,0
+Federico Valverde,F. Valverde,M,Uruguay,8,1,1,5.4,0
 Endrick,Endrick,F,Brazil,6,0,0,17.1,0
 Arda Güler,A. Güler,M,Türkiye,8,5,5,7.9,0
 Marcus Rashford,M. Rashford,M,England,7,0,0,2.5,0
@@ -18,1236 +18,1223 @@ Harry Kane,H. Kane,F,England,12,0,0,22.7,0
 Luka Modrić,L. Modrić,M,Croatia,7.5,0,0,4.1,0
 Bruno Fernandes,B. Fernandes,M,Portugal,9.5,0,0,17.3,0
 Kevin De Bruyne,K. De Bruyne,M,Belgium,7.5,3,3,5,0
-Ousmane Dembélé,O. Dembélé,M,France,11.5,0,0,10.7,0
+Ousmane Dembélé,O. Dembélé,M,France,11.5,4,4,10.7,0
 Pablo Gavi,Gavi,M,Spain,6.5,3,3,2.4,0
 Brahim Díaz,B. Díaz,M,Morocco,7.5,6,6,3.1,0
 Julián Alvarez,J. Álvarez,F,Argentina,9,0,0,12.5,0
-Thibaut Courtois,T. Courtois,G,Belgium,6.5,7,7,13.4,0
-Michael Olise,M. Olise,M,France,10.5,0,0,25.6,0
+Thibaut Courtois,T. Courtois,G,Belgium,6.5,6,6,13.4,0
+Michael Olise,M. Olise,M,France,10.5,9,9,25.6,0
 Frenkie de Jong,F. de Jong,M,Netherlands,7.5,5,5,2.4,0
-Viktor Gyökeres,V. Gyökeres,F,Sweden,7.5,13,13,5.1,0
+Viktor Gyökeres,V. Gyökeres,F,Sweden,7.5,12,12,5.1,0
 Omar Marmoush,O. Marmoush,F,Egypt,7.5,5,5,2.2,0
 Bukayo Saka,B. Saka,M,England,9,0,0,2,0
 Dani Olmo,D. Olmo,M,Spain,7,1,1,3,0
 Antonio Rüdiger,A. Rüdiger,D,Germany,5,1,1,11.2,0
-Sadio Mané,S. Mané,M,Senegal,8,0,0,1.3,0
+Sadio Mané,S. Mané,M,Senegal,8,4,4,1.3,0
 Luis Díaz,L. Díaz,M,Colombia,8.5,0,0,10.7,0
 Pau Cubarsí,P. Cubarsí,D,Spain,6,9,9,17.3,0
-Jules Koundé,J. Koundé,D,France,6.5,0,0,6,0
+Jules Koundé,J. Koundé,D,France,6.5,4,4,6,0
 Ferran Torres,F. Torres,F,Spain,7,-1,-1,5.9,0
-Aurélien Tchouaméni,A. Tchouaméni,M,France,6.5,0,0,3,0
+Aurélien Tchouaméni,A. Tchouaméni,M,France,6.5,5,5,3,0
 Florian Wirtz,F. Wirtz,M,Germany,8.5,8,8,4.6,0
 Achraf Hakimi,A. Hakimi,D,Morocco,8,9,9,16,0
 Ronald Araújo,R. Araújo,D,Uruguay,5,0,0,1.9,0
 João Félix,J. Félix,M,Portugal,7,0,0,1.9,0
-Enzo Fernández,E. Fernández,M,Argentina,8,0,0,2.2,0
+Enzo Fernández,E. Fernández,M,Argentina,8,5,5,2.2,0
 Joan García,J. García,G,Spain,4,0,0,9.6,0
 Lautaro Martínez,L. Martínez,F,Argentina,7.5,0,0,4.3,0
-Jamal Musiala,J. Musiala,M,Germany,8.5,12,12,3.4,0
 Son Heung-min,S. Heung-min,M,South Korea,7,2,2,1.5,0
-Nico Paz,N. Paz,M,Argentina,7,0,0,4.1,0
-Désiré Doué,D. Doué,M,France,8,0,0,4.5,0
+Jamal Musiala,J. Musiala,M,Germany,8.5,12,12,3.4,0
+Nico Paz,N. Paz,M,Argentina,7,1,1,4.1,0
+Désiré Doué,D. Doué,M,France,8,2,2,4.5,0
 Amad Diallo,A. Diallo,M,Côte d'Ivoire,6.5,10,10,1.9,0
 Antoine Semenyo,A. Semenyo,M,Ghana,7,0,0,2.9,0
 Abdukodir Khusanov,A. Khusanov,D,Uzbekistan,4,0,0,11,0
 Alexander Isak,A. Isak,F,Sweden,7,13,13,2.6,0
 João Cancelo,J. Cancelo,D,Portugal,5.5,0,0,15.8,0
-Rayan Cherki,R. Cherki,M,France,8,0,0,7,0
 Emam Ashour,E. Ashour,M,Egypt,5,10,10,0.6,0
+Rayan Cherki,R. Cherki,M,France,8,1,1,7,0
 Virgil van Dijk,V. van Dijk,D,Netherlands,7,11,11,13.1,0
-Nicolas Jackson,N. Jackson,F,Senegal,6,0,0,2,0
+Nicolas Jackson,N. Jackson,F,Senegal,6,-1,-1,2,0
 Casemiro,Casemiro,M,Brazil,6.5,0,0,4.8,0
 Kenan Yıldız,K. Yıldız,M,Türkiye,7.5,4,4,0.7,0
-David Alaba,D. Alaba,D,Austria,5.5,0,0,3.8,0
+David Alaba,D. Alaba,D,Austria,5.5,3,3,3.8,0
 Rodri,Rodri,M,Spain,7.5,8,8,2.5,0
 Jérémy Doku,J. Doku,M,Belgium,8.5,2,2,6.5,0
 Giorgian de Arrascaeta,G. de Arrascaeta,M,Uruguay,6.5,0,0,0.1,0
 Nico Williams,N. Williams,M,Spain,8,1,1,1.9,0
-Moisés Caicedo,M. Caicedo,M,Ecuador,7,6,6,3.4,0
-Martin Ødegaard,M. Ødegaard,M,Norway,8,0,0,2,0
+Martin Ødegaard,M. Ødegaard,M,Norway,8,7,7,2,0
+Moisés Caicedo,M. Caicedo,M,Ecuador,7,4,4,3.4,0
 Matheus Cunha,M. Cunha,F,Brazil,7.5,2,2,3.3,0
 Rafael Leão,R. Leão,M,Portugal,6.5,0,0,3.5,0
 Memphis Depay,M. Depay,F,Netherlands,7.5,0,0,2.1,0
-Riyad Mahrez,R. Mahrez,M,Algeria,8,0,0,0.4,0
-Alexis Mac Allister,A. Mac Allister,M,Argentina,7.5,0,0,1.7,0
+Riyad Mahrez,R. Mahrez,M,Algeria,8,1,1,0.4,0
+Alexis Mac Allister,A. Mac Allister,M,Argentina,7.5,3,3,1.7,0
 Vitinha,Vitinha,M,Portugal,8.5,0,0,15.3,0
 Kai Havertz,K. Havertz,F,Germany,7,13,13,9.7,0
-Lucas Paquetá,L. Paquetá,M,Brazil,6.5,4,4,2.1,0
-Declan Rice,D. Rice,M,England,8,0,0,4.5,0
-Gabriel Martinelli,G. Martinelli,F,Brazil,7.5,0,0,0.8,0
 Bernardo Silva,B. Silva,M,Portugal,6.5,0,0,4.2,0
+Declan Rice,D. Rice,M,England,8,0,0,4.5,0
+Lucas Paquetá,L. Paquetá,M,Brazil,6.5,4,4,2.1,0
+Gabriel Martinelli,G. Martinelli,F,Brazil,7.5,0,0,0.8,0
 Alisson,Alisson,G,Brazil,6,3,3,12.9,0
-James Rodríguez,J. Rodríguez,M,Colombia,6,0,0,5.5,0
 Darwin Núñez,D. Núñez,F,Uruguay,6,0,0,3.2,0
+James Rodríguez,J. Rodríguez,M,Colombia,6,0,0,5.5,0
 Yoane Wissa,Y. Wissa,F,DR Congo,5.5,0,0,1.3,0
 Eric García,E. García,D,Spain,5.5,0,0,4.2,0
 Simon Adingra,S. Adingra,M,Côte d'Ivoire,5.5,0,0,0.8,0
-Emiliano Martínez,E. Martínez,G,Argentina,5.5,0,0,20.9,0
 Bono,Bono,G,Morocco,5.5,6,6,11.5,0
+Emiliano Martínez,E. Martínez,G,Argentina,5.5,6,6,20.9,0
 Eberechi Eze,E. Eze,M,England,6,0,0,5,0
-Gabriel Magalhães,G. Magalhães,D,Brazil,7,7,7,12.2,0
-Iliman Ndiaye,I. Ndiaye,M,Senegal,6.5,0,0,0.8,0
 Noussair Mazraoui,N. Mazraoui,D,Morocco,6,6,6,6.5,0
+Gabriel Magalhães,G. Magalhães,D,Brazil,7,7,7,12.2,0
 Anthony Gordon,A. Gordon,M,England,7,0,0,2.1,0
+Iliman Ndiaye,I. Ndiaye,M,Senegal,6.5,4,4,0.8,0
 Cédric Bakambu,C. Bakambu,F,DR Congo,4.5,0,0,0.7,0
 Kobbie Mainoo,K. Mainoo,M,England,5.5,0,0,3.5,0
 Romelu Lukaku,R. Lukaku,F,Belgium,6,0,0,5.2,0
-Abdessamad Ezzalzouli,A. Ezzalzouli,M,Morocco,6.5,0,0,0.3,0
-Lisandro Martínez,L. Martínez,D,Argentina,5.5,0,0,4.9,0
+Lisandro Martínez,L. Martínez,D,Argentina,5.5,8,8,4.9,0
 Manuel Neuer,M. Neuer,G,Germany,5.5,4,4,12.3,0
-Rodrigo De Paul,R. De Paul,M,Argentina,6,0,0,4.3,0
+Rodrigo De Paul,R. De Paul,M,Argentina,6,8,8,4.3,0
 Nick Woltemade,N. Woltemade,F,Germany,6,0,0,3.8,0
 Joško Gvardiol,J. Gvardiol,D,Croatia,7,0,0,5.5,0
 Reece James,R. James,D,England,5.5,0,0,6,0
 Cody Gakpo,C. Gakpo,M,Netherlands,7.5,4,4,1.8,0
 Zizo,Zizo,M,Egypt,5.5,0,0,0.5,0
 Rayan Aït-Nouri,R. Aït-Nouri,D,Algeria,5.5,0,0,3,0
+Igor Thiago,I. Thiago,F,Brazil,6,1,1,4.7,0
 Franck Kessié,F. Kessié,M,Côte d'Ivoire,6.5,5,5,0.5,0
 João Neves,J. Neves,M,Portugal,8,0,0,4.9,0
-Lennart Karl,L. Karl,M,Germany,5.5,0,0,2,0
 Ederson,Ederson,G,Brazil,5,0,0,1.9,0
-Igor Thiago,I. Thiago,F,Brazil,6,1,1,4.7,0
 Rayan,Rayan,F,Brazil,5.5,0,0,2.4,0
 Joshua Kimmich,J. Kimmich,D,Germany,7.5,14,14,9,0
-William Saliba,W. Saliba,D,France,7,0,0,9.9,0
+Marc Cucurella,M. Cucurella,D,Spain,6.5,9,9,11.2,0
+William Saliba,W. Saliba,D,France,7,3,3,9.9,0
 N'Golo Kanté,N. Kanté,M,France,5,0,0,6.2,0
-Nuno Mendes,N. Mendes,D,Portugal,7.5,0,0,24.3,0
+Nuno Mendes,N. Mendes,D,Portugal,7.5,0,0,24.4,0
 Chancel Mbemba,C. Mbemba,D,DR Congo,4.5,0,0,0.8,0
+Hamza Abdelkarim,H. Abdelkarim,F,Egypt,4,1,1,2.5,0
+Bradley Barcola,B. Barcola,M,France,7,7,7,1.5,0
 Pedro Neto,P. Neto,M,Portugal,7,0,0,0.8,0
 Leroy Sané,L. Sané,M,Germany,7,2,2,1.3,0
-Bradley Barcola,B. Barcola,M,France,7,0,0,1.5,0
 Rúben Dias,R. Dias,D,Portugal,6.5,0,0,6,0
 Marquinhos,Marquinhos,D,Brazil,6.5,6,6,10.3,0
 Noni Madueke,N. Madueke,M,England,6,0,0,1.6,0
-Hamza Abdelkarim,H. Abdelkarim,F,Egypt,4,1,1,2.5,0
 Fiston Mayele,F. Mayele,F,DR Congo,4.5,0,0,0.2,0
+Ibrahim Mbaye,I. Mbaye,F,Senegal,4.5,6,6,1.2,0
 Thomas Partey,T. Partey,M,Ghana,5.5,0,0,0.9,0
-Ibrahim Mbaye,I. Mbaye,F,Senegal,4.5,0,0,1.2,0
-Marc Cucurella,M. Cucurella,D,Spain,6.5,9,9,11.2,0
+Ibrahim Maza,I. Maza,M,Algeria,7,1,1,0.9,0
 Eldor Shomurodov,E. Shomurodov,F,Uzbekistan,4.5,0,0,0.7,0
-Ibrahim Maza,I. Maza,M,Algeria,7,0,0,0.9,0
+Christian Pulišić,C. Pulišić,M,USA,7.5,8,8,2,0
 Mahmoud Trézéguet,M. Trézéguet,M,Egypt,5.5,0,0,0.7,0
 Tijjani Reijnders,T. Reijnders,M,Netherlands,7.5,3,3,0.8,0
-Cristian Romero,C. Romero,D,Argentina,5.5,0,0,8.1,0
-Christian Pulišić,C. Pulišić,M,USA,7.5,8,8,2,0
-Piero Hincapié,P. Hincapié,D,Ecuador,6,3,3,10.3,0
+Cristian Romero,C. Romero,D,Argentina,5.5,9,9,8.1,0
+Piero Hincapié,P. Hincapié,D,Ecuador,6,2,2,10.3,0
 Bruno Guimarães,B. Guimarães,M,Brazil,8,5,5,0.9,0
 Richard Ríos,R. Ríos,M,Colombia,6,0,0,2.2,0
 Azzedine Ounahi,A. Ounahi,M,Morocco,7,4,4,0.6,0
 Ibrahima Konaté,I. Konaté,D,France,5,0,0,6.5,0
 Jean-Ricner Bellegarde,J. Bellegarde,M,Haiti,4.5,4,4,0.5,0
+Pape Gueye,P. Gueye,M,Senegal,6.5,3,3,0.7,0
 Abbosbek Fayzullaev,A. Fayzullaev,M,Uzbekistan,4,0,0,1.8,0
-Pape Gueye,P. Gueye,M,Senegal,6.5,0,0,0.7,0
 Willian Pacho,W. Pacho,D,Ecuador,6,5,5,20.3,0
 Santiago Giménez,S. Giménez,F,Mexico,5,0,0,1.7,0
 Hakan Çalhanoğlu,H. Çalhanoğlu,M,Türkiye,8,6,6,0.8,0
 Mateo Kovačić,M. Kovačić,M,Croatia,6,0,0,2,0
-Jhon Arias,J. Arias,M,Colombia,6,0,0,2.2,0
 Wilson Isidor,W. Isidor,F,Haiti,4.5,1,1,0.7,0
+Ismael Saibari,I. Saibari,M,Morocco,6.5,9,9,1.1,0
+Jhon Arias,J. Arias,M,Colombia,6,0,0,2.2,0
 Mohamed Amoura,M. E. A. Amoura,F,Algeria,6.5,0,0,0.4,0
+Yan Diomande,Y. Diomande,M,Côte d'Ivoire,8,8,8,1.4,0
 Leandro Trossard,L. Trossard,M,Belgium,7,5,5,1.2,0
 Théo Bongonda,T. Bongonda,M,DR Congo,4.5,0,0,0.2,0
 David Raya,D. Raya,G,Spain,4.5,0,0,12.3,0
 Meschak Elia,M. Elia,F,DR Congo,4.5,0,0,0.1,0
 Mikel Merino,M. Merino,M,Spain,6,1,1,2.3,0
-Ramy Bensebaini,R. Bensebaini,D,Algeria,6,0,0,5.4,0
-Ryan Gravenberch,R. Gravenberch,M,Netherlands,7,11,11,1,0
+Ramy Bensebaini,R. Bensebaini,D,Algeria,6,4,4,5.4,0
 Pape Matar Sarr,P. Sarr,M,Senegal,5.5,0,0,1,0
-Yan Diomande,Y. Diomande,M,Côte d'Ivoire,8,8,8,1.4,0
+Ryan Gravenberch,R. Gravenberch,M,Netherlands,7,11,11,1,0
 Alphonso Davies,A. Davies,D,Canada,6,0,0,2.3,0
+Ismaïla Sarr,I. Sarr,F,Senegal,5,1,1,2.4,0
 Mohamed Abdelmonem,M. Abdelmonem,D,Egypt,4.5,0,0,0.3,0
-Ismaïla Sarr,I. Sarr,F,Senegal,5,0,0,2.4,0
+Raúl Jiménez,R. Jiménez,F,Mexico,6,9,9,3.6,0
 Senne Lammens,S. Lammens,G,Belgium,4.5,0,0,1.9,0
-Wesley,Wesley,D,Brazil,5.5,0,0,1.4,0
 Nico O'Reilly,N. O’Reilly,D,England,6,0,0,11.2,0
-Ismael Saibari,I. Saibari,M,Morocco,6.5,9,9,1.1,0
-Amine Gouiri,A. Gouiri,F,Algeria,5,0,0,0.6,0
+Amine Gouiri,A. Gouiri,F,Algeria,5,1,1,0.6,0
 Edin Džeko,E. Džeko,F,Bosnia & Herzegovina,6,0,0,3,0
 Luis Javier Suárez,L. J. Suárez ,F,Colombia,7,0,0,2.2,0
 Leandro Paredes,L. Paredes,M,Argentina,5,0,0,2,0
-Thiago Almada,T. Almada,M,Argentina,6.5,0,0,0.8,0
-Jurriën Timber,J. Timber,D,Netherlands,6.5,0,0,2.9,0
+Thiago Almada,T. Almada,M,Argentina,6.5,2,2,0.8,0
 Martín Zubimendi,M. Zubimendi,M,Spain,6,0,0,2.3,0
+Denzel Dumfries,D. Dumfries,D,Netherlands,6.5,4,4,8.5,0
 Manuel Akanji,M. Akanji,D,Switzerland,5.5,7,7,5.1,0
 Andy Robertson,A. Robertson,D,Scotland,5,8,8,3.2,0
-Raúl Jiménez,R. Jiménez,F,Mexico,6,9,9,3.6,0
-Ayoub El Kaabi,A. E. Kaabi,F,Morocco,6,0,0,1.7,0
-Denzel Dumfries,D. Dumfries,D,Netherlands,6.5,4,4,8.5,0
 Bilal El Khannouss,B. E. Khannouss,M,Morocco,6.5,6,6,0.2,0
-Marcus Thuram,M. Thuram,F,France,6,0,0,3.2,0
-Marc Guéhi,M. Guéhi,D,England,6,0,0,9.8,0
-Theo Hernández,T. Hernández,D,France,6,0,0,8.9,0
-Scott McTominay,S. McTominay,M,Scotland,7,2,2,3.9,0
-Sofyan Amrabat,S. Amrabat,M,Morocco,5.5,0,0,1.3,0
-Anis Hadj Moussa,A. H. Moussa,F,Algeria,5.5,0,0,1.3,0
-Mamadou Sarr,M. Sarr,D,Senegal,5,0,0,0.7,0
-Hannibal Mejbri,H. Mejbri,M,Tunisia,4.5,9,9,0.6,0
-Kalidou Koulibaly,K. Koulibaly,D,Senegal,5,0,0,2.7,0
-Gonçalo Ramos,G. Ramos,F,Portugal,5.5,0,0,4.2,0
+Ayoub El Kaabi,A. E. Kaabi,F,Morocco,6,0,0,1.7,0
 Kang-in Lee,K. Lee,M,South Korea,6,12,12,1.4,0
-Luiz Henrique,L. Henrique,M,Brazil,6,2,2,2,0
-Kerem Aktürkoğlu,K. Aktürkoğlu,F,Türkiye,6,0,0,1.7,0
+Marcus Thuram,M. Thuram,F,France,6,0,0,3.2,0
+Theo Hernández,T. Hernández,D,France,6,2,2,8.9,0
+Scott McTominay,S. McTominay,M,Scotland,7,2,2,3.9,0
+Marc Guéhi,M. Guéhi,D,England,6,0,0,9.8,0
+Sofyan Amrabat,S. Amrabat,M,Morocco,5.5,0,0,1.4,0
+Anis Hadj Moussa,A. H. Moussa,F,Algeria,5.5,2,2,1.3,0
+Hannibal Mejbri,H. Mejbri,M,Tunisia,4.5,9,9,0.6,0
+Mamadou Sarr,M. Sarr,D,Senegal,5,0,0,0.7,0
+Kalidou Koulibaly,K. Koulibaly,D,Senegal,5,2,2,2.7,0
+Gonçalo Ramos,G. Ramos,F,Portugal,5.5,0,0,4.2,0
 Diogo Dalot,D. Dalot,D,Portugal,5,0,0,1.7,0
+Luiz Henrique,L. Henrique,M,Brazil,6,2,2,2,0
 Kendry Páez,K. Páez,M,Ecuador,5.5,0,0,0.7,0
-Nayef Aguerd,N. Aguerd,D,Morocco,5.5,0,0,1.7,0
-Alexander Sørloth,A. Sørloth,F,Norway,6.5,0,0,3.2,0
-Takefusa Kubo,T. Kubo,M,Japan,6.5,5,5,1.8,0
+Alexander Sørloth,A. Sørloth,F,Norway,6.5,1,1,3.1,0
+Kerem Aktürkoğlu,K. Aktürkoğlu,F,Türkiye,6,0,0,1.7,0
 Giuliano Simeone,G. Simeone,M,Argentina,6.5,0,0,1.5,0
-Fabián Ruiz,F. Ruiz,M,Spain,7.5,4,4,1.3,0
-Mohamed El-Shenawy,M. El-Shenawy,G,Egypt,4.5,0,0,0.4,0
+Fabián Ruiz,F. Ruiz,M,Spain,7.5,5,5,1.3,0
+Takefusa Kubo,T. Kubo,M,Japan,6.5,5,5,1.8,0
+Julián Quiñones,J. Quiñones,F,Mexico,4.5,11,11,1.4,0
 José Manuel López,J. López,F,Argentina,5,0,0,1,0
+Mohamed El-Shenawy,M. El-Shenawy,G,Egypt,4.5,0,0,0.4,0
 James Trafford,J. Trafford,G,England,4,0,0,1.7,0
-John Stones,J. Stones,D,England,5,0,0,1.8,0
-Idrissa Gana Gueye,I. Gueye,M,Senegal,5.5,0,0,1.1,0
 Jonathan David,J. David,F,Canada,6.5,1,1,1.5,0
+John Stones,J. Stones,D,England,5,0,0,1.8,0
+Idrissa Gana Gueye,I. Gueye,M,Senegal,5.5,3,3,1.1,0
+Valentín Barco,V. Barco,M,Argentina,6,0,0,1.5,0
 Gonzalo Plata,G. Plata,M,Ecuador,6,4,4,1.1,0
-Ferdi Kadıoğlu,F. Kadıoğlu,D,Türkiye,5.5,4,4,3.8,0
 Duckens Nazon,D. Nazon,F,Haiti,4,0,0,0.4,0
+Ferdi Kadıoğlu,F. Kadıoğlu,D,Türkiye,5.5,4,4,3.8,0
+Ayyoub Bouaddi,A. Bouaddi,M,Morocco,5,5,5,0.5,0
 Soufiane Rahimi,S. Rahimi,F,Morocco,5,1,1,0.5,0
 Nathan Aké,N. Aké,D,Netherlands,5,0,0,3,0
-Valentín Barco,V. Barco,M,Argentina,6,0,0,1.5,0
 Francisco Conceição,F. Conceição,M,Portugal,6,0,0,2.2,0
 Matheus Nunes,M. Nunes,D,Portugal,5.5,0,0,3.1,0
 Ollie Watkins,O. Watkins,F,England,6,0,0,3.1,0
 Assane Diao,A. Diao,F,Senegal,5,0,0,0.3,0
-Lamine Camara,L. Camara,M,Senegal,6,0,0,1,0
+Lamine Camara,L. Camara,M,Senegal,6,1,1,1,0
+Luca Zidane,L. Zidane,G,Algeria,5,1,1,1.9,0
 Malo Gusto,M. Gusto,D,France,5,0,0,1,0
-Luca Zidane,L. Zidane,G,Algeria,5,0,0,1.9,0
-Nicolás González,N. González,M,Argentina,5.5,0,0,1,0
+Nicolás González,N. González,M,Argentina,5.5,4,4,1,0
+Oscar Bobb,O. Bobb,M,Norway,5.5,1,1,1.1,0
 Frantzdy Pierrot,F. Pierrot,F,Haiti,4,1,1,0.3,0
-Oscar Bobb,O. Bobb,M,Norway,5.5,0,0,1.1,0
-Julián Quiñones,J. Quiñones,F,Mexico,4.5,11,11,1.4,0
+Mehdi Taremi,M. Taremi,F,Iran,5,3,3,1.1,0
+Edouard Mendy,E. Mendy,G,Senegal,5.5,3,3,3.4,0
 Iñaki Williams,I. Williams,M,Ghana,6,0,0,1.3,0
-Mehdi Taremi,M. Taremi,F,Iran,5,0,0,1.1,0
-Wataru Endo,W. Endo,M,Japan,5.5,0,0,1,0
-Edouard Mendy,E. Mendy,G,Senegal,5.5,0,0,3.4,0
-Nicolás Otamendi,N. Otamendi,D,Argentina,5,0,0,3,0
-Manuel Ugarte,M. Ugarte,M,Uruguay,5.5,0,0,1,0
+Nicolás Otamendi,N. Otamendi,D,Argentina,5,1,1,3,0
+Manuel Ugarte,M. Ugarte,M,Uruguay,5.5,2,2,1,0
 Noa Lang,N. Lang,F,Netherlands,5.5,0,0,1.3,0
 Warren Zaïre-Emery,W. Zaïre-Emery,M,France,6,0,0,2.1,0
 Juan Musso,J. Musso,G,Argentina,4,0,0,1.1,0
 Orkun Kökçü,O. Kökçü,M,Türkiye,5.5,4,4,1.4,0
-Donyell Malen,D. Malen,F,Netherlands,7,3,3,2,0
 Aaron Wan-Bissaka,A. Wan-Bissaka,D,DR Congo,5,0,0,0.9,0
-Guéla Doué,G. Doué,D,Côte d'Ivoire,5,8,8,2.9,0
 Neil El Aynaoui,N. El Aynaoui,M,Morocco,5,5,5,0.9,0
+Donyell Malen,D. Malen,F,Netherlands,7,3,3,2,0
+Guéla Doué,G. Doué,D,Côte d'Ivoire,5,8,8,2.9,0
 Aleksandar Pavlović,A. Pavlović,M,Germany,6.5,5,5,1.6,0
-Farès Chaïbi,F. Chaïbi,M,Algeria,6,0,0,0.9,0
+Farès Chaïbi,F. Chaïbi,M,Algeria,6,3,3,0.9,0
 Danilo,Danilo,D,Brazil,4.5,1,1,1.9,0
 Ivan Perišić,I. Perišić,M,Croatia,6.5,0,0,1.1,0
 Danilo Santos,D. Santos,M,Brazil,5.5,0,0,1.7,0
-Nicolás de la Cruz,N. De la Cruz,M,Uruguay,4.5,0,0,0.5,0
+Nicolás de la Cruz,N. De la Cruz,M,Uruguay,4.5,4,4,0.5,0
 Víctor Muñoz,V. Muñoz,F,Spain,4.5,0,0,0.8,0
-Dayot Upamecano,D. Upamecano,D,France,6,0,0,10.8,0
-Mike Maignan,M. Maignan,G,France,6,0,0,13.3,0
-Kim Min-jae,K. Min-jae,D,South Korea,5.5,5,5,3.3,0
+Dayot Upamecano,D. Upamecano,D,France,6,6,6,10.8,0
+Mike Maignan,M. Maignan,G,France,6,2,2,13.3,0
+Mikel Oyarzabal,M. Oyarzabal,F,Spain,8,1,1,6.9,0
 Rúben Neves,R. Neves,M,Portugal,6.5,0,0,0.6,0
+Kim Min-jae,K. Min-jae,D,South Korea,5.5,5,5,3.3,0
 Morgan Rogers,M. Rogers,M,England,6,0,0,2.5,0
 Jorrel Hato,J. Hato,D,Netherlands,4.5,0,0,1,0
-Jorge Carrascal,J. Carrascal,M,Colombia,4.5,0,0,0.8,0
 Giovani Lo Celso,G. Lo Celso,M,Argentina,5.5,0,0,0.7,0
-Mikel Oyarzabal,M. Oyarzabal,F,Spain,8,1,1,6.9,0
 Gilberto Mora,G. Mora,M,Mexico,6,1,1,2,0
+Jorge Carrascal,J. Carrascal,M,Colombia,4.5,0,0,0.8,0
 Pervis Estupiñán,P. Estupiñán,D,Ecuador,5,0,0,1.5,0
-Ayyoub Bouaddi,A. Bouaddi,M,Morocco,5,5,5,0.5,0
 Noah Sadiki,N. Sadiki,M,DR Congo,5,0,0,0.4,0
 Granit Xhaka,G. Xhaka,M,Switzerland,7,6,6,1.5,0
-Relebohile Mofokeng,R. Mofokeng,M,South Africa,4,0,0,1.3,0
+Tim Payne,T. Payne,D,New Zealand,4,1,1,2,0
 Luka Vušković,L. Vušković,D,Croatia,5.5,0,0,4.6,0
-Nahuel Molina,N. Molina,D,Argentina,4,0,0,7.3,0
-Altay Bayındır,A. Bayındır,G,Türkiye,4.5,0,0,0.5,0
-Alex Sandro,A. Sandro,D,Brazil,4.5,0,0,0.9,0
+Relebohile Mofokeng,R. Mofokeng,M,South Africa,4,0,0,1.3,0
+Nahuel Molina,N. Molina,D,Argentina,4,1,1,7.3,0
 Charles De Ketelaere,C. De Ketelaere,F,Belgium,6.5,5,5,1.1,0
-Ivan Toney,I. Toney,F,England,5.5,0,0,1.3,0
+Altay Bayındır,A. Bayındır,G,Türkiye,4.5,0,0,0.5,0
+El Hadji Malick Diouf,E. H. M. Diouf,M,Senegal,4,2,2,3.8,0
+Alex Sandro,A. Sandro,D,Brazil,4.5,0,0,0.9,0
 Julio Enciso,J. Enciso,M,Paraguay,6,8,8,1.2,0
+Ivan Toney,I. Toney,F,England,5.5,0,0,1.3,0
 Barış Alper Yılmaz,B. A. Yılmaz,M,Türkiye,5.5,0,0,1.6,0
-El Hadji Malick Diouf,E. H. M. Diouf,M,Senegal,4,0,0,3.8,0
+Folarin Balogun,F. Balogun,F,USA,6,13,13,1.9,0
 Houssem Aouar,H. Aouar,M,Algeria,6,0,0,0.9,0
-Léo Pereira,L. Pereira,D,Brazil,5,0,0,0.4,0
-Alejandro Grimaldo,A. Grimaldo,M,Spain,6,0,0,1.6,0
-Tim Payne,T. Payne,D,New Zealand,4,0,0,2,0
 Chemsdine Talbi,C. Talbi,M,Morocco,4.5,1,1,0.4,0
-Diogo Costa,D. Costa,G,Portugal,5.5,0,0,9.8,0
-Nicolas Pépé,N. Pépé,F,Côte d'Ivoire,6,2,2,1.8,0
+Léo Pereira,L. Pereira,D,Brazil,5,0,0,0.4,0
 Chadi Riad,C. Riad,D,Morocco,4.5,2,2,0.4,0
+Alejandro Grimaldo,A. Grimaldo,M,Spain,6,0,0,1.6,0
+Diogo Costa,D. Costa,G,Portugal,5.5,0,0,9.8,0
+Antonio Nusa,A. Nusa,M,Norway,6.5,4,4,2.1,0
+Nicolas Pépé,N. Pépé,F,Côte d'Ivoire,6,2,2,1.8,0
+Exequiel Palacios,E. Palacios,M,Argentina,5.5,0,0,0.6,0
 Micky van de Ven,M. van de Ven,D,Netherlands,5.5,1,1,7.9,0
+Gerónimo Rulli,G. Rulli,G,Argentina,4.5,0,0,0.4,0
 Leon Goretzka,L. Goretzka,M,Germany,6,1,1,2.2,0
 Bremer,Bremer,D,Brazil,5,0,0,1.5,0
-Exequiel Palacios,E. Palacios,M,Argentina,5.5,0,0,0.6,0
-Gerónimo Rulli,G. Rulli,G,Argentina,4.5,0,0,0.4,0
 Francisco Trincão,F. Trincão,M,Portugal,7,0,0,0.2,0
-Antonio Nusa,A. Nusa,M,Norway,6.5,0,0,2.1,0
+Krépin Diatta,K. Diatta,D,Senegal,5,4,4,0.3,0
 Anthony Elanga,A. Elanga,M,Sweden,6,1,1,1.7,0
-Krépin Diatta,K. Diatta,D,Senegal,5,0,0,0.3,0
+Patrik Schick,P. Schick,F,Czechia,7,1,1,1,0
 Jordan Ayew,J. Ayew,F,Ghana,5.5,0,0,0.9,0
 Wilfried Singo,W. Singo,D,Côte d'Ivoire,4.5,16,16,0.9,0
-Patrik Schick,P. Schick,F,Czechia,7,1,1,1,0
-Davinson Sánchez,D. Sánchez,D,Colombia,5,0,0,1.3,0
 Habib Diarra,H. Diarra,M,Senegal,5.5,0,0,0.5,0
+Davinson Sánchez,D. Sánchez,D,Colombia,5,0,0,1.3,0
 Dominik Livaković,D. Livaković,G,Croatia,5,0,0,5.1,0
 Nico Schlotterbeck,N. Schlotterbeck,D,Germany,7,13,13,3.3,0
+Adrien Rabiot,A. Rabiot,M,France,6.5,9,9,0.9,0
 Gessime Yassine,G. Yassine,M,Morocco,5,0,0,0.2,0
 Haissem Hassan,H. Hassan,M,Egypt,4,0,0,0.8,0
-Adrien Rabiot,A. Rabiot,M,France,6.5,0,0,0.9,0
-Josué Casimir,J. Casimir,M,Haiti,4,1,1,0.4,0
 Juan Fernando Quintero,J. Quintero,M,Colombia,4.5,0,0,0.8,0
+Josué Casimir,J. Casimir,M,Haiti,4,1,1,0.4,0
 Daniel Muñoz,D. Muñoz,D,Colombia,5.5,0,0,4.1,0
-Hicham Boudaoui,H. Boudaoui,M,Algeria,5.5,0,0,0.3,0
-Seko Fofana,S. Fofana,M,Côte d'Ivoire,5.5,1,1,0.7,0
 Lucas Hernández,L. Hernández,D,France,4.5,0,0,1.3,0
+Hicham Boudaoui,H. Boudaoui,M,Algeria,5.5,3,3,0.3,0
 Jean-Philippe Mateta,J. Mateta,F,France,5.5,0,0,1.3,0
-Diego Gómez,D. Gómez,M,Paraguay,6,0,0,0.9,0
-Renato Veiga,R. Veiga,D,Portugal,5,0,0,0.4,0
+Seko Fofana,S. Fofana,M,Côte d'Ivoire,5.5,1,1,0.7,0
 Pedro Porro,P. Porro,D,Spain,5.5,0,0,3.4,0
+Renato Veiga,R. Veiga,D,Portugal,5,0,0,0.4,0
+Diego Gómez,D. Gómez,M,Paraguay,6,0,0,0.9,0
 Fabinho,Fabinho,M,Brazil,5.5,1,1,0.9,0
-Elliot Anderson,E. Anderson,M,England,6.5,0,0,1.2,0
 Nicolás Tagliafico,N. Tagliafico,D,Argentina,5,0,0,0.9,0
+Elliot Anderson,E. Anderson,M,England,6.5,0,0,1.2,0
 Charles Pickel,C. Pickel,M,DR Congo,4.5,0,0,0,0
-Tim Weah,T. Weah,M,USA,5.5,1,1,0.8,0
-Can Uzun,C. Uzun,M,Türkiye,6,0,0,1.2,0
 Ange-Yoan Bonny,A. Bonny,F,Côte d'Ivoire,5,1,1,0.5,0
+Can Uzun,C. Uzun,M,Türkiye,6,0,0,1.2,0
 Jonathan Tah,J. Tah,D,Germany,6.5,3,3,3.4,0
-Martin Baturina,M. Baturina,M,Croatia,6,0,0,1.5,0
+Tim Weah,T. Weah,M,USA,5.5,1,1,0.8,0
 Esmir Bajraktarević,E. Bajraktarević,M,Bosnia & Herzegovina,5.5,1,1,1.2,0
-Folarin Balogun,F. Balogun,F,USA,6,13,13,1.9,0
+Martin Baturina,M. Baturina,M,Croatia,6,0,0,1.5,0
+Salem Al-Dawsari,S. Al-Dawsari,M,Saudi Arabia,5.5,1,1,0.9,0
 Jens Petter Hauge,J. Hauge,M,Norway,6,0,0,1.1,0
 Josip Stanišić,J. Stanišić,D,Croatia,5.5,0,0,2.4,0
-Salem Al-Dawsari,S. Al-Dawsari,M,Saudi Arabia,5.5,0,0,0.9,0
 Ahmadou Bamba Dieng,A. B. Dieng,F,Senegal,4.5,0,0,0.1,0
-Edson Álvarez,E. Álvarez,M,Mexico,6,2,2,1.3,0
-Saud Abdulhamid,S. Abdulhamid,D,Saudi Arabia,4.5,0,0,0.3,0
-Abdul Fatawu Issahaku,A. F. Issahaku,F,Ghana,4.5,0,0,0.1,0
-Marcos Llorente,M. Llorente,D,Spain,5.5,10,10,4.9,0
-Noah Okafor,N. Okafor,F,Switzerland,5.5,0,0,1.3,0
 Enner Valencia,E. Valencia,F,Ecuador,5.5,4,4,2.3,0
+Saud Abdulhamid,S. Abdulhamid,D,Saudi Arabia,4.5,3,3,0.3,0
+Edson Álvarez,E. Álvarez,M,Mexico,6,2,2,1.3,0
+Marcos Llorente,M. Llorente,D,Spain,5.5,10,10,4.9,0
+Abdul Fatawu Issahaku,A. F. Issahaku,F,Ghana,4.5,0,0,0.1,0
+Noah Okafor,N. Okafor,F,Switzerland,5.5,0,0,1.3,0
 Aymeric Laporte,A. Laporte,D,Spain,5.5,9,9,3.1,0
-Takehiro Tomiyasu,T. Tomiyasu,D,Japan,4.5,1,1,0.9,0
-Aïssa Mandi,A. Mandi,D,Algeria,4.5,0,0,0.2,0
 Youri Tielemans,Y. Tielemans,M,Belgium,8,6,6,0.5,0
+Ruben Providence,R. Providence,M,Haiti,4,2,2,0.2,0
+Aïssa Mandi,A. Mandi,D,Algeria,4.5,6,6,0.2,0
+Takehiro Tomiyasu,T. Tomiyasu,D,Japan,4.5,1,1,0.9,0
 Carney Chukwuemeka,C. Chukwuemeka,M,Austria,5,0,0,0.3,0
+Alex Baena,A. Baena,M,Spain,6.5,0,0,0.2,0
 Christ Inao Oulaï,C. I. Oulaï,M,Côte d'Ivoire,5.5,3,3,0.6,0
 Arthur Masuaku,A. Masuaku,D,DR Congo,4.5,0,0,0.2,0
-Alex Baena,A. Baena,M,Spain,6.5,0,0,0.2,0
-Ruben Providence,R. Providence,M,Haiti,4,2,2,0.2,0
+Andreas Schjelderup,A. Schjelderup,F,Norway,5,1,1,0.8,0
 Simon Banza,S. Banza,F,DR Congo,4.5,0,0,0.1,0
-Andreas Schjelderup,A. Schjelderup,F,Norway,5,0,0,0.8,0
 Jarell Quansah,J. Quansah,D,England,4.5,0,0,0.3,0
-Adil Boulbina,A. Boulbina,M,Algeria,4.5,0,0,0.2,0
-Mbekezeli Mbokazi,M. Mbokazi,D,South Africa,4,1,1,1,0
-Ibrahim Sangaré,I. Sangaré,M,Côte d'Ivoire,6,2,2,1,0
-Deniz Undav,D. Undav,F,Germany,5.5,14,14,2.6,0
 Lyle Foster,L. Foster,F,South Africa,4.5,-1,-1,0.3,0
-Lucas Bergvall,L. Bergvall,M,Sweden,5,4,4,0.8,0
-Gonzalo Montiel,G. Montiel,D,Argentina,5,0,0,0.2,0
-Maxence Lacroix,M. Lacroix,D,France,4.5,0,0,0.6,0
-Ante Budimir,A. Budimir,F,Croatia,6,0,0,1.8,0
-Odilon Kossounou,O. Kossounou,D,Côte d'Ivoire,5,1,1,0.2,0
+Mbekezeli Mbokazi,M. Mbokazi,D,South Africa,4,1,1,1,0
+Adil Boulbina,A. Boulbina,M,Algeria,4.5,0,0,0.2,0
+Deniz Undav,D. Undav,F,Germany,5.5,14,14,2.6,0
 Douglas Santos,D. Santos,D,Brazil,5.5,5,5,1.6,0
-Cucho Hernández,C. Hernández,F,Colombia,5,0,0,0.4,0
+Ibrahim Sangaré,I. Sangaré,M,Côte d'Ivoire,6,1,1,1,0
+Gonzalo Montiel,G. Montiel,D,Argentina,5,1,1,0.2,0
+Issa Diop,I. Diop,D,Morocco,5,3,3,0.6,0
+Lucas Bergvall,L. Bergvall,M,Sweden,5,4,4,0.8,0
+Guillermo Ochoa,G. Ochoa,G,Mexico,4.5,0,0,5,0
+Maxence Lacroix,M. Lacroix,D,France,4.5,0,0,0.6,0
+Odilon Kossounou,O. Kossounou,D,Côte d'Ivoire,5,1,1,0.2,0
+Hwang In-beom,H. In-beom,M,South Korea,4.5,14,14,0.1,0
+Ante Budimir,A. Budimir,F,Croatia,6,0,0,1.8,0
 Axel Witsel,A. Witsel,D,Belgium,4.5,0,0,0.7,0
+Cucho Hernández,C. Hernández,F,Colombia,5,0,0,0.4,0
+Konrad Laimer,K. Laimer,D,Austria,5.5,1,1,3.3,0
 Miguel Almirón,M. Almirón,M,Paraguay,6,3,3,1.1,0
-Konrad Laimer,K. Laimer,D,Austria,5.5,0,0,3.3,0
 Evan Ndicka,E. Ndicka,D,Côte d'Ivoire,5.5,0,0,1.4,0
 Ramón Sosa,R. Sosa,F,Paraguay,5,1,1,0.2,0
-Guillermo Ochoa,G. Ochoa,G,Mexico,4.5,0,0,5,0
 Gustavo Gómez,G. Gómez,D,Paraguay,5.5,0,0,2.4,0
 Yunus Akgün,Y. Akgün,M,Türkiye,5,1,1,0.3,0
-Fernando Muslera,F. Muslera,G,Uruguay,4,0,0,2.1,0
+Fernando Muslera,F. Muslera,G,Uruguay,4,4,4,2.1,0
+Marcel Sabitzer,M. Sabitzer,M,Austria,6.5,2,2,1.2,0
 Jaouen Hadjam,J. Hadjam,D,Algeria,4.5,0,0,0.1,0
-Weverton,Weverton,G,Brazil,4,0,0,0.6,0
-Victor Lindelöf,V. Lindelöf,D,Sweden,5,2,2,0.6,0
-Moussa Niakhaté,M. Niakhaté,D,Senegal,5,0,0,0.4,0
-Marcel Sabitzer,M. Sabitzer,M,Austria,6.5,0,0,1.2,0
-Kerim Alajbegović,K. Alajbegović,M,Bosnia & Herzegovina,6,1,1,1.6,0
-Issa Diop,I. Diop,D,Morocco,5,3,3,0.6,0
-Weston McKennie,W. McKennie,M,USA,6,6,6,1.8,0
-Quinten Timber,Q. Timber,M,Netherlands,4.5,2,2,1,0
-Marko Arnautović,M. Arnautović,F,Austria,5.5,0,0,1.2,0
-Petar Sučić,P. Sučić,M,Croatia,6,0,0,1.4,0
 Bara Sapoko Ndiaye,B. S. Ndiaye,M,Senegal,4.5,0,0,0.3,0
-Rodrigo Bentancur,R. Bentancur,M,Uruguay,6,0,0,1.3,0
-Angelo Stiller,A. Stiller,M,Germany,5.5,0,0,1,0
-Nabil Bentaleb,N. Bentaleb,M,Algeria,5.5,0,0,0.5,0
-Ayase Ueda,A. Ueda,F,Japan,6.5,2,2,1.2,0
+Roger Ibañez,R. Ibañez,D,Brazil,5,-1,-1,0.7,0
+Weverton,Weverton,G,Brazil,4,0,0,0.6,0
+Moussa Niakhaté,M. Niakhaté,D,Senegal,5,3,3,0.4,0
+Victor Lindelöf,V. Lindelöf,D,Sweden,5,2,2,0.6,0
+Kerim Alajbegović,K. Alajbegović,M,Bosnia & Herzegovina,6,1,1,1.6,0
+Marko Arnautović,M. Arnautović,F,Austria,5.5,7,7,1.2,0
+Rodrigo Bentancur,R. Bentancur,M,Uruguay,6,4,4,1.3,0
+Weston McKennie,W. McKennie,M,USA,6,6,6,1.8,0
+Nabil Bentaleb,N. Bentaleb,M,Algeria,5.5,3,3,0.5,0
+Quinten Timber,Q. Timber,M,Netherlands,4.5,2,2,1,0
+Petar Sučić,P. Sučić,M,Croatia,6,0,0,1.4,0
+Chris Wood,C. Wood,F,New Zealand,4.5,10,10,1.1,0
 Maghnes Akliouche,M. Akliouche,M,France,5,0,0,0.4,0
+Angelo Stiller,A. Stiller,M,Germany,5.5,0,0,1,0
+Ayase Ueda,A. Ueda,F,Japan,6.5,2,2,1.2,0
+Ali Jasim,A. Jasim,M,Iraq,4,4,4,0.2,0
+Crysencio Summerville,C. Summerville,M,Netherlands,5.5,10,10,0.8,0
 Kamaldeen Sulemana,K. Sulemana,F,Ghana,5,0,0,0.2,0
+Guillermo Varela,G. Varela,D,Uruguay,5,5,5,0.7,0
 Hyeon-gyu Oh,H. Oh,F,South Korea,5,7,7,0.4,0
-Ali Jasim,A. Jasim,M,Iraq,4,0,0,0.2,0
 Jordan Pickford,J. Pickford,G,England,5.5,0,0,8.7,0
 Nélson Semedo,N. Semedo,D,Portugal,5,0,0,0.6,0
-Guillermo Varela,G. Varela,D,Uruguay,5,0,0,0.7,0
-Chris Wood,C. Wood,F,New Zealand,4.5,0,0,1.1,0
-Ramiz Zerrouki,R. Zerrouki,M,Algeria,6,0,0,0.8,0
-Armando González,A. González,F,Mexico,4.5,0,0,0.5,0
+Ramiz Zerrouki,R. Zerrouki,M,Algeria,6,1,1,0.8,0
 Amadou Onana,A. Onana,M,Belgium,6,3,3,1.7,0
+Armando González,A. González,F,Mexico,4.5,0,0,0.5,0
 Ermedin Demirović,E. Demirović,F,Bosnia & Herzegovina,5.5,2,2,1,0
-Teun Koopmeiners,T. Koopmeiners,M,Netherlands,6,0,0,1.1,0
 Ismail Jakobs,I. Jakobs,D,Senegal,4.5,0,0,0.2,0
-Ngal'ayel Mukau,N. Mukau,M,DR Congo,4.5,0,0,0.1,0
-Oumar Diakité,O. Diakité,F,Côte d'Ivoire,4.5,0,0,0.2,0
+Zion Suzuki,Z. Suzuki,G,Japan,4,4,4,3.7,0
 Ibrahim Adel,I. Adel,M,Egypt,4.5,1,1,0.1,0
 Gonçalo Inácio,G. Inácio,D,Portugal,5.5,0,0,2.6,0
+Teun Koopmeiners,T. Koopmeiners,M,Netherlands,6,0,0,1.1,0
+Ngal'ayel Mukau,N. Mukau,M,DR Congo,4.5,0,0,0.1,0
+Oumar Diakité,O. Diakité,F,Côte d'Ivoire,4.5,0,0,0.2,0
 Ismael Gharbi,I. Gharbi,M,Tunisia,4.5,0,0,0.1,0
 Alexis Saelemaekers,A. Saelemaekers,M,Belgium,6.5,0,0,0.3,0
 Andrej Kramarić,A. Kramarić,M,Croatia,6.5,0,0,0.3,0
 Danley Jean Jacques,D. Jean Jacques,M,Haiti,4,6,6,0.1,0
-Uğurcan Çakır,U. Çakır,G,Türkiye,5,4,4,3.1,0
-Hiroki Itō,H. Itō,D,Japan,5,2,2,0.9,0
-Anass Salah-Eddine,A. Salah-Eddine,D,Morocco,5,1,1,0.1,0
 Manu Koné,M. Koné,M,France,5.5,0,0,0.7,0
-Roger Ibañez,R. Ibañez,D,Brazil,5,-1,-1,0.7,0
-Hwang In-beom,H. In-beom,M,South Korea,4.5,14,14,0.1,0
+Hiroki Itō,H. Itō,D,Japan,5,2,2,0.9,0
+Uğurcan Çakır,U. Çakır,G,Türkiye,5,4,4,3.1,0
+Anass Salah-Eddine,A. Salah-Eddine,D,Morocco,5,1,1,0.1,0
+Unai Simón,U. Simón,G,Spain,5.5,8,8,7.4,0
 Axel Tuanzebe,A. Tuanzebe,D,DR Congo,5,0,0,0.3,0
-Crysencio Summerville,C. Summerville,M,Netherlands,5.5,10,10,0.8,0
-Brian Brobbey,B. Brobbey,F,Netherlands,4.5,1,1,0.7,0
 Jørgen Strand Larsen,J. Larsen,F,Norway,5,0,0,0.4,0
+Sergiño Dest,S. Dest,D,USA,5,6,6,1.4,0
+Brian Brobbey,B. Brobbey,F,Netherlands,4.5,1,1,0.7,0
 Daichi Kamada,D. Kamada,M,Japan,5.5,9,9,0.8,0
-Tajon Buchanan,T. Buchanan,M,Canada,5,1,1,0.4,0
-Zidane Iqbal,Z. Iqbal,M,Iraq,4,0,0,0.3,0
+Zidane Iqbal,Z. Iqbal,M,Iraq,4,2,2,0.3,0
 Facundo Pellistri,F. Pellistri,M,Uruguay,4.5,0,0,0.4,0
-Unai Simón,U. Simón,G,Spain,5.5,7,7,7.4,0
+Tajon Buchanan,T. Buchanan,M,Canada,5,1,1,0.4,0
 Gregor Kobel,G. Kobel,G,Switzerland,5.5,6,6,4.5,0
 Mario Pašalić,M. Pašalić,M,Croatia,5.5,0,0,0.7,0
-Ricardo Adé,R. Adé,D,Haiti,4,6,6,0.3,0
-Carlens Arcus,C. Arcus,D,Haiti,4,1,1,0.2,0
-Elias Achouri,E. Achouri,M,Tunisia,5,0,0,0.1,0
-Sergiño Dest,S. Dest,D,USA,5,6,6,1.4,0
 Yéremy Pino,Y. Pino,M,Spain,5.5,0,0,0.5,0
-Cherif Ndiaye,C. Ndiaye,F,Senegal,4.5,0,0,0.2,0
-Leonardo Balerdi,L. Balerdi,D,Argentina,5,0,0,0.1,0
-Ali Al-Hamadi,A. Al-Hamadi,F,Iraq,4,0,0,0.2,0
-Amar Dedić,A. Dedić,D,Bosnia & Herzegovina,5,4,4,0.7,0
-Nathanaël Mbuku,N. Mbuku,F,DR Congo,4.5,0,0,0.1,0
-Rafik Belghali,R. Belghali,D,Algeria,5,0,0,0.2,0
-Ernest Nuamah,E. Nuamah,M,Ghana,4.5,0,0,0.2,0
+Ricardo Adé,R. Adé,D,Haiti,4,6,6,0.3,0
 Samir El Mourabet,S. E. Mourabet,M,Morocco,6,1,1,0.9,0
-Samuel Moutoussamy,S. Moutoussamy,M,DR Congo,4.5,0,0,0.1,0
-Johny Placide,J. Placide,G,Haiti,4.5,2,2,0.4,0
-Justin Kluivert,J. Kluivert,M,Netherlands,5.5,0,0,0.8,0
-Hannes Delcroix,H. Delcroix,D,Haiti,4,4,4,0.2,0
-Malick Thiaw,M. Thiaw,D,Germany,4.5,0,0,0.5,0
-Wout Weghorst,W. Weghorst,F,Netherlands,5,0,0,0.9,0
-Joaquín Piquerez,J. Piquerez,D,Uruguay,4.5,0,0,0.6,0
+Carlens Arcus,C. Arcus,D,Haiti,4,1,1,0.2,0
+Ali Al-Hamadi,A. Al-Hamadi,F,Iraq,4,2,2,0.2,0
+Elias Achouri,E. Achouri,M,Tunisia,5,0,0,0.1,0
+Cherif Ndiaye,C. Ndiaye,F,Senegal,4.5,0,0,0.2,0
+Amar Dedić,A. Dedić,D,Bosnia & Herzegovina,5,4,4,0.7,0
+Rafik Belghali,R. Belghali,D,Algeria,5,0,0,0.2,0
 Malik Tillman,M. Tillman,M,USA,5.5,7,7,0.6,0
-Mauricio,Mauricio,M,Paraguay,4.5,8,8,0.2,0
-Ben Gannon-Doak,B. Doak,M,Scotland,4.5,4,4,0.2,0
+Nathanaël Mbuku,N. Mbuku,F,DR Congo,4.5,0,0,0.1,0
+Ernest Nuamah,E. Nuamah,M,Ghana,4.5,0,0,0.2,0
+Samuel Moutoussamy,S. Moutoussamy,M,DR Congo,4.5,0,0,0.1,0
+Justin Kluivert,J. Kluivert,M,Netherlands,5.5,0,0,0.8,0
+Johny Placide,J. Placide,G,Haiti,4.5,2,2,0.4,0
 Louicius Don Deedson,L. D. Deedson,F,Haiti,4,3,3,0.1,0
-Sebastian Tounekti,S. Tounekti,M,Tunisia,4.5,0,0,0.1,0
+Joaquín Piquerez,J. Piquerez,D,Uruguay,4.5,0,0,0.6,0
+Ben Gannon-Doak,B. Doak,M,Scotland,4.5,4,4,0.2,0
+Hannes Delcroix,H. Delcroix,D,Haiti,4,4,4,0.2,0
+Wout Weghorst,W. Weghorst,F,Netherlands,5,0,0,0.9,0
+Malick Thiaw,M. Thiaw,D,Germany,4.5,0,0,0.5,0
+Mauricio,Mauricio,M,Paraguay,4.5,8,8,0.2,0
 Matías Viña,M. Viña,D,Uruguay,4,0,0,1.2,0
+Mousa Tamari,M. Tamari,F,Jordan,4.5,2,2,0.3,0
 Diego Moreira,D. Moreira,M,Belgium,5.5,0,0,0.5,0
-Mousa Tamari,M. Tamari,F,Jordan,4.5,0,0,0.3,0
+Sebastian Tounekti,S. Tounekti,M,Tunisia,4.5,0,0,0.1,0
 Hwang Hee-chan,H. Hee-chan,F,South Korea,5.5,1,1,0.8,0
+Antoine Mendy,A. Mendy,D,Senegal,5,0,0,0.4,0
 Abdülkerim Bardakcı,A. Bardakcı,D,Türkiye,5,4,4,0.4,0
 Jordan Henderson,J. Henderson,M,England,4.5,0,0,1,0
 Lenny Joseph,L. Joseph,F,Haiti,4,0,0,0.2,0
-Antoine Mendy,A. Mendy,D,Senegal,5,0,0,0.4,0
 Luka Sučić,L. Sučić,M,Croatia,5,0,0,0.4,0
-Obed Vargas,O. Vargas,M,Mexico,5.5,0,0,0.6,0
-Youssef Belammari,Y. Belammari,D,Morocco,4,0,0,0.3,0
-Jaloliddin Masharipov,J. Masharipov,M,Uzbekistan,4,0,0,0.1,0
 Mostafa Shobeir,M. Shobeir,G,Egypt,4.5,5,5,0.9,0
+Obed Vargas,O. Vargas,M,Mexico,5.5,0,0,0.6,0
+Jaloliddin Masharipov,J. Masharipov,M,Uzbekistan,4,0,0,0.1,0
+Youssef Belammari,Y. Belammari,D,Morocco,4,0,0,0.3,0
 Marwan Attia,M. Attia,M,Egypt,5,0,0,0.1,0
-Zion Suzuki,Z. Suzuki,G,Japan,4,4,4,3.7,0
+Facundo Medina,F. Medina,D,Argentina,4.5,8,8,0.2,0
+Felix Nmecha,F. Nmecha,M,Germany,5.5,13,13,0.7,0
 José María Giménez,J. M. Giménez,D,Uruguay,5.5,0,0,1.6,0
 Lionel Mpasi Nzau,L. Mpasi Nzau,G,DR Congo,4.5,0,0,0.2,0
-Leverton Pierre,L. Pierre,M,Haiti,4,0,0,0.1,0
 Ritsu Doan,R. Doan,M,Japan,6,1,1,1.1,0
 Oston Urunov,O. Urunov,M,Uzbekistan,4,0,0,0.2,0
-Facundo Medina,F. Medina,D,Argentina,4.5,0,0,0.2,0
+Breel Embolo,B. Embolo,F,Switzerland,6,9,9,2.3,0
 Yerry Mina,Y. Mina,D,Colombia,4.5,0,0,0.8,0
 Samir Sophian Chergui,S. S. Chergui,D,Algeria,4.5,0,0,0,0
+Nestory Irankunda,N. Irankunda,M,Australia,5,8,8,0.2,0
 Joel Ordóñez,J. Ordóñez,D,Ecuador,5,5,5,0.5,0
 Andrés Gómez,A. Gómez,M,Colombia,4.5,0,0,0.2,0
+Ousmane Diomande,O. Diomande,D,Côte d'Ivoire,5,0,0,0.6,0
 Álvaro Fidalgo,Á. Fidalgo,M,Mexico,5.5,4,4,0.9,0
 Omar Alderete,O. Alderete,D,Paraguay,5,1,1,0.4,0
-Ousmane Diomande,O. Diomande,D,Côte d'Ivoire,5,0,0,0.6,0
-Breel Embolo,B. Embolo,F,Switzerland,6,9,9,2.3,0
+Pathé Ismaël Ciss,P. I. Ciss,M,Senegal,5.5,1,1,0.4,0
 Evann Guessand,E. Guessand,F,Côte d'Ivoire,5.5,0,0,0.8,0
 Duke Lacroix,D. Lacroix,D,Haiti,4,0,0,0.2,0
-Pathé Ismaël Ciss,P. I. Ciss,M,Senegal,5.5,0,0,0.4,0
 Jefferson Lerma,J. Lerma,M,Colombia,5.5,0,0,0.6,0
 Johan Vásquez,J. Vásquez,D,Mexico,5,8,8,1.8,0
-Nestory Irankunda,N. Irankunda,M,Australia,5,8,8,0.2,0
+Vozinha,Vozinha,G,Cabo Verde,4.5,13,13,0.1,0
 Nikola Vlašić,N. Vlašić,M,Croatia,5,0,0,0.2,0
 Tarik Muharemović,T. Muharemović,D,Bosnia & Herzegovina,5,8,8,0.8,0
 Ao Tanaka,A. Tanaka,M,Japan,5.5,0,0,0.6,0
-Dean Henderson,D. Henderson,G,England,4.5,0,0,0.4,0
-Dan Ndoye,D. Ndoye,M,Switzerland,5,3,3,1,0
-Dodi Lukebakio,D. Lukebakio,M,Belgium,6,0,0,1,0
-Gonçalo Guedes,G. Guedes,F,Portugal,5.5,0,0,0.9,0
-Maximilian Beier,M. Beier,F,Germany,5,0,0,0.3,0
-Tino Livramento,T. Livramento,D,England,5,0,0,0.3,0
-César Huerta,C. Huerta,M,Mexico,4.5,0,0,0.1,0
-Joris Kayembe,Kayembe,D,DR Congo,4,0,0,0.2,0
-Giovanni Reyna,G. Reyna,M,USA,5.5,7,7,0.5,0
-Lucas Digne,L. Digne,D,France,5,0,0,0.4,0
 Brian Gutiérrez,B. Gutiérrez,M,Mexico,5,2,2,0.7,0
-Nilson Angulo,N. Angulo,M,Ecuador,5.5,0,0,0.4,0
-Zakaria El Ouahdi,Z. E. Ouahdi,D,Morocco,4.5,0,0,0.1,0
-Junya Ito,J. Ito,M,Japan,5,3,3,0.5,0
-Ardon Jashari,A. Jashari,M,Switzerland,5,0,0,0.1,0
-Borja Iglesias,B. Iglesias,F,Spain,5,0,0,0.4,0
-Mohamed Hany,M. Hany,D,Egypt,5,1,1,0.2,0
-Félix Torres,F. Torres,D,Ecuador,4.5,0,0,0.2,0
-Samú Costa,S. Costa,M,Portugal,5.5,0,0,0.5,0
-Felix Nmecha,F. Nmecha,M,Germany,5.5,13,13,0.7,0
-Fredrik Aursnes,F. Aursnes,M,Norway,5,0,0,0.3,0
-Woodensky Pierre,W. Pierre,M,Haiti,4,0,0,0.1,0
-Promise David,P. David,F,Canada,4.5,3,3,0.2,0
-David Ospina,D. Ospina,G,Colombia,4,0,0,1.2,0
-Bart Verbruggen,B. Verbruggen,G,Netherlands,5.5,1,1,2.2,0
-Djed Spence,D. Spence,D,England,4.5,0,0,0.4,0
-Mike Penders,M. Penders,G,Belgium,4,0,0,0.2,0
 Ayoube Amaimouni Echghouyab,A. Amaimouni Echghouyab,F,Morocco,5,1,1,0.1,0
-Kwasi Sibo,K. Sibo,M,Ghana,5,0,0,0.1,0
-Elye Wahi,E. Wahi,F,Côte d'Ivoire,4,0,0,1.5,0
-Abdoulaye Seck,A. Seck,D,Senegal,4,0,0,0.3,0
-Alexis Vega,A. Vega,M,Mexico,5.5,0,0,0.6,0
-John Yeboah,J. Yeboah,M,Ecuador,5.5,2,2,0.4,0
+Dodi Lukebakio,D. Lukebakio,M,Belgium,6,0,0,1,0
+Dean Henderson,D. Henderson,G,England,4.5,0,0,0.4,0
+Maximilian Beier,M. Beier,F,Germany,5,0,0,0.3,0
+Dan Ndoye,D. Ndoye,M,Switzerland,5,3,3,1,0
+Mohamed Hany,M. Hany,D,Egypt,5,1,1,0.2,0
+Gonçalo Guedes,G. Guedes,F,Portugal,5.5,0,0,0.9,0
+Lucas Digne,L. Digne,D,France,5,0,0,0.4,0
+Borja Iglesias,B. Iglesias,F,Spain,5,0,0,0.4,0
+Joris Kayembe,Kayembe,D,DR Congo,4,0,0,0.2,0
+César Huerta,C. Huerta,M,Mexico,4.5,0,0,0.1,0
+Giovanni Reyna,G. Reyna,M,USA,5.5,7,7,0.5,0
+Zakaria El Ouahdi,Z. E. Ouahdi,D,Morocco,4.5,0,0,0.1,0
+Nilson Angulo,N. Angulo,M,Ecuador,5.5,0,0,0.4,0
+Junya Ito,J. Ito,M,Japan,5,3,3,0.5,0
+Fredrik Aursnes,F. Aursnes,M,Norway,5,3,3,0.3,0
 John McGinn,J. McGinn,M,Scotland,6,10,10,1.7,0
-Brian Cipenga,B. Cipenga,F,DR Congo,4.5,0,0,0.1,0
-Jean-Kévin Duverne,J. Duverne,D,Haiti,4,0,0,0.1,0
-Yassin Fortune,Y. Fortune,F,Haiti,4,1,1,0.1,0
-Bazoumana Touré,B. Touré,M,Côte d'Ivoire,4.5,0,0,0.2,0
-Ellyes Skhiri,E. Skhiri,M,Tunisia,5,0,0,0.1,0
-Marc Pubill,Pubill,D,Spain,5,0,0,0.5,0
-Kieran Tierney,K. Tierney,D,Scotland,4.5,0,0,0.5,0
-Pascal Groß,P. Groß,M,Germany,5.5,0,0,0.5,0
-Jhon Lucumí,J. Lucumí,D,Colombia,5,0,0,0.3,0
-José Sá,J. Sá,G,Portugal,4.5,0,0,0.5,0
-Dan Burn,D. Burn,D,England,4.5,0,0,0.4,0
-Julian Ryerson,J. Ryerson,D,Norway,5,0,0,1.7,0
-Mohamed Tougai,M. Tougai,D,Algeria,4,0,0,0.1,0
-Daizen Maeda,D. Maeda,F,Japan,6,1,1,1.4,0
-Amir Murillo,A. Murillo,D,Panama,4,0,0,0.4,0
-Emmanuel Agbadou,E. Agbadou,D,Côte d'Ivoire,4.5,12,12,0.2,0
-Maxim De Cuyper,M. De Cuyper,D,Belgium,5,0,0,0.8,0
-Johan Manzambi,J. Manzambi,M,Switzerland,6,0,0,1.2,0
-Sead Kolašinac,S. Kolašinac,D,Bosnia & Herzegovina,4.5,12,12,0.3,0
-Dylan Batubinsika,D. Batubinsika,D,DR Congo,4,0,0,0,0
+Ardon Jashari,A. Jashari,M,Switzerland,5,0,0,0.1,0
+Samú Costa,S. Costa,M,Portugal,5.5,0,0,0.5,0
+Félix Torres,F. Torres,D,Ecuador,4.5,0,0,0.2,0
+Woodensky Pierre,W. Pierre,M,Haiti,4,0,0,0.1,0
+Mike Penders,M. Penders,G,Belgium,4,0,0,0.2,0
+Bart Verbruggen,B. Verbruggen,G,Netherlands,5.5,1,1,2.2,0
+David Ospina,D. Ospina,G,Colombia,4,0,0,1.2,0
+Promise David,P. David,F,Canada,4.5,3,3,0.2,0
+Djed Spence,D. Spence,D,England,4.5,0,0,0.4,0
+John Yeboah,J. Yeboah,M,Ecuador,5.5,2,2,0.4,0
+Abdoulaye Seck,A. Seck,D,Senegal,4,0,0,0.3,0
 Martin Expérience,M. Expérience,D,Haiti,4,5,5,0.1,0
-Ali Abdi,A. Abdi,D,Tunisia,4.5,-2,-2,0.2,0
+Elye Wahi,E. Wahi,F,Côte d'Ivoire,4,0,0,1.5,0
+Kwasi Sibo,K. Sibo,M,Ghana,5,0,0,0.1,0
+Marc Pubill,Pubill,D,Spain,5,0,0,0.5,0
+Alexis Vega,A. Vega,M,Mexico,5.5,0,0,0.6,0
+Bazoumana Touré,B. Touré,M,Côte d'Ivoire,4.5,0,0,0.2,0
+Brian Cipenga,B. Cipenga,F,DR Congo,4.5,0,0,0.1,0
+Julian Ryerson,J. Ryerson,D,Norway,5,4,4,1.7,0
+Yassin Fortune,Y. Fortune,F,Haiti,4,1,1,0.1,0
+Jean-Kévin Duverne,J. Duverne,D,Haiti,4,0,0,0.1,0
+Ellyes Skhiri,E. Skhiri,M,Tunisia,5,1,1,0.1,0
+Kieran Tierney,K. Tierney,D,Scotland,4.5,0,0,0.5,0
+José Sá,J. Sá,G,Portugal,4.5,0,0,0.5,0
+Aymen Hussein,A. Hussein,F,Iraq,4,5,5,0.5,0
+Pascal Groß,P. Groß,M,Germany,5.5,0,0,0.5,0
+Dan Burn,D. Burn,D,England,4.5,0,0,0.4,0
+Jhon Lucumí,J. Lucumí,D,Colombia,5,0,0,0.3,0
+Jae-sung Lee,J. Lee,M,South Korea,4.5,4,4,0.1,0
+Mohamed Tougai,M. Tougai,D,Algeria,4,0,0,0.1,0
 Keito Nakamura,K. Nakamura,M,Japan,5,10,10,0.3,0
-Yasser Ibrahim,Y. Ibrahim,D,Egypt,4.5,3,3,0.2,0
-Thelo Aasgaard,T. Aasgaard,M,Norway,4.5,0,0,0.2,0
+Maximiliano Araújo,M. Araújo,M,Uruguay,5.5,10,10,0.7,0
+Daizen Maeda,D. Maeda,F,Japan,6,1,1,1.4,0
+Yasin Ayari,Y. Ayari,M,Sweden,5.5,16,16,0.4,0
+Emmanuel Agbadou,E. Agbadou,D,Côte d'Ivoire,4.5,11,11,0.2,0
+Amir Murillo,A. Murillo,D,Panama,4,0,0,0.4,0
+Maxim De Cuyper,M. De Cuyper,D,Belgium,5,0,0,0.8,0
 Khalil Ayari,K. Ayari,F,Tunisia,4,0,0,0.2,0
+Sead Kolašinac,S. Kolašinac,D,Bosnia & Herzegovina,4.5,12,12,0.3,0
+Yasser Ibrahim,Y. Ibrahim,D,Egypt,4.5,3,3,0.2,0
+Dylan Batubinsika,D. Batubinsika,D,DR Congo,4,0,0,0,0
+Johan Manzambi,J. Manzambi,M,Switzerland,6,0,0,1.2,0
+Thelo Aasgaard,T. Aasgaard,M,Norway,4.5,0,0,0.2,0
+Ali Abdi,A. Abdi,D,Tunisia,4.5,-2,-2,0.2,0
 Eren Elmalı,E. Elmalı,D,Türkiye,4.5,0,0,0.1,0
-Aymen Hussein,A. Hussein,F,Iraq,4,0,0,0.5,0
 Merih Demiral,M. Demiral,D,Türkiye,5,3,3,0.7,0
+Nathaniel Brown,N. Brown,D,Germany,5,15,15,0.5,0
 Deniz Gül,D. Gül,F,Türkiye,5,0,0,0.2,0
 Derrick Etienne,D. Etienne,F,Haiti,4,0,0,0.1,0
 Gedeon Kalulu,G. Kalulu,D,DR Congo,4,0,0,0.3,0
-Elias Saad,E. Saad,M,Tunisia,4,2,2,0.3,0
-Jae-sung Lee,J. Lee,M,South Korea,4.5,4,4,0.1,0
 Rodrigo Zalazar,R. Zalazar,F,Uruguay,5.5,0,0,0.7,0
+Elias Saad,E. Saad,M,Tunisia,4,2,2,0.3,0
 Marco Pašalić,M. Pašalić,M,Croatia,5,0,0,0.5,0
 Ricardo Pepi,R. Pepi,F,USA,5.5,0,0,0.8,0
 Josip Šutalo,J. Šutalo,D,Croatia,5,0,0,0.2,0
 Kaan Ayhan,K. Ayhan,D,Türkiye,4,0,0,0.3,0
 Edo Kayembe,E. Kayembe,M,DR Congo,4.5,0,0,0,0
-Maximiliano Araújo,M. Araújo,M,Uruguay,5.5,0,0,0.7,0
-Çağlar Söyüncü,Ç. Söyüncü,D,Türkiye,4.5,0,0,0.3,0
 Emiliano Martínez,E. Martínez,M,Uruguay,4.5,0,0,0.2,0
+Çağlar Söyüncü,Ç. Söyüncü,D,Türkiye,4.5,0,0,0.3,0
 Jan Paul van Hecke,J. P. van Hecke,D,Netherlands,5.5,5,5,1.9,0
+Youssef Amyn,Y. Amyn,M,Iraq,4,0,0,0.1,0
 Munir El Kajoui,M. El Kajoui,G,Morocco,4,0,0,0.1,0
 Johan Mojica,J. Mojica,D,Colombia,4.5,0,0,0.8,0
-Youssef Amyn,Y. Amyn,M,Iraq,4,0,0,0.1,0
 Benjamin Asare,B. Asare,G,Ghana,4,0,0,0.3,0
 Igor Matanović,I. Matanović,F,Croatia,5.5,0,0,0.7,0
 Rui Silva,R. Silva,G,Portugal,4,0,0,0.4,0
 Mert Günok,M. Günok,G,Türkiye,4,0,0,0.2,0
+Mory Diaw,M. Diaw,G,Senegal,4,0,0,0.1,0
 Firas Chaouat,F. Chaouat,F,Tunisia,4.5,0,0,0.1,0
 Pavel Šulc,P. Šulc,M,Czechia,5.5,3,3,0.5,0
+Paul Wanner,P. Wanner,M,Austria,5,1,1,0.1,0
+Merchas Doski,M. Doski,D,Iraq,4,3,3,0.1,0
+Mohanad Ali,M. Ali,F,Iraq,4,1,1,0.1,0
 İrfan Can Kahveci,İ. C. Kahveci,M,Türkiye,4.5,0,0,0.1,0
-Mory Diaw,M. Diaw,G,Senegal,4,0,0,0.1,0
-Mohanad Ali,M. Ali,F,Iraq,4,0,0,0.1,0
-Paul Wanner,P. Wanner,M,Austria,5,0,0,0.1,0
 Caleb Yirenkyi,C. Yirenkyi,M,Ghana,4.5,0,0,0.2,0
+Matthieu Epolo,M. Epolo,G,DR Congo,4,0,0,0.2,0
 Roberto Alvarado,R. Alvarado,M,Mexico,5.5,9,9,0.5,0
 Brandon Thomas-Asante,B. Thomas-Asante,F,Ghana,4.5,0,0,0.1,0
-Matthieu Epolo,M. Epolo,G,DR Congo,4,0,0,0.2,0
 Oswin Appollis,O. Appollis,M,South Africa,4.5,1,1,0.2,0
-Christopher Baah,C. Baah,M,Ghana,5,0,0,0.1,0
 Zineddine Belaid,Z. Belaid,D,Algeria,4,0,0,0.2,0
-Merchas Doski,M. Doski,D,Iraq,4,0,0,0.1,0
-Gaël Kakuta,G. Kakuta,M,DR Congo,4,0,0,0.2,0
+Che Adams,C. Adams,F,Scotland,5,2,2,0.5,0
+Christopher Baah,C. Baah,M,Ghana,5,0,0,0.1,0
 Yahia Fofana,Y. Fofana,G,Côte d'Ivoire,5,7,7,0.9,0
+Gaël Kakuta,G. Kakuta,M,DR Congo,4,0,0,0.2,0
+Kevin Danso,K. Danso,D,Austria,4.5,2,2,0.5,0
 Montassar Talbi,M. Talbi,D,Tunisia,4.5,7,7,0.2,0
 Petar Musa,P. Musa,F,Croatia,4.5,0,0,0.2,0
-Kevin Danso,K. Danso,D,Austria,4.5,0,0,0.4,0
-Antonio Sanabria,A. Sanabria,F,Paraguay,5.5,0,0,0.7,0
-Redouane Halhal,R. Halhal,D,Morocco,4.5,0,0,0.1,0
 Ismael Koné,I. Koné,M,Canada,5.5,2,2,0.5,0
-Dominique Simon,D. Simon,M,Haiti,4,0,0,0.1,0
-Haris Tabaković,H. Tabaković,F,Bosnia & Herzegovina,5,0,0,0,0
-Ezri Konsa,E. Konsa,D,England,5.5,0,0,1.8,0
+Redouane Halhal,R. Halhal,D,Morocco,4.5,0,0,0.1,0
+Antonio Sanabria,A. Sanabria,F,Paraguay,5.5,0,0,0.7,0
 Tomás Araújo,T. Araújo,D,Portugal,4.5,0,0,0.3,0
 Yehvann Diouf,Y. Diouf,G,Senegal,4,0,0,0.1,0
+Ezri Konsa,E. Konsa,D,England,5.5,0,0,1.8,0
+Haris Tabaković,H. Tabaković,F,Bosnia & Herzegovina,5,0,0,0,0
+Dominique Simon,D. Simon,M,Haiti,4,0,0,0.1,0
 Alireza Jahanbakhsh,A. Jahanbakhsh,M,Iran,4,0,0,0.2,0
+Mathías Olivera,M. Olivera,D,Uruguay,5,8,8,0.4,0
+Agustín Canobbio,A. Canobbio,M,Uruguay,5,1,1,0.3,0
 Tomáš Souček,T. Souček,M,Czechia,5.5,4,4,0.7,0
 Zeno Debast,Z. Debast,D,Belgium,5,0,0,0,0
-Mathías Olivera,M. Olivera,D,Uruguay,5,0,0,0.4,0
+Damián Bobadilla,D. Bobadilla,M,Paraguay,5.5,-3,-3,0.2,0
+Jovo Lukić,J. Lukić,F,Bosnia & Herzegovina,4,7,7,0.3,0
 Koni De Winter,K. De Winter,D,Belgium,4.5,0,0,0.2,0
 Ladislav Krejčí,L. Krejčí,D,Czechia,5.5,9,9,1.5,0
-Che Adams,C. Adams,F,Scotland,5,2,2,0.5,0
 Ali Maamar,A. Maamar,D,Morocco,4.5,0,0,0,0
-Damián Bobadilla,D. Bobadilla,M,Paraguay,5.5,-3,-3,0.2,0
 Farès Ghedjemis,F. Ghedjemis,F,Algeria,4.5,0,0,0,0
-Daniel Svensson,D. Svensson,D,Sweden,5,1,1,0.2,0
 Yassine Titraoui,Y. Titraoui,M,Algeria,5,0,0,0.1,0
-Agustín Canobbio,A. Canobbio,M,Uruguay,5,0,0,0.3,0
+Daniel Svensson,D. Svensson,D,Sweden,5,1,1,0.2,0
+Hamdy Fathy,H. Fathy,M,Egypt,4.5,4,4,0.1,0
 Akram Afif,A. Afif,M,Qatar,4,5,5,1.5,0
 Santiago Arias,S. Arias,D,Colombia,4,0,0,0.6,0
 Alan Franco,A. Franco,M,Ecuador,5,4,4,0.1,0
-Hamdy Fathy,H. Fathy,M,Egypt,4.5,5,5,0.1,0
-Jhon Córdoba,J. Córdoba,F,Colombia,4.5,0,0,0.2,0
 Tyler Adams,T. Adams,M,USA,5,4,4,0.5,0
+Jhon Córdoba,J. Córdoba,F,Colombia,4.5,0,0,0.2,0
 İsmail Yüksek,İ. Yüksek,M,Türkiye,5.5,7,7,0.4,0
 Denis Zakaria,D. Zakaria,M,Switzerland,5.5,3,3,0.6,0
 Oğuz Aydın,O. Aydın,M,Türkiye,4.5,0,0,0.1,0
 Nadiem Amiri,N. Amiri,M,Germany,4.5,0,0,0.2,0
 Antonee Robinson,A. Robinson,D,USA,5,5,5,1,0
 Zeki Çelik,Z. Çelik,D,Türkiye,5,1,1,0.2,0
+Amine Sbai,A. Sbai,F,Morocco,4,0,0,0.2,0
 Alban Lafont,A. Lafont,G,Côte d'Ivoire,4.5,0,0,0.3,0
-Themba Zwane,T. Zwane,M,South Africa,4,-3,-3,0.1,0
-Adam Hložek,A. Hložek,M,Czechia,5,2,2,0.1,0
-Kevin Castaño,K. Castaño,M,Colombia,4.5,0,0,0.1,0
-Jovo Lukić,J. Lukić,F,Bosnia & Herzegovina,4,7,7,0.3,0
-Otabek Shukurov,O. Shukurov,M,Uzbekistan,4,0,0,0.1,0
 Achref Abada,A. Abada,D,Algeria,4,0,0,0.1,0
-Toni Fruk,T. Fruk,M,Croatia,4,0,0,0.6,0
-Ángelo Preciado,Á. Preciado,M,Ecuador,4.5,0,0,0.1,0
+Mostafa Ziko,M. Ziko,M,Egypt,4.5,0,0,0.2,0
+Adam Hložek,A. Hložek,M,Czechia,5,2,2,0.1,0
+Themba Zwane,T. Zwane,M,South Africa,4,-3,-3,0.1,0
+Kevin Castaño,K. Castaño,M,Colombia,4.5,0,0,0.1,0
+Otabek Shukurov,O. Shukurov,M,Uzbekistan,4,0,0,0.1,0
 Timothy Fayulu,T. Fayulu,G,DR Congo,4,0,0,0.1,0
+Toni Fruk,T. Fruk,M,Croatia,4,0,0,0.6,0
 Ghislain Konan,G. Konan,D,Côte d'Ivoire,5,8,8,0.1,0
 Anis Ben Slimane,A. B. Slimane,M,Tunisia,4.5,1,1,0,0
+Ángelo Preciado,Á. Preciado,M,Ecuador,4.5,0,0,0.1,0
+Ko Itakura,K. Itakura,D,Japan,5,0,0,0.2,0
 Kevin Rodriguez,K. Rodríguez,F,Ecuador,5,0,0,0.1,0
 Mehdi Al Harrar,M. Harrar,G,Morocco,4.5,0,0,0.1,0
-Ko Itakura,K. Itakura,D,Japan,5,0,0,0.2,0
-Alan Minda,A. Minda,F,Ecuador,4.5,0,0,0.1,0
 Kaishu Sano,K. Sano,M,Japan,6,1,1,0.9,0
-Yasin Ayari,Y. Ayari,M,Sweden,5.5,16,16,0.4,0
-Tyler Fletcher,T. Fletcher,M,Scotland,4,0,0,0.6,0
+Ahmed Nadhir Benbouali,A. N. Benbouali,F,Algeria,4,0,0,0.1,0
+Alan Minda,A. Minda,F,Ecuador,4.5,0,0,0.1,0
 Tani Oluwaseyi,T. Oluwaseyi,F,Canada,5,2,2,0.1,0
+Ibrahim Bayesh,I. Bayesh,M,Iraq,4,3,3,0,0
+Tyler Fletcher,T. Fletcher,M,Scotland,4,0,0,0.6,0
 Duje Ćaleta-Car,D. Ćaleta-Car,D,Croatia,5,0,0,0.1,0
+Tahith Chong,T. Chong,M,Curaçao,4,6,6,0.5,0
+Brian Rodríguez,B. Rodríguez,M,Uruguay,5,1,1,0.2,0
+Gustavo Puerta,G. Puerta,M,Colombia,4.5,0,0,0.1,0
 Mert Müldür,M. Müldür,D,Türkiye,4.5,1,1,0.1,0
 Rubén Vargas,R. Vargas,M,Switzerland,5.5,7,7,0.6,0
-Gustavo Puerta,G. Puerta,M,Colombia,4.5,0,0,0.1,0
-Ahmed Nadhir Benbouali,A. N. Benbouali,F,Algeria,4,0,0,0.1,0
-Jeremy Arevalo,J. Arévalo,F,Ecuador,4,0,0,0.3,0
-Nathaniel Brown,N. Brown,D,Germany,5,15,15,0.5,0
 Hans Vanaken,H. Vanaken,M,Belgium,5.5,1,1,0.5,0
-Brian Rodríguez,B. Rodríguez,M,Uruguay,5,0,0,0.2,0
-Ibrahim Bayesh,I. Bayesh,M,Iraq,4,0,0,0,0
-Carl Fred Sainté,C. F. Sainté,D,Haiti,4,0,0,0,0
-Alex Arce,A. Arce,F,Paraguay,4.5,-1,-1,0.1,0
-Yukinari Sugawara,Y. Sugawara,D,Japan,4.5,2,2,0.1,0
-Mark Flekken,M. Flekken,G,Netherlands,4,0,0,0.4,0
+Jeremy Arevalo,J. Arévalo,F,Ecuador,4,0,0,0.3,0
 Thomas Meunier,T. Meunier,D,Belgium,5,3,3,0.4,0
-Brenden Aaronson,B. Aaronson,M,USA,5.5,0,0,0.4,0
-Mostafa Ziko,M. Ziko,M,Egypt,4.5,0,0,0.2,0
-Ozan Kabak,O. Kabak,D,Türkiye,4.5,0,0,0.1,0
-Orbelín Pineda,O. Pineda,M,Mexico,5.5,0,0,0.5,0
-Sebastian Nanasi,S. Nanasi,M,Sweden,5,0,0,0.1,0
-Rami Rabia,R. Rabia,D,Egypt,5,1,1,0.1,0
-César Montes,C. Montes,D,Mexico,4.5,6,6,0.3,0
+Carl Fred Sainté,C. F. Sainté,D,Haiti,4,0,0,0,0
 Matías Fernández-Pardo,M. Fernandez,F,Belgium,5.5,0,0,0.8,0
-Yazan Al-Arab,Y. Al-Arab,D,Jordan,4,0,0,0.1,0
+Yukinari Sugawara,Y. Sugawara,D,Japan,4.5,2,2,0.1,0
+Alex Arce,A. Arce,F,Paraguay,4.5,-1,-1,0.1,0
+Brenden Aaronson,B. Aaronson,M,USA,5.5,0,0,0.4,0
+Mark Flekken,M. Flekken,G,Netherlands,4,0,0,0.4,0
+Rami Rabia,R. Rabia,D,Egypt,5,2,2,0.1,0
+Orbelín Pineda,O. Pineda,M,Mexico,5.5,0,0,0.5,0
+Ozan Kabak,O. Kabak,D,Türkiye,4.5,0,0,0.1,0
+Sebastian Nanasi,S. Nanasi,M,Sweden,5,0,0,0.1,0
+Yazan Al-Arab,Y. Al-Arab,D,Jordan,4,2,2,0.1,0
+César Montes,C. Montes,D,Mexico,4.5,6,6,0.3,0
 Pedro Vite,P. Vite,M,Ecuador,5.5,7,7,0.4,0
+Brice Samba,B. Samba,G,France,4,0,0,0.3,0
 Zeki Amdouni,Z. Amdouni,F,Switzerland,5,2,2,0.1,0
 David Raum,D. Raum,D,Germany,6,1,1,6,0
+Sander Berge,S. Berge,M,Norway,6,5,5,1,0
 Ronwen Williams,R. Williams,G,South Africa,5,2,2,1.2,0
-Amine Sbai,A. Sbai,F,Morocco,4,0,0,0.2,0
 Yuito Suzuki,Y. Suzuki,F,Japan,5,0,0,0.4,0
-Brice Samba,B. Samba,G,France,4,0,0,0.3,0
 Nikola Vasilj,N. Vasilj,G,Bosnia & Herzegovina,5,2,2,1,0
+Sergio Rochet,S. Rochet,G,Uruguay,5,0,0,0.9,0
 Mohammad Abu Zrayq,Shararh,M,Jordan,4,0,0,0.1,0
+Amir Al-Ammari,A. Al-Ammari,M,Iraq,4,6,6,0.1,0
 Mateo Chávez,M. Chávez,D,Mexico,4.5,0,0,0.2,0
 Salih Özcan,S. Özcan,M,Türkiye,4.5,1,1,0.1,0
-Sander Berge,S. Berge,M,Norway,6,0,0,1,0
-Sergio Rochet,S. Rochet,G,Uruguay,5,0,0,0.9,0
 Alex Zendejas,A. Zendejas,M,USA,5,0,0,0.1,0
+Ahmed Fatouh,A. Aboul-Fetouh,D,Egypt,4.5,2,2,0.2,0
+Hossam Abdelmaguid,H. Abdelmaguid,D,Egypt,4.5,0,0,0,0
 Marin Pongračić,M. Pongračić,D,Croatia,4.5,0,0,0.1,0
 Abduvokhid Nematov,A. Nematov,G,Uzbekistan,4,0,0,0.2,0
+Nathan Ngoy,N. Ngoy,D,Belgium,4.5,7,7,0.4,0
 Nikola Moro,N. Moro,M,Croatia,4.5,0,0,0.1,0
+Dailon Rocha Livramento,D. R. Livramento,F,Cabo Verde,4.5,2,2,0.1,0
 Teboho Mokoena,T. Mokoena,M,South Africa,4.5,3,3,0.4,0
-Amir Al-Ammari,A. Al-Ammari,M,Iraq,4,0,0,0.1,0
-Hossam Abdelmaguid,H. Abdelmaguid,D,Egypt,4.5,0,0,0,0
 Waldemar Anton,W. Anton,D,Germany,4.5,1,1,0.2,0
 Alexander Nübel,A. Nübel,G,Germany,4,0,0,0.5,0
-Ahmed Fatouh,A. Aboul-Fetouh,D,Egypt,4.5,2,2,0.2,0
-Yan Valery,Y. Valery,D,Tunisia,4.5,-1,-1,0.1,0
+Mohamed Touré,M. Touré,F,Australia,5,1,1,0.1,0
+Yan Valery,Y. Valery,D,Tunisia,4.5,0,0,0.1,0
 Gideon Mensah,G. Mensah,D,Ghana,4.5,0,0,0.2,0
 Jonas Adjei Adjetey,J. A. Adjetey,D,Ghana,4.5,0,0,0.1,0
 Gue-sung Cho,G. Cho,F,South Korea,4.5,0,0,0.1,0
 Alexandre Pierre,A. Pierre,G,Haiti,4,0,0,0.1,0
 Keeto Thermoncy,K. Thermoncy,D,Haiti,4,0,0,0.1,0
+Marwane Saadane,M. Saadane,D,Morocco,4,0,0,0.1,0
+Marko Farji,M. Farji,M,Iraq,4,0,0,0.1,0
 Hazem Mastouri,H. Mastouri,F,Tunisia,4.5,0,0,0.1,0
+Timothy Castagne,T. Castagne,D,Belgium,5,3,3,0.3,0
 Dominik Kotarski,D. Kotarski,G,Croatia,4.5,0,0,0.1,0
 Mats Wieffer,M. Wieffer,D,Netherlands,4.5,0,0,0.1,0
-Isidro Pitta,I. Pitta,F,Paraguay,4.5,0,0,0.1,0
 Hernán Galíndez,H. Galíndez,G,Ecuador,4.5,3,3,1.2,0
-Nathan Ngoy,N. Ngoy,D,Belgium,4.5,7,7,0.4,0
+Isidro Pitta,I. Pitta,F,Paraguay,4.5,0,0,0.1,0
 Adalberto Carrasquilla,A. Carrasquilla,M,Panama,4.5,0,0,0.1,0
-Djibril Sow,D. Sow,M,Switzerland,5.5,0,0,0.4,0
-Marko Farji,M. Farji,M,Iraq,4,0,0,0.1,0
 Isak Hien,I. Hien,D,Sweden,4.5,3,3,0.2,0
+Taha Abdi Ali,T. Ali,M,Sweden,4.5,0,0,0.2,0
 Benjamin Tahirović,B. Tahirović,M,Bosnia & Herzegovina,5,3,3,0.1,0
+Djibril Sow,D. Sow,M,Switzerland,5.5,0,0,0.4,0
+Nikola Katić,N. Katić,D,Bosnia & Herzegovina,4.5,12,12,0.2,0
 Robin Roefs,R. Roefs,G,Netherlands,4.5,0,0,0.3,0
 Haji Wright,H. Wright,F,USA,4.5,0,0,0.2,0
-Nikola Katić,N. Katić,D,Bosnia & Herzegovina,4.5,12,12,0.2,0
-Timothy Castagne,T. Castagne,D,Belgium,5,3,3,0.3,0
+Patrick Berg,P. Berg,M,Norway,6,1,1,0.9,0
 Jamie Leweling,J. Leweling,M,Germany,4.5,0,0,0.1,0
-Marwane Saadane,M. Saadane,D,Morocco,4,0,0,0.1,0
-Chris Richards,C. Richards,D,USA,5,4,4,0.2,0
-Taha Abdi Ali,T. Ali,M,Sweden,4.5,0,0,0.2,0
-Cyle Larin,C. Larin,F,Canada,5,6,6,0.2,0
 Steve Kapuadi,S. Kapuadi,D,DR Congo,4,0,0,0.1,0
-Mehdi Ghayedi,M. Ghayedi,M,Iran,4.5,0,0,0.1,0
-Alidu Seidu,A. Seidu,D,Ghana,4.5,0,0,0.1,0
+Mehdi Ghayedi,M. Ghayedi,M,Iran,4.5,1,1,0.1,0
+Chris Richards,C. Richards,D,USA,5,4,4,0.2,0
+Oussama Benbot,O. Benbot,G,Algeria,4,0,0,0.1,0
+Cyle Larin,C. Larin,F,Canada,5,6,6,0.2,0
 Prince Kwabena Adu,P. K. Adu,F,Ghana,4,0,0,0.2,0
-Patrick Berg,P. Berg,M,Norway,6,0,0,0.9,0
+Alidu Seidu,A. Seidu,D,Ghana,4.5,0,0,0.1,0
 Jean Michaël Seri,J. M. Seri,M,Côte d'Ivoire,4.5,0,0,0.1,0
-Mohamed Touré,M. Touré,F,Australia,5,1,1,0.1,0
 Arthur Theate,A. Theate,D,Belgium,5.5,0,0,1.5,0
 Kristijan Jakić,K. Jakić,M,Croatia,4.5,0,0,0.1,0
+Lewis Ferguson,L. Ferguson,M,Scotland,5,7,7,0.2,0
 Matías Galarza,M. Galarza,M,Paraguay,4,0,0,0.1,0
 Guus Til,G. Til,M,Netherlands,5.5,0,0,0.4,0
-Oussama Benbot,O. Benbot,G,Algeria,4,0,0,0.1,0
-Benjamin Nygren,B. Nygren,M,Sweden,6,3,3,0.8,0
-Matěj Kovář,M. Kovář,G,Czechia,5,5,5,0.6,0
+Benjamin Nygren,B. Nygren,M,Sweden,6,2,2,0.8,0
 Young-woo Seol,Y. W. Seol,D,South Korea,4.5,3,3,0.1,0
+Matěj Kovář,M. Kovář,G,Czechia,5,5,5,0.6,0
 Lawrence Ati Zigi,L. A. Zigi,G,Ghana,4.5,0,0,0.2,0
 Jun-Ho Bae,B. Jun-Ho,M,South Korea,4.5,0,0,0,0
 Utkir Yusupov,U. Yusupov,G,Uzbekistan,4,0,0,0.2,0
-Lewis Ferguson,L. Ferguson,M,Scotland,5,7,7,0.2,0
-Nicolas Raskin,N. Raskin,M,Belgium,5,3,3,0.1,0
-Nabil Donga,N. Donga,M,Egypt,4.5,0,0,0,0
-Samed Baždar,S. Baždar,F,Bosnia & Herzegovina,4,0,0,0.2,0
-Wilguens Paugain,W. Paugain,D,Haiti,4,0,0,0,0
 Sphephelo Sithole,S. Sithole,M,South Africa,4,-3,-3,0.1,0
-Martin Erlić,M. Erlić,D,Croatia,4.5,0,0,0.1,0
+Nicolas Raskin,N. Raskin,M,Belgium,5,3,3,0.1,0
+Leo Østigård,L. Østigård,D,Norway,5,8,8,0.4,0
+Nabil Donga,N. Donga,M,Egypt,4.5,0,0,0,0
 Hussein Ali,H. Ali,D,Iraq,4,0,0,0.1,0
-Leo Østigård,L. Østigård,D,Norway,5,0,0,0.4,0
+Wilguens Paugain,W. Paugain,D,Haiti,4,0,0,0,0
+Samed Baždar,S. Baždar,F,Bosnia & Herzegovina,4,0,0,0.2,0
+Martin Erlić,M. Erlić,D,Croatia,4.5,0,0,0.1,0
+Ramin Rezaeian,R. Rezaeian,M,Iran,4.5,15,15,0,0
+Sidny Lopes Cabral,S. L. Cabral,D,Cabo Verde,4,6,6,0.1,0
 Camilo Vargas,C. Vargas,G,Colombia,4,0,0,1,0
-Tahith Chong,T. Chong,M,Curaçao,4,6,6,0.5,0
-Remo Freuler,R. Freuler,M,Switzerland,5.5,4,4,0.4,0
-Marten de Roon,M. de Roon,M,Netherlands,6,0,0,0.9,0
-Saman Ghoddos,S. Ghoddos,M,Iran,4.5,0,0,0,0
 Melvin Mastil,M. Mastil,G,Algeria,4,0,0,0,0
+Ahmed Qasem,A. Qasem,M,Iraq,4,1,1,0.1,0
+Saman Ghoddos,S. Ghoddos,M,Iran,4.5,5,5,0,0
+Lawrence Shankland,L. Shankland,F,Scotland,4.5,3,3,0.2,0
+Marten de Roon,M. de Roon,M,Netherlands,6,0,0,0.9,0
+Remo Freuler,R. Freuler,M,Switzerland,5.5,4,4,0.4,0
 Stephen Eustaquio,S. Eustaquio,M,Canada,5,6,6,0.1,0
 Josué Duverger,J. Duverger,G,Haiti,4,0,0,0,0
+Rani Khedira,R. Khedira,M,Tunisia,5,0,0,0.1,0
+Federico Viñas,F. Viñas,F,Uruguay,4.5,2,2,0.2,0
 Luis Chávez,L. Chávez,M,Mexico,5,1,1,0.2,0
-Rani Khedira,R. Khedira,M,Tunisia,5,-1,-1,0.1,0
+Abdullah Al-Hamdan,A. Al-Hamdan,M,Saudi Arabia,4.5,1,1,0,0
 Jaminton Campaz,Jaminton Campaz,M,Colombia,4.5,0,0,0.1,0
-Abdullah Al-Hamdan,A. Al-Hamdan,M,Saudi Arabia,4.5,0,0,0,0
 Mohamed Belhadj Mahmoud,M. H. Mahmoud,M,Tunisia,4.5,1,1,0,0
-Dailon Rocha Livramento,D. R. Livramento,F,Cabo Verde,4.5,2,2,0.1,0
-Kojo Peprah Oppong,K. P. Oppong,D,Ghana,4.5,0,0,0,0
-Junior Alonso,J. Alonso,D,Paraguay,4.5,-3,-3,0.1,0
 Raúl Rangel,R. Rangel,G,Mexico,4.5,8,8,1.3,0
-Ricardo Rodríguez,R. Rodríguez,D,Switzerland,5,10,10,0.3,0
+Kojo Peprah Oppong,K. P. Oppong,D,Ghana,4.5,0,0,0,0
+Ricardo Rodríguez,R. Rodríguez,D,Switzerland,5,10,10,0.4,0
+Junior Alonso,J. Alonso,D,Paraguay,4.5,-3,-3,0.1,0
 Vladimír Coufal,V. Coufal,D,Czechia,5.5,4,4,1.5,0
-Ahmed Qasem,A. Qasem,M,Iraq,4,0,0,0.1,0
 Keisuke Goto,K. Goto,F,Japan,4.5,0,0,0.1,0
 Armin Gigović,A. Gigović,M,Bosnia & Herzegovina,4.5,2,2,0.1,0
-Ramin Rezaeian,R. Rezaeian,M,Iran,4.5,0,0,0,0
-Jorge Sánchez,J. Sánchez,D,Mexico,4.5,0,0,0.2,0
 Nawaf Al-Aqidi,N. Al-Aqidi,G,Saudi Arabia,4.5,0,0,0,0
+Jorge Sánchez,J. Sánchez,D,Mexico,4.5,0,0,0.2,0
 Matt Turner,M. Turner,G,USA,4.5,0,0,0.6,0
-Sidny Lopes Cabral,S. L. Cabral,D,Cabo Verde,4,8,8,0.1,0
-Dylan Bronn,D. Bronn,D,Tunisia,4,0,0,0.1,0
-Lawrence Shankland,L. Shankland,F,Scotland,4.5,3,3,0.2,0
-Federico Viñas,F. Viñas,F,Uruguay,4.5,0,0,0.2,0
-Amir Hadžiahmetović,A. Hadžiahmetović,M,Bosnia & Herzegovina,4,0,0,0.2,0
-Odeh Fakhoury,O. A. Fakhouri,F,Jordan,4,0,0,0.1,0
-Joaquin Seys,J. Seys,D,Belgium,5,0,0,0.1,0
-Mathew Ryan,M. Ryan,G,Australia,4.5,0,0,0.4,0
-Rahman Baba,R. Baba,D,Ghana,4.5,0,0,0.1,0
-Omar Rekik,O. Rekik,D,Tunisia,4.5,8,8,0,0
 Robin Risser,R. Risser,G,France,4,0,0,0.2,0
-Fabián Balbuena,F. Balbuena,D,Paraguay,4.5,0,0,0.1,0
+Dylan Bronn,D. Bronn,D,Tunisia,4,0,0,0.1,0
+Mohamed Kanno,M. Kanno,M,Saudi Arabia,5,5,5,0.1,0
+Omar Rekik,O. Rekik,D,Tunisia,4.5,7,7,0,0
+Odeh Fakhoury,O. A. Fakhouri,F,Jordan,4,3,3,0.1,0
+Joaquin Seys,J. Seys,D,Belgium,5,0,0,0.1,0
+Amir Hadžiahmetović,A. Hadžiahmetović,M,Bosnia & Herzegovina,4,0,0,0.2,0
+Rahman Baba,R. Baba,D,Ghana,4.5,0,0,0.1,0
+Mathew Ryan,M. Ryan,G,Australia,4.5,0,0,0.4,0
 Amar Memić,A. Memić,M,Bosnia & Herzegovina,5,1,1,0.1,0
-Mohamed Kanno,M. Kanno,M,Saudi Arabia,5,0,0,0.1,0
+Fabián Balbuena,F. Balbuena,D,Paraguay,4.5,0,0,0.1,0
 Jerome Opoku,J. Opoku,D,Ghana,4.5,0,0,0.1,0
 Jordy Caicedo,J. Caicedo,F,Ecuador,4.5,0,0,0.3,0
+Igor Sergeev,I. Sergeev,F,Uzbekistan,4,0,0,0.2,0
+Ørjan Nyland,Ø. Nyland,G,Norway,5,3,3,1.2,0
 Tsuyoshi Watanabe,T. Watanabe,D,Japan,5,2,2,0.2,0
+Rodrigo Aguirre,R. Aguirre,F,Uruguay,5.5,0,0,0.6,0
 Koki Ogawa,K. Ogawa,F,Japan,4.5,4,4,0.2,0
-Fabian Rieder,F. Rieder,M,Switzerland,5.5,0,0,0.4,0
+Mahdi Soliman,M. Soliman,G,Egypt,4,0,0,0,0
 Ismael Díaz,I. Díaz,M,Panama,4.5,0,0,0.1,0
 Iqraam Rayners,I. Rayners,F,South Africa,4,1,1,0.2,0
 Yang Hyun-Jun,Y. Hyun-Jun,F,South Korea,4.5,0,0,0.1,0
-Igor Sergeev,I. Sergeev,F,Uzbekistan,4,0,0,0.2,0
-Rodrigo Aguirre,R. Aguirre,F,Uruguay,5.5,0,0,0.6,0
-Ørjan Nyland,Ø. Nyland,G,Norway,5,0,0,1.2,0
-Nawaf Boushal,N. Boushal,D,Saudi Arabia,4,0,0,0.1,0
-Mahdi Soliman,M. Soliman,G,Egypt,4,0,0,0,0
+Fabian Rieder,F. Rieder,M,Switzerland,5.5,0,0,0.4,0
+Nicolas Seiwald,N. Seiwald,M,Austria,5.5,4,4,0.4,0
+Nawaf Boushal,N. Boushal,D,Saudi Arabia,4,1,1,0.1,0
+Michael Gregoritsch,M. Gregoritsch,F,Austria,5,0,0,0.1,0
 Ayman Yahya,A. Yahya,M,Saudi Arabia,4.5,0,0,0,0
 Aimar Sher,A. Sher,M,Iraq,4,0,0,0,0
-Nicolas Seiwald,N. Seiwald,M,Austria,5.5,0,0,0.4,0
+Ali Alipour,A. Alipourghara,F,Iran,4.5,1,1,0,0
+Akam Hashem,A. Hashem,D,Iraq,4,2,2,0.1,0
 Oliver Baumann,O. Baumann,G,Germany,4.5,0,0,0.4,0
-Ali Alipour,A. Alipourghara,F,Iran,4.5,0,0,0,0
-Akam Hashem,A. Hashem,D,Iraq,4,0,0,0.1,0
+Abdulelah Al-Amri,A. Al-Amri,D,Saudi Arabia,4,10,10,0.1,0
 Juan Portilla,J. Portilla,M,Colombia,4.5,0,0,0.1,0
 Christopher Operi,C. Operi,D,Côte d'Ivoire,4,0,0,0.1,0
-Michael Gregoritsch,M. Gregoritsch,F,Austria,5,0,0,0.1,0
 Evidence Makgopa,E. Makgopa,F,South Africa,4,2,2,0.2,0
-Gabriel Ávalos,G. Ávalos,F,Paraguay,4.5,0,0,0.1,0
-Findlay Curtis,F. Curtis,M,Scotland,4.5,-1,-1,0.1,0
 Parfait Guiagon,P. Guiagon,M,Côte d'Ivoire,4.5,0,0,0,0
 Khuliso Mudau,K. Mudau,D,South Africa,4,4,4,0.4,0
-Ivan Šunjić,I. Šunjić,M,Bosnia & Herzegovina,4.5,0,0,0.1,0
+Kristian Thorstvedt,K. Thorstvedt,M,Norway,5,1,1,0.1,0
+Gabriel Ávalos,G. Ávalos,F,Paraguay,4.5,0,0,0.1,0
+Findlay Curtis,F. Curtis,M,Scotland,4.5,-1,-1,0.1,0
 Kento Shiogai,K. Shiogai,F,Japan,4.5,1,1,0.1,0
-Kristian Thorstvedt,K. Thorstvedt,M,Norway,5,0,0,0.1,0
-Denil Castillo,D. Castillo,M,Ecuador,4.5,0,0,0.1,0
+Ivan Šunjić,I. Šunjić,M,Bosnia & Herzegovina,4.5,0,0,0.1,0
+Elisha Owusu,E. Owusu,M,Ghana,4.5,0,0,0.1,0
 Erik Lira,E. Lira,D,Mexico,4.5,14,14,0.2,0
+Denil Castillo,D. Castillo,M,Ecuador,4.5,0,0,0.1,0
 Rayan Elloumi,R. Elloumi,F,Tunisia,4,0,0,0.1,0
 Tshepang Moremi,T. Moremi,M,South Africa,4,0,0,0.1,0
-Elisha Owusu,E. Owusu,M,Ghana,4.5,0,0,0.1,0
-Niko Sigur,N. Sigur,D,Canada,4,0,0,0.2,0
+Kristoffer Ajer,K. Ajer,D,Norway,5,5,5,0.3,0
+Abdullah Al-Khaibari,A. Al-Khaibari,M,Saudi Arabia,4.5,2,2,0,0
 Seung Ho Paik,S. Paik,M,South Korea,5,4,4,0.1,0
-Mortadha Ben Ouanes,M. B. Ouanes,M,Tunisia,4.5,0,0,0,0
-Kristoffer Ajer,K. Ajer,D,Norway,5,0,0,0.3,0
-Abdullah Al-Khaibari,A. Al-Khaibari,M,Saudi Arabia,4.5,0,0,0,0
-Rustam Ashurmatov,R. Ashurmatov,D,Uzbekistan,4,0,0,0.1,0
-Nidal Čelik,N. Čelik,D,Bosnia & Herzegovina,4,0,0,0.2,0
-Abdulelah Al-Amri,A. Al-Amri,D,Saudi Arabia,4,0,0,0.1,0
-David Jurásek,D. Jurásek,D,Czechia,5,0,0,0.1,0
+Niko Sigur,N. Sigur,D,Canada,4,0,0,0.2,0
 Gabriel Gudmundsson,G. Gudmundsson,D,Sweden,5,6,6,0.1,0
+Mortadha Ben Ouanes,M. B. Ouanes,M,Tunisia,4.5,0,0,0,0
+Stefan Posch,S. Posch,D,Austria,4.5,1,1,0.2,0
+Saša Kalajdžić,S. Kalajdžić,F,Austria,4.5,0,0,0.1,0
+Rustam Ashurmatov,R. Ashurmatov,D,Uzbekistan,4,0,0,0.1,0
 Kevin Yakob,K. Yakob,M,Iraq,4,0,0,0,0
-Stefan Posch,S. Posch,D,Austria,4.5,0,0,0.2,0
+David Jurásek,D. Jurásek,D,Czechia,5,0,0,0.1,0
 Abdul Mumin,A. Mumin,D,Ghana,4.5,0,0,0.1,0
-Thalente Mbatha,T. Mbatha,M,South Africa,4,1,1,0.1,0
 Santiago Bueno,S. Bueno,D,Uruguay,4.5,0,0,0.1,0
-Yaimar Medina,Y. Medina,D,Ecuador,4.5,0,0,0.1,0
+Thalente Mbatha,T. Mbatha,M,South Africa,4,1,1,0.1,0
 Israel Reyes,I. Reyes,D,Mexico,5,10,10,0.4,0
-Ryan Christie,R. Christie,M,Scotland,5,2,2,0.1,0
-Michel Aebischer,M. Aebischer,M,Switzerland,4.5,5,5,0.1,0
-Mohamed Koné,M. Koné,G,Côte d'Ivoire,4,0,0,0.1,0
 Aaron Tshibola,A. Tshibola,M,DR Congo,4,0,0,0.1,0
+Nasser Al-Dawsari,N. Al-Dawsari,M,Saudi Arabia,4.5,3,3,0.1,0
+Yaimar Medina,Y. Medina,D,Ecuador,4.5,0,0,0.1,0
+Michel Aebischer,M. Aebischer,M,Switzerland,4.5,5,5,0.1,0
 David Affengruber,D. Affengruber,D,Austria,4,0,0,0.1,0
-Nasser Al-Dawsari,N. Al-Dawsari,M,Saudi Arabia,4.5,0,0,0.1,0
+Mohamed Koné,M. Koné,G,Côte d'Ivoire,4,0,0,0.1,0
+Ryan Christie,R. Christie,M,Scotland,5,2,2,0.1,0
 Junnosuke Suzuki,J. Suzuki,D,Japan,4.5,0,0,0.1,0
 Moataz Nefati,M. Neffati,D,Tunisia,4,0,0,0,0
+Ali Lajami,A. Lajami,D,Saudi Arabia,4,1,1,0.1,0
+Jovane Cabral,J. Cabral,F,Cabo Verde,4.5,3,3,0.1,0
+Alireza Beiranvand,A. Beiranvand,G,Iran,4.5,2,2,0.2,0
 Álvaro Montero,Á. Montero,G,Colombia,4.5,0,0,0.2,0
-Ali Lajami,A. Lajami,D,Saudi Arabia,4,0,0,0.1,0
+Hassan Altambakti,H. Altambakti,D,Saudi Arabia,4.5,2,2,0.1,0
+Firas Al-Buraikan,F. Al-Buraikan,F,Saudi Arabia,4.5,2,2,0.1,0
 Roberto Fernández,R. Fernández,G,Paraguay,4.5,0,0,0.1,0
 Aymen Dahmen,A. Dahmen,G,Tunisia,4.5,0,0,0.1,0
-Saša Kalajdžić,S. Kalajdžić,F,Austria,4.5,0,0,0.1,0
-Deiver Machado,D. Machado,D,Colombia,4,0,0,0.3,0
-Alireza Beiranvand,A. Beiranvand,G,Iran,4.5,0,0,0.2,0
-Hassan Altambakti,H. Altambakti,D,Saudi Arabia,4.5,0,0,0.1,0
-Tomáš Chorý,T. Chorý,F,Czechia,4.5,1,1,0.1,0
-Ivan Bašić,I. Bašić,M,Bosnia & Herzegovina,4,5,5,0.2,0
-Dayne St. Clair,D. St. Clair,G,Canada,5,0,0,0.4,0
-Ali Ahmed,A. Ahmed,M,Canada,4.5,1,1,0,0
-Khozhiakbar Alizhonov,K. Alizhonov,D,Uzbekistan,4,0,0,0,0
-Kamogelo Sebelebele,K. Sebelebele,M,South Africa,4,0,0,0.1,0
 Abdelmouhib Chamakh,A. Chamakh,G,Tunisia,4,-2,-2,0.1,0
 Frans Putros,F. Putros,D,Iraq,4,0,0,0.1,0
-Firas Al-Buraikan,F. Al-Buraikan,F,Saudi Arabia,4.5,0,0,0.1,0
+Ivan Bašić,I. Bašić,M,Bosnia & Herzegovina,4,5,5,0.2,0
+Deiver Machado,D. Machado,D,Colombia,4,0,0,0.3,0
+Tim Ream,T. Ream,D,USA,4.5,6,6,0.1,0
+David Møller Wolfe,D. M. Wolfe,D,Norway,4.5,7,7,0.2,0
+Ali Ahmed,A. Ahmed,M,Canada,4.5,1,1,0,0
+Tomáš Chorý,T. Chorý,F,Czechia,4.5,1,1,0.1,0
+Khozhiakbar Alizhonov,K. Alizhonov,D,Uzbekistan,4,0,0,0,0
+Dayne St. Clair,D. St. Clair,G,Canada,5,0,0,0.4,0
+Saeid Ezatolahi,S. Ezatolahi,M,Iran,4.5,4,4,0,0
+Kamogelo Sebelebele,K. Sebelebele,M,South Africa,4,0,0,0.1,0
+Ali Olwan,A. Olwan,F,Jordan,4,7,7,0.1,0
+Romano Schmid,R. Schmid,M,Austria,6,8,8,0.8,0
+Ahmed Reda Tagnaouti,A. R. Tagnaouti,G,Morocco,4,0,0,0.1,0
+Xaver Schlager,X. Schlager,M,Austria,5.5,8,8,0.4,0
 Gustavo Caballero,G. Caballero,M,Paraguay,4,0,0,0.1,0
 Nico Elvedi,N. Elvedi,D,Switzerland,5,5,5,0.4,0
-Ahmed Reda Tagnaouti,A. R. Tagnaouti,G,Morocco,4,0,0,0.1,0
-Jovane Cabral,J. Cabral,F,Cabo Verde,4.5,2,2,0.1,0
-Juan Cáceres,J. Cáceres,D,Paraguay,4.5,2,2,0.1,0
-Joe Scally,J. Scally,D,USA,4.5,0,0,0.1,0
-Sebastian Berhalter,S. Berhalter,M,USA,5,2,2,0.1,0
-Saeid Ezatolahi,S. Ezatolahi,M,Iran,4.5,0,0,0,0
 Willer Ditta,W. Ditta,D,Colombia,4.5,0,0,0.2,0
+Joe Scally,J. Scally,D,USA,4.5,0,0,0.1,0
+Musab Al Juwayr,M. A. Juwayr,M,Saudi Arabia,5,2,2,0.1,0
+Juan Cáceres,J. Cáceres,D,Paraguay,4.5,2,2,0.1,0
 Adem Arous,A. Arous,D,Tunisia,4,0,0,0,0
 Sipho Chaine,S. Chaine,G,South Africa,4,0,0,0.1,0
-Ali Olwan,A. Olwan,F,Jordan,4,0,0,0.1,0
-David Møller Wolfe,D. M. Wolfe,D,Norway,4.5,0,0,0.2,0
-Andrés Cubas,A. Cubas,M,Paraguay,5,4,4,0.1,0
+Sebastian Berhalter,S. Berhalter,M,USA,5,2,2,0.1,0
 Jens Castrop,J. Castrop,M,South Korea,5.5,0,0,0.4,0
-Xaver Schlager,X. Schlager,M,Austria,5.5,0,0,0.4,0
+Andrés Cubas,A. Cubas,M,Paraguay,5,4,4,0.1,0
+Patrick Wimmer,P. Wimmer,M,Austria,5.5,1,1,0.4,0
 Amine Ben Hmida,M. Ben Hmida,D,Tunisia,4,4,4,0,0
-Patrick Wimmer,P. Wimmer,M,Austria,5.5,0,0,0.4,0
-Alejandro Romero,Kaku,M,Paraguay,4.5,0,0,0,0
+Sebastián Cáceres,S. Cáceres,D,Uruguay,4.5,4,4,0.1,0
 Dennis Hadžikadunić,D. Hadžikadunić,D,Bosnia & Herzegovina,4.5,0,0,0,0
+Alexander Freeman,A. Freeman,D,USA,5,9,9,0.1,0
+Alejandro Romero,Kaku,M,Paraguay,4.5,0,0,0,0
 Dženis Burnić,D. Burnić,M,Bosnia & Herzegovina,4.5,1,1,0,0
-Samet Akaydın,S. Akaydın,D,Türkiye,4,0,0,0.1,0
 Jordan Bos,J. Bos,D,Australia,4.5,6,6,0.1,0
+Saleh Al-Shehri,S. Al-Shehri,F,Saudi Arabia,4,0,0,0.1,0
 Han-Beom Lee,H. Lee,D,South Korea,4.5,4,4,0.1,0
 Marvin Senaya,M. Senaya,D,Ghana,4,0,0,0.2,0
-Martin Zlomislić,M. Zlomislić,G,Bosnia & Herzegovina,4,0,0,0.2,0
 Alessandro Circati,A. Circati,D,Australia,5,11,11,0.1,0
-Romano Schmid,R. Schmid,M,Austria,6,0,0,0.8,0
-Alexander Freeman,A. Freeman,D,USA,5,9,9,0.1,0
-Tim Ream,T. Ream,D,USA,4.5,6,6,0.1,0
-Saleh Al-Shehri,S. Al-Shehri,F,Saudi Arabia,4,0,0,0.1,0
+Samet Akaydın,S. Akaydın,D,Türkiye,4,0,0,0.1,0
+Martin Zlomislić,M. Zlomislić,G,Bosnia & Herzegovina,4,0,0,0.2,0
 Orlando Gill,O. Gill,G,Paraguay,4.5,1,1,0.1,0
 Stjepan Radeljić,S. Radeljić,D,Bosnia & Herzegovina,4,0,0,0.1,0
 Scott McKenna,S. McKenna,D,Scotland,4,0,0,0.3,0
-Musab Al Juwayr,M. A. Juwayr,M,Saudi Arabia,5,0,0,0.1,0
-Sebastián Cáceres,S. Cáceres,D,Uruguay,4.5,0,0,0.1,0
+Milad Mohammadi,M. Mohammadi,D,Iran,4.5,0,0,0.1,0
 Cristian Volpato,C. Volpato,M,Australia,4.5,0,0,0.1,0
+Nuno Da Costa,N. Da Costa,F,Cabo Verde,4,1,1,0.1,0
+Brandon Mechele,B. Mechele,D,Belgium,4.5,8,8,0.1,0
 Nihad Mujakić,N. Mujakić,D,Bosnia & Herzegovina,4,0,0,0.1,0
 Jesús Gallardo,J. Gallardo,D,Mexico,4.5,8,8,0.4,0
-Milad Mohammadi,M. Mohammadi,D,Iran,4.5,0,0,0.1,0
+Mohammed Al-Owais,M. Al-Owais,G,Saudi Arabia,4,7,7,0.1,0
 Jackson Irvine,J. Irvine,M,Australia,5,1,1,0.1,0
 Joseph Anang,J. Anang,G,Ghana,4,0,0,0.1,0
 Alistair Johnston,A. Johnston,D,Canada,4.5,2,2,0.1,0
-Ji-sung Eom,J. Eom,M,South Korea,4.5,3,3,0,0
-Derek Cornelius,D. Cornelius,D,Canada,4.5,3,3,0.1,0
-Odiljon Khamrobekov,O. Khamrobekov,M,Uzbekistan,4,0,0,0,0
-Nuno Da Costa,N. Da Costa,F,Cabo Verde,4,1,1,0.1,0
 Rebin Sulaka,R. Sulaka,D,Iraq,4,0,0,0,0
+Ji-sung Eom,J. Eom,M,South Korea,4.5,3,3,0,0
+Garry Rodrigues,G. Rodrigues,M,Cabo Verde,4,0,0,0.1,0
+Odiljon Khamrobekov,O. Khamrobekov,M,Uzbekistan,4,0,0,0,0
+Derek Cornelius,D. Cornelius,D,Canada,4.5,3,3,0.1,0
+Willy Semedo,W. Semedo,M,Cabo Verde,4,1,1,0.1,0
+Mahmoud Saber,M. Saber,M,Egypt,4.5,0,0,0,0
+Mohanad Lasheen,M. Lasheen,M,Egypt,5.5,8,8,0.4,0
 Akmal Mozgovoy,A. Mozgovoy,M,Uzbekistan,4,0,0,0,0
 Shogo Taniguchi,S. Taniguchi,D,Japan,4.5,3,3,0.1,0
-Brandon Mechele,B. Mechele,D,Belgium,4.5,8,8,0.1,0
-Aaron Hickey,A. Hickey,D,Scotland,4.5,9,9,0.1,0
-Garry Rodrigues,G. Rodrigues,M,Cabo Verde,4,0,0,0.1,0
-José Córdoba,J. Córdoba,D,Panama,4,0,0,0.1,0
-Guillermo Martínez,G. Martínez,F,Mexico,4.5,0,0,0.2,0
-Mahmoud Saber,M. Saber,M,Egypt,4.5,0,0,0,0
-Aubrey Modiba,A. Modiba,D,South Africa,4,-1,-1,0.1,0
+Moteb Al-Harbi,M. Al-Harbi,D,Saudi Arabia,4,5,5,0,0
 Jayden Adams,J. Adams,M,South Africa,4,2,2,0.1,0
-Auston Trusty,A. Trusty,D,USA,5,0,0,0.1,0
+José Córdoba,J. Córdoba,D,Panama,4,0,0,0.1,0
+Aaron Hickey,A. Hickey,D,Scotland,4.5,9,9,0.1,0
+Guillermo Martínez,G. Martínez,F,Mexico,4.5,0,0,0.2,0
 Azizjon Ganiev,A. Ganiev,M,Uzbekistan,4,0,0,0,0
-Nkosinathi Sibisi,N. Sibisi,D,South Africa,4,-1,-1,0.1,0
-Moteb Al-Harbi,M. Al-Harbi,D,Saudi Arabia,4,0,0,0,0
+Aubrey Modiba,A. Modiba,D,South Africa,4,-1,-1,0.1,0
+Auston Trusty,A. Trusty,D,USA,5,0,0,0.1,0
 Augustine Boakye,A. Boakye,M,Ghana,5,0,0,0.1,0
-Carlos Acevedo,C. Acevedo,G,Mexico,4,0,0,0.1,0
+Nkosinathi Sibisi,N. Sibisi,D,South Africa,4,-1,-1,0.1,0
 Ayumu Seko,A. Seko,D,Japan,4.5,0,0,0.1,0
-Willy Semedo,W. Semedo,M,Cabo Verde,4,1,1,0.1,0
+Carlos Acevedo,C. Acevedo,G,Mexico,4,0,0,0.1,0
+Ivor Pandur,I. Pandur,G,Croatia,4,0,0,0.1,0
 Anthony Valencia,A. Valencia,F,Ecuador,4,0,0,0.5,0
 Jackson Porozo,J. Porozo,D,Ecuador,4.5,-1,-1,0.1,0
-Ivor Pandur,I. Pandur,G,Croatia,4,0,0,0.1,0
+Torbjørn Heggem,T. Heggem,D,Norway,4.5,5,5,0.1,0
 Jamshid Iskandarov,J. Iskanderov,M,Uzbekistan,4,0,0,0,0
-Mohanad Lasheen,M. Lasheen,M,Egypt,5.5,8,8,0.4,0
+João Paulo,J. Paulo,M,Cabo Verde,4,1,1,0.1,0
 Luis Romo,L. Romo,D,Mexico,4,0,0,0.2,0
+Amirhossein Hosseinzadeh,A. Hosseinzadeh,F,Iran,4.5,1,1,0,0
+Logan Costa,L. Costa,D,Cabo Verde,4,0,0,0.1,0
 Derrick Luckassen,D. Luckassen,D,Ghana,4,0,0,0.1,0
-Gustaf Nilsson,G. Nilsson,F,Sweden,4.5,0,0,0.1,0
-Torbjørn Heggem,T. Heggem,D,Norway,4.5,0,0,0.1,0
-Mohammed Al-Owais,M. Al-Owais,G,Saudi Arabia,4,0,0,0.1,0
-Amirhossein Hosseinzadeh,A. Hosseinzadeh,F,Iran,4.5,0,0,0,0
-Florian Grillitsch,F. Grillitsch,M,Austria,5,0,0,0.1,0
 Ime Okon,I. Okon,D,South Africa,4,2,2,0.1,0
+Florian Grillitsch,F. Grillitsch,M,Austria,5,0,0,0.1,0
+Mohammad Mohebi,M. Mohebi,M,Iran,4.5,9,9,0,0
+Gustaf Nilsson,G. Nilsson,F,Sweden,4.5,0,0,0.1,0
+Sultan Mandash,S. Mandash,F,Saudi Arabia,4,0,0,0.1,0
+Philipp Lienhart,P. Lienhart,D,Austria,5,7,7,0.1,0
 José Luis Rodríguez,J. L. Rodríguez,M,Panama,4.5,0,0,0,0
 Aurèle Amenda,A. Amenda,D,Switzerland,5,0,0,0.1,0
-Philipp Lienhart,P. Lienhart,D,Austria,5,0,0,0.1,0
-Cédric Itten,C. Itten,F,Switzerland,4,0,0,0.2,0
-Miro Muheim,M. Muheim,D,Switzerland,4.5,-3,-3,0.1,0
-Carl Starfelt,C. Starfelt,D,Sweden,4.5,0,0,0.1,0
-Sultan Mandash,S. Mandash,F,Saudi Arabia,4,0,0,0.1,0
-Cecilio Waterman,C. Waterman,F,Panama,4,0,0,0.2,0
 Juninho Bacuna,J. Bacuna,M,Curaçao,4.5,4,4,0.1,0
-Jesper Karlström,J. Karlström,M,Sweden,5,1,1,0.1,0
-Mark McKenzie,M. McKenzie,D,USA,4.5,0,0,0.1,0
-Morten Thorsby,M. Thorsby,M,Norway,4.5,0,0,0.1,0
-Logan Costa,L. Costa,D,Cabo Verde,4,0,0,0.1,0
-Yuto Nagatomo,Y. Nagatomo,D,Japan,4,0,0,0.3,0
 Santiago Mele,S. Mele,G,Uruguay,4.5,0,0,0.1,0
+Morten Thorsby,M. Thorsby,M,Norway,4.5,0,0,0.1,0
+Cédric Itten,C. Itten,F,Switzerland,4,0,0,0.2,0
+Marko Stamenić,M. Stamenić,M,New Zealand,4,4,4,0.1,0
+Miro Muheim,M. Muheim,D,Switzerland,4.5,-3,-3,0.1,0
 Khalid Al-Ghannam,K. Al-Ghannam,F,Saudi Arabia,4.5,0,0,0,0
+Yuto Nagatomo,Y. Nagatomo,D,Japan,4,0,0,0.3,0
 Harry Souttar,H. Souttar,D,Australia,4.5,11,11,0.1,0
-Lukáš Provod,L. Provod,M,Czechia,5.5,3,3,0.4,0
+Carl Starfelt,C. Starfelt,D,Sweden,4.5,0,0,0.1,0
+Jesper Karlström,J. Karlström,M,Sweden,5,1,1,0.1,0
+Cecilio Waterman,C. Waterman,F,Panama,4,0,0,0.2,0
+Mark McKenzie,M. McKenzie,D,USA,4.5,0,0,0.1,0
 Ermin Mahmic,E. Mahmic,M,Bosnia & Herzegovina,4,0,0,0.1,0
-Mohammad Mohebi,M. Mohebi,M,Iran,4.5,0,0,0,0
-Lukáš Horníček,L. Horníček,G,Czechia,4.5,0,0,0.1,0
-Nathan-Dylan Saliba,N. Saliba,M,Canada,4.5,0,0,0.1,0
-Nathan Patterson,N. Patterson,D,Scotland,4,1,1,0.1,0
 Mattias Svanberg,M. Svanberg,M,Sweden,5,7,7,0.1,0
-Jan Kuchta,J. Kuchta,F,Czechia,4.5,0,0,0,0
+Livano Comenencia,L. Comenencia,D,Curaçao,4,10,10,0,0
+Lukáš Provod,L. Provod,M,Czechia,5.5,3,3,0.4,0
+Lukáš Horníček,L. Horníček,G,Czechia,4.5,0,0,0.1,0
+Patrick Beach,P. Beach,G,Australia,4,13,13,0.1,0
 Sontje Hansen,S. Hansen,M,Curaçao,4,2,2,0,0
-Marko Stamenić,M. Stamenić,M,New Zealand,4,0,0,0.1,0
-Farrukh Sayfiev,F. Sayfiev,D,Uzbekistan,4,0,0,0,0
+Nathan-Dylan Saliba,N. Saliba,M,Canada,4.5,0,0,0.1,0
+Jürgen Locadia,J. Locadia,F,Curaçao,4,3,3,0.1,0
+Jan Kuchta,J. Kuchta,F,Czechia,4.5,0,0,0,0
 Pedro Miguel,P. Miguel,D,Qatar,4,6,6,0.1,0
-Gonzalo Valle,G. Valle,G,Ecuador,4,0,0,0.1,0
+Nathan Patterson,N. Patterson,D,Scotland,4,1,1,0.1,0
+Farrukh Sayfiev,F. Sayfiev,D,Uzbekistan,4,0,0,0,0
+Zaid Tahseen,Z. Tahseen,D,Iraq,4,-2,-2,0,0
+Marcus Pedersen,M. Pedersen,D,Norway,4.5,0,0,0.1,0
 Moise Bombito,M. Bombito,D,Canada,4.5,0,0,0,0
 Alexander Prass,A. Prass,M,Austria,5,0,0,0.1,0
-Jürgen Locadia,J. Locadia,F,Curaçao,4,3,3,0.1,0
-Jakhongir Urozov,J. Urozov,D,Uzbekistan,4,0,0,0,0
-Livano Comenencia,L. Comenencia,D,Curaçao,4,10,10,0,0
-Gustaf Lagerbielke,G. Lagerbielke,D,Sweden,5,4,4,0.1,0
-Marcus Pedersen,M. Pedersen,D,Norway,4.5,0,0,0.1,0
-Lyndon Dykes,L. Dykes,F,Scotland,4.5,1,1,0.1,0
-Almoez Ali,A. Ali,M,Qatar,4,0,0,0.1,0
-Angus Gunn,A. Gunn,G,Scotland,4.5,8,8,0.3,0
-Thapelo Maseko,T. Maseko,M,South Africa,4,0,0,0.1,0
-Samukelo Kabini,S. Kabini,D,South Africa,4,0,0,0,0
-Ali Al Azaizah,A. Al-Azaizah,F,Jordan,4,0,0,0,0
-Sherzod Nasrullaev,S. Nasrullaev,D,Uzbekistan,4,0,0,0,0
-Karim Hafez,K. Hafez,D,Egypt,4,1,1,0.1,0
-Zaid Tahseen,Z. Tahseen,D,Iraq,4,0,0,0,0
-Ibrahim Sabra,I. Sabra,F,Jordan,4,0,0,0,0
-Patrick Beach,P. Beach,G,Australia,4,13,13,0.1,0
-Jo Hyeonwoo,J. Hyeonwoo,G,South Korea,4,0,0,0.1,0
-Moisés Ramírez,M. Ramírez,G,Ecuador,4,0,0,0.1,0
+Gonzalo Valle,G. Valle,G,Ecuador,4,0,0,0.1,0
+Gustaf Lagerbielke,G. Lagerbielke,D,Sweden,5,2,2,0.1,0
+Ryan Mendes,R. Mendes,M,Cabo Verde,4.5,2,2,0.1,0
 Wagner Pina,W. Pina,D,Cabo Verde,4,0,0,0.1,0
+Karim Hafez,K. Hafez,D,Egypt,4,1,1,0.1,0
+Jakhongir Urozov,J. Urozov,D,Uzbekistan,4,0,0,0,0
+Almoez Ali,A. Ali,M,Qatar,4,0,0,0.1,0
+Lyndon Dykes,L. Dykes,F,Scotland,4.5,1,1,0.1,0
+Thapelo Maseko,T. Maseko,M,South Africa,4,0,0,0.1,0
+Angus Gunn,A. Gunn,G,Scotland,4.5,8,8,0.3,0
+Ali Al Azaizah,A. Al-Azaizah,F,Jordan,4,1,1,0,0
+Elijah Just,E. Just,M,New Zealand,4,15,15,0,0
+Samukelo Kabini,S. Kabini,D,South Africa,4,0,0,0,0
 Mohamed Alaa,M. Alaa,G,Egypt,4,0,0,0,0
-César Blackman,C. Blackman,D,Panama,4,0,0,0.1,0
-Liam Millar,L. Millar,M,Canada,4,2,2,0.2,0
-Gastón Olveira,G. Olveira,G,Paraguay,4,0,0,0.1,0
+Jalal Hassan,J. Hassan,G,Iraq,4.5,1,1,0.1,0
+Sherzod Nasrullaev,S. Nasrullaev,D,Uzbekistan,4,0,0,0,0
 Leandro Bacuna,L. Bacuna,M,Curaçao,4,2,2,0.1,0
-Cristian Roldán,C. Roldán,M,USA,4,0,0,0.3,0
-Eray Cömert,E. Cömert,D,Switzerland,4.5,0,0,0,0
+Dennis Eckert Ayensa,D. Eckert Ayensa,F,Iran,4.5,0,0,0,0
+Moisés Ramírez,M. Ramírez,G,Ecuador,4,0,0,0.1,0
+Jo Hyeonwoo,J. Hyeonwoo,G,South Korea,4,0,0,0.1,0
+César Blackman,C. Blackman,D,Panama,4,0,0,0.1,0
 Hossein Kanaani,H. Kanaani,D,Iran,4,0,0,0.1,0
+Gastón Olveira,G. Olveira,G,Paraguay,4,0,0,0.1,0
+Liam Millar,L. Millar,M,Canada,4,2,2,0.2,0
+Cristian Roldán,C. Roldán,M,USA,4,0,0,0.3,0
+Hossein Hosseini,H. Hosseini,G,Iran,4,0,0,0,0
+Eray Cömert,E. Cömert,D,Switzerland,4.5,0,0,0,0
 Khulumani Ndamane,K. Ndamane,D,South Africa,4,0,0,0,0
 Jordy Alcivar,J. Alcivar,M,Ecuador,4,0,0,0.2,0
-Jalal Hassan,J. Hassan,G,Iraq,4.5,0,0,0.1,0
-Hossein Hosseini,H. Hosseini,G,Iran,4,0,0,0,0
 Armando Obispo,A. Obispo,D,Curaçao,4,1,1,0.1,0
-Yvon Mvogo,Y. Mvogo,G,Switzerland,4,0,0,0.1,0
-Dennis Eckert Ayensa,D. Eckert Ayensa,F,Iran,4.5,0,0,0,0
-José Fajardo,J. Fajardo,F,Panama,4,0,0,0.1,0
-Ken Sema,K. Sema,M,Sweden,4.5,0,0,0,0
-Besfort Zeneli,B. Zeneli,M,Sweden,4.5,0,0,0,0
-Roozbeh Cheshmi,R. Cheshmi,D,Iran,4,0,0,0,0
-Silvan Widmer,S. Widmer,D,Switzerland,5,0,0,0.2,0
-Abdulla Abdullaev,A. Abdullaev,D,Uzbekistan,4,0,0,0,0
-Maximilian Arfsten,M. Arfsten,M,USA,4.5,0,0,0,0
 Hélio Varela,H. Varela,M,Cabo Verde,4,0,0,0.1,0
-Mohannad Abu Taha,M. A. Taha,M,Jordan,4,0,0,0.1,0
+Telmo Arcanjo,T. Arcanjo,M,Cabo Verde,4,2,2,0,0
+Ken Sema,K. Sema,M,Sweden,4.5,0,0,0,0
+Liberato Cacace,L. Cacace,D,New Zealand,4,1,1,0.1,0
+Besfort Zeneli,B. Zeneli,M,Sweden,4.5,0,0,0,0
+Mohannad Abu Taha,M. A. Taha,M,Jordan,4,6,6,0.1,0
+Roozbeh Cheshmi,R. Cheshmi,D,Iran,4,0,0,0,0
+Yvon Mvogo,Y. Mvogo,G,Switzerland,4,0,0,0.1,0
+Ehsan Hajsafi,E. Hajsafi,D,Iran,4,0,0,0,0
+José Fajardo,J. Fajardo,F,Panama,4,0,0,0.1,0
+Maximilian Arfsten,M. Arfsten,M,USA,4.5,0,0,0,0
 Marco Friedl,M. Friedl,D,Austria,4.5,0,0,0,0
 Payam Niazmand,P. Niazmand,G,Iran,4,0,0,0,0
+Abdulla Abdullaev,A. Abdullaev,D,Uzbekistan,4,0,0,0,0
+Sarpreet Singh,S. Singh,M,New Zealand,4,0,0,0,0
+Ali Yousif,A. Yousif,F,Iraq,4,0,0,0.2,0
+Silvan Widmer,S. Widmer,D,Switzerland,5,0,0,0.2,0
 Edmilson Junior,E. Junior,M,Qatar,4,1,1,0.1,0
-Liberato Cacace,L. Cacace,D,New Zealand,4,0,0,0.1,0
 Hjalmar Ekdal,H. Ekdal,D,Sweden,4.5,0,0,0.1,0
-Ehsan Hajsafi,E. Hajsafi,D,Iran,4,0,0,0,0
+Juan Sanabria,J. Sanabria,M,Uruguay,4.5,2,2,0.1,0
 Viktor Johansson,V. Johansson,G,Sweden,4.5,0,0,0.1,0
-Telmo Arcanjo,T. Arcanjo,M,Cabo Verde,4,2,2,0,0
-Ryan Mendes,R. Mendes,M,Cabo Verde,4.5,2,2,0.1,0
-João Paulo,J. Paulo,M,Cabo Verde,4,1,1,0.1,0
-Ahmed Yahya,A. Yahya,D,Iraq,4,0,0,0,0
+Kevin Lenini,K. Lenini,M,Cabo Verde,4,2,2,0,0
 Patrick Pentz,P. Pentz,G,Austria,4,0,0,0.1,0
+Fredrik André Bjørkan,F. A. Bjørkan,D,Norway,4.5,0,0,0.1,0
+Mahdi Torabi,M. Torabi,F,Iran,4.5,0,0,0,0
 Andrés Andrade,A. Andrade,D,Panama,4,0,0,0,0
+Orlando Mosquera,O. Mosquera,G,Panama,4,0,0,0.1,0
 Luca Jaquez,L. Jaquez,D,Switzerland,4.5,0,0,0,0
 Christian Fassnacht,C. Fassnacht,M,Switzerland,4.5,0,0,0,0
-Orlando Mosquera,O. Mosquera,G,Panama,4,0,0,0.1,0
-George Hirst,G. Hirst,F,Scotland,4,0,0,0.2,0
-Mahdi Torabi,M. Torabi,F,Iran,4.5,0,0,0,0
-Luc De Fougerolles,L. D. Fougerolles,D,Canada,4,4,4,0.1,0
-Mojmír Chytil,M. Chytil,F,Czechia,4.5,0,0,0,0
-Yoel Bárcenas,Y. Bárcenas,M,Panama,4,0,0,0.1,0
-Bradley Cross,B. Cross,D,South Africa,4,0,0,0.1,0
-Fredrik André Bjørkan,F. A. Bjørkan,D,Norway,4.5,0,0,0.1,0
-Richie Laryea,R. Laryea,D,Canada,4.5,7,7,0.1,0
-Matthew Freese,M. Freese,G,USA,4.5,1,1,0.1,0
-Sabri Ben Hessen,S. B. Hessen,G,Tunisia,4,0,0,0,0
 Ahmed Basil,A. Basil,G,Iraq,4,0,0,0.1,0
+Yoel Bárcenas,Y. Bárcenas,M,Panama,4,0,0,0.1,0
+George Hirst,G. Hirst,F,Scotland,4,0,0,0.2,0
+Luc De Fougerolles,L. D. Fougerolles,D,Canada,4,4,4,0.1,0
+Bradley Cross,B. Cross,D,South Africa,4,0,0,0.1,0
+Richie Laryea,R. Laryea,D,Canada,4.5,7,7,0.1,0
+Mojmír Chytil,M. Chytil,F,Czechia,4.5,0,0,0,0
 Alexander Bernhardsson,A. Bernhardsson,F,Sweden,4.5,2,2,0.1,0
-Sarpreet Singh,S. Singh,M,New Zealand,4,0,0,0,0
-Juan Sanabria,J. Sanabria,M,Uruguay,4.5,0,0,0.1,0
+Sabri Ben Hessen,S. B. Hessen,G,Tunisia,4,0,0,0,0
+Matthew Freese,M. Freese,G,USA,4.5,1,1,0.1,0
+Phillipp Mwene,P. Mwene,D,Austria,5,1,1,0.1,0
 Lee Tae-seok,T. Lee,D,South Korea,4.5,6,6,0.1,0
-Miles Robinson,M. Robinson,D,USA,4,0,0,0.3,0
-Braian Ojeda,B. Ojeda,M,Paraguay,4.5,0,0,0,0
-Aziz Behich,A. Behich,D,Australia,4.5,1,1,0,0
 Saleh Hardani,S. Hardani,D,Iran,4.5,0,0,0,0
-Jacob Shaffelburg,J. Shaffelburg,M,Canada,4.5,1,1,0,0
-Dong-gyeong Lee,D. G. Lee,M,South Korea,4.5,0,0,0.1,0
-Phillipp Mwene,P. Mwene,D,Austria,5,0,0,0.1,0
-Elliot Stroud,E. Stroud,M,Sweden,4.5,2,2,0,0
+Nizar Al-Rashdan,N. Al-Rashdan,M,Jordan,4,6,6,0,0
+Yazeed Abu Laila,Y. Abu Laila,G,Jordan,4,0,0,0.1,0
+Miles Robinson,M. Robinson,D,USA,4,0,0,0.3,0
+Elliot Stroud,E. Stroud,M,Sweden,4.5,1,1,0,0
+Aziz Behich,A. Behich,D,Australia,4.5,1,1,0,0
+Braian Ojeda,B. Ojeda,M,Paraguay,4.5,0,0,0,0
 Kim Seung-gyu,K. Seung-gyu,G,South Korea,4.5,5,5,0.1,0
+Dong-gyeong Lee,D. G. Lee,M,South Korea,4.5,0,0,0.1,0
+Jacob Shaffelburg,J. Shaffelburg,M,Canada,4.5,1,1,0,0
+Lucas Herrington,L. Herrington,D,Australia,4.5,0,0,0,0
 Umarbek Eshmuradov,U. Eshmuradov,D,Uzbekistan,4,0,0,0,0
+Shahriar Moghanlou,S. Moghanlou,F,Iran,4.5,3,3,0,0
 Ross Stewart,R. Stewart,F,Scotland,4,0,0,0.2,0
 Gustavo Velázquez,G. Velázquez,D,Paraguay,4,0,0,0.1,0
-Nizar Al-Rashdan,N. Al-Rashdan,M,Jordan,4,0,0,0,0
+Fahad Talib,F. Talib,G,Iraq,4,0,0,0,0
+Jacob Widell Zetterström,J. W. Zetterström,G,Sweden,4,0,0,0.1,0
 Miloš Degenek,M. Degenek,D,Australia,4,0,0,0.1,0
 Olwethu Makhanya,O. Makhanya,D,South Africa,4,0,0,0,0
-Yazeed Abu Laila,Y. Abu Laila,G,Jordan,4,0,0,0.1,0
-Lucas Herrington,L. Herrington,D,Australia,4.5,0,0,0,0
-Kevin Lenini,K. Lenini,M,Cabo Verde,4,2,2,0,0
-Eric Smith,E. Smith,D,Sweden,4.5,0,0,0,0
-Jacob Widell Zetterström,J. W. Zetterström,G,Sweden,4,0,0,0.1,0
 Kosta Barbarouses,K. Barbarouses,F,New Zealand,4,0,0,0.1,0
 Ali Majrashi,A. Majrashi,D,Saudi Arabia,4.5,0,0,0,0
-Fahad Talib,F. Talib,G,Iraq,4,0,0,0,0
+Eric Smith,E. Smith,D,Sweden,4.5,0,0,0,0
+Shoja Khalilzadeh,S. Khalilzadeh,D,Iran,4.5,1,1,0,0
 Maxime Crépeau,M. Crépeau,G,Canada,4,3,3,0.4,0
-Michal Sadílek,M. Sadílek,M,Czechia,5,1,1,0.1,0
-Botirali Ergashev,B. Ergashev,G,Uzbekistan,4,0,0,0.1,0
-Tomás Rodríguez,T. Rodríguez,F,Panama,4,0,0,0.1,0
-Riechedly Bazoer,R. Bazoer,D,Curaçao,4,-4,-4,0,0
-Tony Ralston,T. Ralston,D,Scotland,4,0,0,0.1,0
-Mohammad Ghorbani,M. Ghorbani,M,Iran,4,0,0,0,0
-Alexandro Maidana,A. Maidana,D,Paraguay,4,0,0,0.1,0
-Jonathan Osorio,J. Osorio,M,Canada,4,1,1,0.2,0
-Shahriar Moghanlou,S. Moghanlou,F,Iran,4.5,0,0,0,0
-Azizbek Amanov,Azizbek Amanov,M,Uzbekistan,4,0,0,0,0
-Hassan Kadesh,H. Kadesh,D,Saudi Arabia,4,0,0,0,0
-Shoja Khalilzadeh,S. Khalilzadeh,D,Iran,4.5,0,0,0,0
-Ali Yousif,A. Yousif,F,Iraq,4,0,0,0.2,0
-Alex Paulsen,A. Paulsen,G,New Zealand,4,0,0,0.1,0
-Jack Hendry,J. Hendry,D,Scotland,4,9,9,0.1,0
-Abdallah Nasib,A. Nasib,D,Jordan,4,0,0,0,0
-Kenny McLean,K. McLean,M,Scotland,4.5,0,0,0.1,0
-Robin Hranáč,R. Hranáč,D,Czechia,5,1,1,0.1,0
-John Souttar,J. Souttar,D,Scotland,4.5,0,0,0.1,0
-Keisuke Osako,K. Osako,G,Japan,4,0,0,0.1,0
-Ziyad Aljohani,Z. Aljohani,M,Saudi Arabia,4.5,0,0,0,0
-Ajdin Hrustić,A. Hrustić,M,Australia,4.5,0,0,0,0
-José Canale,J. Canale,D,Paraguay,4,0,0,0.1,0
-Luis Mejía,L. Mejía,G,Panama,4,0,0,0,0
-Connor Metcalfe,C. Metcalfe,M,Australia,4.5,9,9,0,0
-Tyler Bindon,T. Bindon,D,New Zealand,4,0,0,0,0
-Tarek Alaa,T. Alaa,D,Egypt,4,0,0,0,0
-Awer Mabil,A. Mabil,M,Australia,4,0,0,0.1,0
-Tahsin Mohammed Jamshid,T. Mohammed Jamshid,F,Qatar,4,0,0,0.1,0
-Cameron Burgess,C. Burgess,D,Australia,4.5,10,10,0,0
-Alexander Schlager,A. Schlager,G,Austria,5,0,0,0.5,0
-Azarias Londoño,A. Londoño,M,Panama,4,0,0,0,0
-Sander Tangvik,S. Tangvik,G,Norway,4,0,0,0.1,0
-Gervane Kastaneer,G. Kastaneer,F,Curaçao,4,0,0,0.1,0
-Paul Okon-Engstler,P. Okon-Engstler,M,Australia,4.5,11,11,0,0
-Gilson Tavares,G. Tavares,F,Cabo Verde,4,0,0,0.1,0
 Jamiro Monteiro,J. Monteiro,M,Cabo Verde,4,4,4,0,0
+Mohammad Ghorbani,M. Ghorbani,M,Iran,4,0,0,0,0
+Botirali Ergashev,B. Ergashev,G,Uzbekistan,4,0,0,0.1,0
+Issa Laye,I. Laye,D,Qatar,4,5,5,0,0
+Michal Sadílek,M. Sadílek,M,Czechia,5,1,1,0.1,0
+Riechedly Bazoer,R. Bazoer,D,Curaçao,4,-4,-4,0,0
+Tomás Rodríguez,T. Rodríguez,F,Panama,4,0,0,0.1,0
+Hassan Kadesh,H. Kadesh,D,Saudi Arabia,4,0,0,0,0
+Alex Paulsen,A. Paulsen,G,New Zealand,4,0,0,0.1,0
+Alexandro Maidana,A. Maidana,D,Paraguay,4,0,0,0.1,0
+Tony Ralston,T. Ralston,D,Scotland,4,0,0,0.1,0
+Abdallah Nasib,A. Nasib,D,Jordan,4,3,3,0,0
+Azizbek Amanov,Azizbek Amanov,M,Uzbekistan,4,0,0,0,0
+Ziyad Aljohani,Z. Aljohani,M,Saudi Arabia,4.5,0,0,0,0
+Jonathan Osorio,J. Osorio,M,Canada,4,1,1,0.2,0
+Tarek Alaa,T. Alaa,D,Egypt,4,0,0,0,0
+Gilson Tavares,G. Tavares,F,Cabo Verde,4,0,0,0.1,0
+Tahsin Mohammed Jamshid,T. Mohammed Jamshid,F,Qatar,4,0,0,0.1,0
+Jack Hendry,J. Hendry,D,Scotland,4,9,9,0.1,0
+Keisuke Osako,K. Osako,G,Japan,4,0,0,0.1,0
+Sander Tangvik,S. Tangvik,G,Norway,4,0,0,0.1,0
+John Souttar,J. Souttar,D,Scotland,4.5,0,0,0.1,0
+Kenny McLean,K. McLean,M,Scotland,4.5,0,0,0.1,0
+Callum McCowatt,C. McCowatt,M,New Zealand,4,3,3,0,0
+Connor Metcalfe,C. Metcalfe,M,Australia,4.5,9,9,0,0
+Tyler Bindon,T. Bindon,D,New Zealand,4,2,2,0,0
+Alexander Schlager,A. Schlager,G,Austria,5,5,5,0.5,0
+Robin Hranáč,R. Hranáč,D,Czechia,5,1,1,0.1,0
+Laros Duarte,L. Duarte,M,Cabo Verde,4.5,1,1,0,0
+José Canale,J. Canale,D,Paraguay,4,0,0,0.1,0
+Zaid Ismail,Z. Ismail,M,Iraq,4,3,3,0.1,0
+Ajdin Hrustić,A. Hrustić,M,Australia,4.5,0,0,0,0
+Luis Mejía,L. Mejía,G,Panama,4,0,0,0,0
+Pico,Pico,D,Cabo Verde,4,10,10,0.1,0
+Paul Okon-Engstler,P. Okon-Engstler,M,Australia,4.5,11,11,0,0
+Cameron Burgess,C. Burgess,D,Australia,4.5,10,10,0,0
+Awer Mabil,A. Mabil,M,Australia,4,0,0,0.1,0
+Gervane Kastaneer,G. Kastaneer,F,Curaçao,4,0,0,0.1,0
+Azarias Londoño,A. Londoño,M,Panama,4,0,0,0,0
+Jesse Randall,J. Randall,F,New Zealand,4,1,1,0.1,0
+Mahmoud Al-Mardi,M. Al-Mardi,M,Jordan,4,1,1,0,0
 Bekhruz Karimov,B. Karimov,D,Uzbekistan,4,0,0,0,0
-Mahmoud Al-Mardi,M. Al-Mardi,M,Jordan,4,0,0,0,0
-Grant Hanley,G. Hanley,D,Scotland,4.5,10,10,0,0
-Zaid Ismail,Z. Ismail,M,Iraq,4,0,0,0.1,0
 Amirmohammad Razzaghinia,A. Razzaghinia,M,Iran,4.5,0,0,0,0
-Jesse Randall,J. Randall,F,New Zealand,4,0,0,0.1,0
-Vladimír Darida,V. Darida,M,Czechia,5,0,0,0.1,0
+Stopira,Stopira,D,Cabo Verde,4,0,0,0.1,0
+CJ Dos Santos,C. Dos Santos,G,Cabo Verde,4,0,0,0,0
+Grant Hanley,G. Hanley,D,Scotland,4.5,10,10,0,0
+Mustafa Saadoon,M. Saadoon,D,Iraq,4,-1,-1,0,0
 Carlos Harvey,C. Harvey,D,Panama,4,0,0,0,0
+Vladimír Darida,V. Darida,M,Czechia,5,0,0,0.1,0
 Fidel Escobar,F. Escobar,D,Panama,4,0,0,0,0
 Nishan Velupillay,N. Velupillay,M,Australia,4,0,0,0,0
-Cristian Martínez,C. Martínez,M,Panama,4,0,0,0.1,0
 Jearl Margaritha,J. Margaritha,M,Curaçao,4,0,0,0,0
+Cristian Martínez,C. Martínez,M,Panama,4,0,0,0.1,0
 Chris Brady,C. Brady,G,USA,4,0,0,0.1,0
-Callum McCowatt,C. McCowatt,M,New Zealand,4,0,0,0,0
+Diney Borges,Diney,D,Cabo Verde,4,11,11,0,0
 Aníbal Godoy,A. Godoy,M,Panama,4.5,0,0,0,0
 Mathieu Choinière,M. Choinière,M,Canada,4,0,0,0.1,0
 David Zima,D. Zima,D,Czechia,4.5,0,0,0,0
-Mustafa Saadoon,M. Saadoon,D,Iraq,4,0,0,0,0
-CJ Dos Santos,C. Dos Santos,G,Cabo Verde,4,0,0,0,0
-Stopira,Stopira,D,Cabo Verde,4,0,0,0.1,0
-Laros Duarte,L. Duarte,M,Cabo Verde,4.5,1,1,0,0
+Henrik Sælebakke Falchener,H. S. Falchener,D,Norway,4.5,0,0,0,0
+Mohammed Abu Al-Shamat,M. A. Al-Shamat,M,Saudi Arabia,4.5,1,1,0,0
+Finn Surman,F. Surman,D,New Zealand,4,7,7,0,0
+Tomoki Hayakawa,T. Hayakawa,G,Japan,4,0,0,0.1,0
+Egil Selvik,E. Selvik,G,Norway,4,0,0,0.1,0
 Lukáš Červ,L. Červ,M,Czechia,4.5,0,0,0,0
-Štěpán Chaloupek,S. Chaloupek,D,Czechia,4.5,-1,-1,0,0
+Joe Bell,J. Bell,M,New Zealand,4,3,3,0,0
 Ar'Jany Martha,A. Martha,D,Curaçao,4,0,0,0,0
 Edgardo Fariña,E. Fariña,D,Panama,4,0,0,0,0
 Marvin Keller,M. Keller,G,Switzerland,4,0,0,0.1,0
-Tomoki Hayakawa,T. Hayakawa,G,Japan,4,0,0,0.1,0
+Eloy Room,E. Room,G,Curaçao,4,0,0,0.1,0
+Štěpán Chaloupek,S. Chaloupek,D,Czechia,4.5,-1,-1,0,0
 Aiden O'Neill,A. O'Neill,M,Australia,4.5,4,4,0,0
 Kenji Gorré,K. Gorré,M,Curaçao,4,0,0,0,0
-Henrik Sælebakke Falchener,H. S. Falchener,D,Norway,4.5,0,0,0,0
-Egil Selvik,E. Selvik,G,Norway,4,0,0,0.1,0
-Elijah Just,E. Just,M,New Zealand,4,0,0,0,0
-Michael Svoboda,M. Svoboda,D,Austria,4,0,0,0.1,0
-Cameron Devlin,C. Devlin,M,Australia,4.5,0,0,0,0
-Eloy Room,E. Room,G,Curaçao,4,0,0,0.1,0
-Mladen Jurkas,M. Jurkas,G,Bosnia & Herzegovina,4,0,0,0.1,0
-Joe Bell,J. Bell,M,New Zealand,4,0,0,0,0
-Raed Chikhaoui,R. Chikhaoui,D,Tunisia,4,0,0,0,0
-Shurandy Sambo,S. Sambo,D,Curaçao,4,0,0,0,0
 Kristoffer Nordfeldt,K. Nordfeldt,G,Sweden,4.5,1,1,0.1,0
+Aria Yousefi,A. Yousefi,M,Iran,4.5,1,1,0,0
+Benjamin Old,B. Old,M,New Zealand,4,0,0,0,0
+Michael Svoboda,M. Svoboda,D,Austria,4,0,0,0.1,0
+Mladen Jurkas,M. Jurkas,G,Bosnia & Herzegovina,4,0,0,0.1,0
+Jehad Thakri,J. Thakri,D,Saudi Arabia,4.5,0,0,0,0
+Ben Waine,B. Waine,F,New Zealand,4,0,0,0.1,0
+Raed Chikhaoui,R. Chikhaoui,D,Tunisia,4,0,0,0,0
+Sondre Langås,S. K. Langås,D,Norway,4.5,0,0,0.1,0
+Deroy Duarte,D. Duarte,M,Cabo Verde,4.5,1,1,0,0
+Cameron Devlin,C. Devlin,M,Australia,4.5,0,0,0,0
+Boualem Khoukhi,B. Khoukhi,D,Qatar,4,2,2,0,0
+Shurandy Sambo,S. Sambo,D,Curaçao,4,0,0,0,0
 Liam Kelly,L. Kelly,G,Scotland,4,0,0,0.1,0
 Hassan Al Haydos,H. A. Haydos,F,Qatar,4.5,1,1,0.1,0
-Benjamin Old,B. Old,M,New Zealand,4,0,0,0,0
-Ben Waine,B. Waine,F,New Zealand,4,0,0,0.1,0
 Sherel Constancio Floranus,S. Floranus,D,Curaçao,4,-2,-2,0,0
+Mo Abualnadi,M. Abualnadi,D,Jordan,4,1,1,0,0
 Mathew Leckie,M. Leckie,M,Australia,4,0,0,0,0
-Jehad Thakri,J. Thakri,D,Saudi Arabia,4.5,0,0,0,0
-Finn Surman,F. Surman,D,New Zealand,4,0,0,0,0
-Mohammed Abu Al-Shamat,M. A. Al-Shamat,M,Saudi Arabia,4.5,0,0,0,0
 Craig Gordon,C. Gordon,G,Scotland,4,0,0,0.1,0
-Sondre Langås,S. K. Langås,D,Norway,4.5,0,0,0.1,0
-Tomáš Holeš,T. Holeš,D,Czechia,4.5,0,0,0,0
 Sherzod Esanov,S. Esanov,M,Uzbekistan,4,0,0,0,0
-Mo Abualnadi,M. Abualnadi,D,Jordan,4,0,0,0,0
-Joel Waterman,J. Waterman,D,Canada,4,0,0,0.1,0
-Aria Yousefi,A. Yousefi,M,Iran,4.5,0,0,0,0
+Manaf Younis,M. Younis,D,Iraq,4,0,0,0,0
+Noor Al-Rawabdeh,N. Al Rawabdeh,M,Jordan,4,8,8,0,0
+Tomáš Holeš,T. Holeš,D,Czechia,4.5,0,0,0,0
+Yannick Semedo,Y. Semedo,M,Cabo Verde,4,0,0,0.1,0
+Steven Moreira,S. Moreira,D,Cabo Verde,4,6,6,0,0
 César Yanis,C. Yanis,M,Panama,4,0,0,0,0
 Jin-gyu Kim,J. Kim,M,South Korea,5,1,1,0.2,0
+Joel Waterman,J. Waterman,D,Canada,4,0,0,0.1,0
 Kim Moon-hwan,M. Kim,D,South Korea,4.5,0,0,0.1,0
-Manaf Younis,M. Younis,D,Iraq,4,0,0,0,0
-Vozinha,Vozinha,G,Cabo Verde,4.5,13,13,0.1,0
 Roderick Miller,R. Miller,D,Panama,4,0,0,0,0
 Éric Davis,É. Davis,D,Panama,4,0,0,0,0
-Pico,Pico,D,Cabo Verde,4,10,10,0.1,0
-Deroy Duarte,D. Duarte,M,Cabo Verde,4.5,1,1,0,0
 Song Bum-keun,B. Song,G,South Korea,4,0,0,0.1,0
-Tete Yengi,T. Yengi,F,Australia,4,2,2,0.2,0
-Noor Al-Deen Al Rawabdeh,N. Al Rawabdeh,M,Jordan,4,0,0,0,0
-Tholo Thabang Matuludi,T. T. Matuludi,D,South Africa,4,0,0,0.1,0
-Gi-Hyuk Lee,G. Lee,D,South Korea,4,6,6,0.2,0
-Boualem Khoukhi,B. Khoukhi,D,Qatar,4,2,2,0,0
-Mohammed Muntari,M. Muntari,F,Qatar,4,0,0,0.2,0
 Amer Jamous,A. Jamous,M,Jordan,4,0,0,0,0
-Yannick Semedo,Y. Semedo,M,Cabo Verde,4,0,0,0.1,0
-Owen Goodman,O. Goodman,G,Canada,4,0,0,0.1,0
-Denis Višinský,D. Višinský,M,Czechia,4.5,0,0,0,0
-David Douděra,D. Doudera,M,Czechia,4.5,0,0,0,0
-Jeremy Antonisse,J. Antonisse,M,Curaçao,4,1,1,0,0
-Jin-seob Park,J. S. Park,M,South Korea,4.5,2,2,0.1,0
-Herman Johansson,H. Johansson,M,Sweden,4,0,0,0.4,0
+Gi-Hyuk Lee,G. Lee,D,South Korea,4,6,6,0.2,0
+Tete Yengi,T. Yengi,F,Australia,4,2,2,0.2,0
+Tholo Thabang Matuludi,T. T. Matuludi,D,South Africa,4,0,0,0.1,0
+Mohammed Muntari,M. Muntari,F,Qatar,4,0,0,0.2,0
+Ehsan Haddad,E. Haddad,M,Jordan,4.5,3,3,0,0
 Florian Wiegele,F. Wiegele,G,Austria,4,0,0,0.1,0
-Ricardo Goss,R. Goss,G,South Africa,4,0,0,0.1,0
+Denis Višinský,D. Višinský,M,Czechia,4.5,0,0,0,0
+Owen Goodman,O. Goodman,G,Canada,4,0,0,0.1,0
+David Douděra,D. Doudera,M,Czechia,4.5,0,0,0,0
+Herman Johansson,H. Johansson,M,Sweden,4,0,0,0.4,0
+Jin-seob Park,J. S. Park,M,South Korea,4.5,2,2,0.1,0
+Jeremy Antonisse,J. Antonisse,M,Curaçao,4,1,1,0,0
 Deveron Fonville,D. Fonville,D,Curaçao,4,-2,-2,0,0
-Matthew Garbett,M. Garbett,M,New Zealand,4,0,0,0,0
-Ehsan Haddad,E. Haddad,M,Jordan,4.5,0,0,0,0
+Ricardo Goss,R. Goss,G,South Africa,4,0,0,0.1,0
 Assim Madibo,A. Madibo,M,Qatar,4,2,2,0.1,0
-Hugo Sochurek,H. Sochurek,M,Czechia,4,0,0,0.1,0
-Issa Laye,I. Laye,D,Qatar,4,5,5,0,0
 Dostonbek Khamdamov,D. Khamdamov,M,Uzbekistan,4,0,0,0,0
-Jiovany Ramos,J. Ramos,D,Panama,4,0,0,0,0
+Hugo Sochurek,H. Sochurek,M,Czechia,4,0,0,0.1,0
 Jindřich Staněk,J. Staněk,G,Czechia,4,0,0,0.1,0
+Jiovany Ramos,J. Ramos,D,Panama,4,0,0,0,0
+Mohammad Ali Hasheesh,M. A. Hasheesh,D,Jordan,4,0,0,0,0
 Homam Al-Amin,H. Al-Amin,D,Qatar,4,5,5,0,0
+Ryan Thomas,R. Thomas,M,New Zealand,4,0,0,0,0
+Alessandro Schöpf,A. Schöpf,M,Austria,4.5,0,0,0,0
 Tyrese Noslin,T. Noslin,M,Curaçao,4,0,0,0.1,0
 Kim Tae-hyeon,T. H. Kim,D,South Korea,4.5,0,0,0,0
 Jacob Italiano,J. Italiano,M,Australia,4,5,5,0.1,0
-Mohammad Ali Hasheesh,M. A. Hasheesh,D,Jordan,4,0,0,0,0
 Meshaal Barsham,M. Barsham,G,Qatar,4,0,0,0.1,0
-Alessandro Schöpf,A. Schöpf,M,Austria,4.5,0,0,0,0
 Mahmud Abunada,M. I. Abunada,G,Qatar,4,3,3,1.4,0
 Jorge Gutiérrez,J. Gutiérrez,D,Panama,4,0,0,0,0
 Dominic Hyam,D. Hyam,D,Scotland,4,0,0,0.1,0
 Alfie Jones,A. Jones,D,Canada,4,0,0,0.1,0
-Steven Moreira,S. Moreira,D,Cabo Verde,4,6,6,0,0
-Joshua Brenet,J. Brenet,D,Curaçao,4,0,0,0,0
-Ryan Thomas,R. Thomas,M,New Zealand,4,0,0,0,0
-Brandley Kuwas,B. Kuwas,M,Curaçao,4,0,0,0,0
-Kai Trewin,K. Trewin,D,Australia,4,0,0,0,0
-Jaroslav Zelený,J. Zelený,D,Czechia,4,3,3,0.1,0
-Alberto Quintero,A. Quintero,M,Panama,4,0,0,0.1,0
-Kevin Felida,K. Felida,M,Curaçao,4,0,0,0,0
 Ahmed Al-Kassar,A. Al-Kassar,G,Saudi Arabia,4,0,0,0.1,0
+Joshua Brenet,J. Brenet,D,Curaçao,4,0,0,0,0
+Michael Boxall,M. Boxall,D,New Zealand,4,3,3,0,0
+Kelvin Pires,K. Pires,D,Cabo Verde,4,0,0,0,0
+Brandley Kuwas,B. Kuwas,M,Curaçao,4,0,0,0,0
+Jaroslav Zelený,J. Zelený,D,Czechia,4,3,3,0.1,0
+Kai Trewin,K. Trewin,D,Australia,4,0,0,0,0
+Max Crocombe,M. Crocombe,G,New Zealand,4,1,1,0.1,0
+Alberto Quintero,A. Quintero,M,Panama,4,0,0,0.1,0
 Ibrahim Sadeh,I. Sadeh,M,Jordan,4,0,0,0,0
 Francis De Vries,F. De Vries,D,New Zealand,4,0,0,0,0
+Kevin Felida,K. Felida,M,Curaçao,4,0,0,0,0
 Rajaei Ayed,R. Ayed,M,Jordan,4,0,0,0,0
-Godfried Roemeratoe,G. Roemeratoe,M,Curaçao,4,0,0,0,0
-Diney Borges,Diney,D,Cabo Verde,4,11,11,0,0
+Lachlan Bayliss,L. Bayliss,M,New Zealand,4,0,0,0.1,0
 Yusuf Abdurisag,Y. Abdurisag,F,Qatar,4,4,4,0.7,0
 Avazbek Ulmasaliyev,A. Ulmasaliyev,D,Uzbekistan,4,0,0,0,0
-Michael Boxall,M. Boxall,D,New Zealand,4,0,0,0,0
-Kelvin Pires,K. Pires,D,Cabo Verde,4,0,0,0,0
-Saad Al Rousan,S. A. Rousan,D,Jordan,4,0,0,0,0
 Abdallah Al-Fakhouri,A. Al-Fakhouri,G,Jordan,4,0,0,0,0
+Godfried Roemeratoe,G. Roemeratoe,M,Curaçao,4,0,0,0,0
+Saad Al Rousan,S. A. Rousan,D,Jordan,4,0,0,0,0
+Márcio Rosa,M. Rosa,G,Cabo Verde,4,0,0,0.1,0
 Lucas Mendes,L. Mendes,D,Qatar,4,0,0,0.1,0
-Ahmed Alaaeldin,A. Alaaeldin,F,Qatar,4,0,0,0.1,0
-Lachlan Bayliss,L. Bayliss,M,New Zealand,4,0,0,0.1,0
-Jassem Gaber Abdulsallam,J. G. Abdulsallam,M,Qatar,4,1,1,0.2,0
-Max Crocombe,M. Crocombe,G,New Zealand,4,0,0,0.1,0
-Ahmed Fathi,A. Fathi,M,Qatar,4,1,1,0.2,0
 Noureddin Bani Ateyah,N. B. Ateyah,G,Jordan,4,0,0,0,0
+Ali Nemati,A. Nemati,D,Iran,4.5,4,4,0,0
+Ahmed Alaaeldin,A. Alaaeldin,F,Qatar,4,0,0,0.1,0
+Jassem Gaber Abdulsallam,J. G. Abdulsallam,M,Qatar,4,1,1,0.2,0
 Paul Izzo,P. Izzo,G,Australia,4,0,0,0.1,0
 César Samudio,C. Samudio,G,Panama,4,0,0,0.1,0
-Karim Boudiaf,K. Boudiaf,M,Qatar,4,2,2,0.1,0
+Ahmed Fathi,A. Fathi,M,Qatar,4,1,1,0.2,0
 Alexandr Sojka,A. Sojka,M,Czechia,4,3,3,0.3,0
+Karim Boudiaf,K. Boudiaf,M,Qatar,4,2,2,0.1,0
+Alex Rufer,A. Rufer,M,New Zealand,4,0,0,0.1,0
+Saleem Obaid,S. Obaid,D,Jordan,4,-2,-2,0,0
 Roshon van Eijma,R. v. Eijma,D,Curaçao,4,0,0,0,0
 Wi-je Cho,W. Cho,D,South Korea,4,0,0,0.4,0
-Jurien Gaari,J. Gaari,D,Curaçao,4,0,0,0,0
-Jason Geria,J. Geria,D,Australia,4,1,1,0,0
-Saleem Obaid,S. Obaid,D,Jordan,4,0,0,0,0
-Alex Rufer,A. Rufer,M,New Zealand,4,0,0,0.1,0
-Mohamed Naceur Almanai,M. N. Almanai,M,Qatar,4,2,2,0,0
-Abdelaziz Hatem,A. Hatem,M,Qatar,4,0,0,0,0
-Ayoub Al Oui,A. A. Oui,D,Qatar,4,1,1,0.1,0
-Tyrick Bodak,T. Bodak,G,Curaçao,4,0,0,0.1,0
-Ali Nemati,A. Nemati,D,Iran,4.5,0,0,0,0
-Márcio Rosa,M. Rosa,G,Cabo Verde,4,0,0,0.1,0
-Nando Pijnaker,N. Pijnaker,D,New Zealand,4,0,0,0,0
-Trevor Iriving Doornbusch,T. Doornbusch,G,Curaçao,4,0,0,0.2,0
 Husam Ali Mohammad Abudahab,H. A. M. Abudahab,D,Jordan,4,0,0,0,0
+Jurien Gaari,J. Gaari,D,Curaçao,4,0,0,0,0
+Nando Pijnaker,N. Pijnaker,D,New Zealand,4,0,0,0,0
+Abdelaziz Hatem,A. Hatem,M,Qatar,4,0,0,0,0
+Mohamed Naceur Almanai,M. N. Almanai,M,Qatar,4,2,2,0,0
+Tyrick Bodak,T. Bodak,G,Curaçao,4,0,0,0.1,0
+Jason Geria,J. Geria,D,Australia,4,1,1,0,0
+Ayoub Al Oui,A. A. Oui,D,Qatar,4,1,1,0.1,0
 Michael Woud,M. Woud,G,New Zealand,4,0,0,0.1,0
+Trevor Iriving Doornbusch,T. Doornbusch,G,Curaçao,4,0,0,0.2,0
 Salah Zakaria,S. Zakaria,G,Qatar,4,0,0,0.2,0
 Ahmed Al-Ganehi,A. Al-Ganehi,M,Qatar,4,0,0,0,0
-Mohammad Al Daoud,M. A. Daoud,M,Jordan,4,0,0,0.1,0
-Sultan Al-Brake,S. Al-Brake,D,Qatar,4,0,0,0.1,0
+Mohammad Al Daoud,M. A. Daoud,M,Jordan,4,1,1,0.1,0
 Tommy Smith,T. Smith,D,New Zealand,4,0,0,0.1,0
-Callan Elliot,C. Elliot,D,New Zealand,4,0,0,0.2,0
+Callan Elliot,C. Elliot,D,New Zealand,4,2,2,0.2,0
 Danial Eiri,D. Eiri,D,Iran,4,0,0,0.2,0
-James McGarry,J. McGarry,D,New Zealand,4,0,0,0.1,0
+Sultan Al-Brake,S. Al-Brake,D,Qatar,4,0,0,0.1,0
+Ala'a Al-Hejji,A. Al-Hejji,M,Saudi Arabia,4,1,1,0.8,0
 Anas Badawi,A. Badawi,D,Jordan,4,0,0,0.3,0
-Ala'a Al-Hejji,A. Al-Hejji,M,Saudi Arabia,4,0,0,0.8,0
+James McGarry,J. McGarry,D,New Zealand,4,0,0,0.1,0
 Alhashmi Mohialdin,A. Mohialdin,D,Qatar,4,0,0,0.6,0

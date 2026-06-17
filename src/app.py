@@ -236,9 +236,25 @@ elif penalty_filtre == "Tous les tireurs":
 if len(joueurs_compares) >= 2:
     st.header("Comparaison de joueurs")
     st.dataframe(
-        comparer_joueurs(df, joueurs_compares)[["name", "team", "position", "price", "fdr_r1", "fdr_r2", "fdr_r3", "owned_percentage", "penalty_order", "match_date_r1", "opponent_r1"]].style.map(
+        comparer_joueurs(df, joueurs_compares)[["name", "team", "group", "difficulty", "is_favorite", "position", "price",
+                   "total_score", "statut", "owned_percentage", "penalty_order",
+                   "fdr_r1", "fdr_r2", "fdr_r3",
+                   "goals_r1", "assists_r1", "yellow_r1", "red_r1", "cleansheet_r1",
+                   "rating_r1", "minutes_r1", "keypasses_r1", "interceptions_r1", "tackles_r1",
+                   "duels_won_r1", "duels_total_r1", "passes_completed_r1", "passes_total_r1",
+                   "was_fouled_r1", "dispossessed_r1", "offsides_r1", "dribbles_won_r1",
+                   "long_balls_r1", "clearances_r1", "blocked_shots_r1", "penalty_won_r1",
+                   "saves_inside_r1", "saves_outside_r1", "pass_ratio_r1", "dribble_ratio_r1", "duel_ratio_r1"]].style.map(
             colorier_fdr, subset=["fdr_r1", "fdr_r2", "fdr_r3"]
         )
+    )
+
+    csv_export = comparer_joueurs(df, joueurs_compares).to_csv(index=False)
+    st.download_button(
+        label="Télécharger cette comparaison en CSV",
+        data=csv_export,
+        file_name="comparaison_joueurs.csv",
+        mime="text/csv"
     )
 
 df_filtre = df_filtre[df_filtre["fdr_r1"] <= fdr_max]
