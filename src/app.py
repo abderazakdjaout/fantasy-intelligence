@@ -4,6 +4,8 @@ import numpy as np
 import plotly.express as px
 import sys
 import os
+from itertools import combinations
+
 
 sys.path.append(os.path.dirname(__file__))
 from analysis import top_joueur_par_position, joueurs_budget, comparer_joueurs, joueurs_sous_evalues
@@ -100,6 +102,34 @@ df = df.merge(df_stats_agg, on="name", how="left")
 df["pass_ratio_r1"] = (df["passes_completed_r1"] / df["passes_total_r1"]).round(2)
 df["dribble_ratio_r1"] = (df["dribbles_won_r1"] / df["dribbles_total_r1"]).round(2)
 df["duel_ratio_r1"] = (df["duels_won_r1"] / df["duels_total_r1"]).round(2)
+
+# Calculer plancher et plafond
+df["points_par_but"] = df["position"].map({"D": 6, "M": 5, "F": 4, "G": 6})
+
+df["score_plancher_r1"] = (
+    (df["minutes_r1"].fillna(0) / 90) * 2 +
+    df["pass_ratio_r1"].fillna(0) * 3 +
+    df["keypasses_r1"].fillna(0) * 1 +
+    df["tackles_r1"].fillna(0) * 1 +
+    df["interceptions_r1"].fillna(0) * 1 +
+    df["long_balls_r1"].fillna(0) * 1 +
+    df["clearances_r1"].fillna(0) * 1
+).round(1)
+
+df["bonus_cleansheet"] = np.where(
+    df["position"].isin(["D", "G"]),
+    df["cleansheet_r1"].fillna(0) * 4,
+    0
+)
+
+df["score_explosif_r1"] = (
+    df["goals_r1"].fillna(0) * df["points_par_but"] +
+    df["assists_r1"].fillna(0) * 3 +
+    df["dribbles_won_r1"].fillna(0) * 1 +
+    df["bonus_cleansheet"]
+).round(1)
+
+df["score_plafond_r1"] = (df["score_plancher_r1"] + df["score_explosif_r1"]).round(1)
 
 # Calculer les colonnes
 df["score_valeur"] = df["total_score"] / df["price"]
@@ -239,7 +269,7 @@ if len(joueurs_compares) >= 2:
         comparer_joueurs(df, joueurs_compares)[["name", "team", "group", "difficulty", "is_favorite", "position", "price",
                    "total_score", "statut", "owned_percentage", "penalty_order",
                    "fdr_r1", "fdr_r2", "fdr_r3",
-                   "goals_r1", "assists_r1", "yellow_r1", "red_r1", "cleansheet_r1",
+                   "score_plancher_r1", "score_plafond_r1", "goals_r1", "assists_r1", "yellow_r1", "red_r1", "cleansheet_r1",
                    "rating_r1", "minutes_r1", "keypasses_r1", "interceptions_r1", "tackles_r1",
                    "duels_won_r1", "duels_total_r1", "passes_completed_r1", "passes_total_r1",
                    "was_fouled_r1", "dispossessed_r1", "offsides_r1", "dribbles_won_r1",
@@ -299,18 +329,70 @@ if len(mon_equipe) > 0:
         st.info(f"ℹ️ {len(pas_joue)} joueur(s) n'ont pas encore joué : " + ", ".join(pas_joue["name"].tolist()))
 
     st.dataframe(
-        df_mon_equipe[["name", "team", "position", "price", "total_score", "fdr_r1", "fdr_r2", "fdr_r3",
+        df_mon_equipe[["name", "team", "position", "price", "total_score", "score_plancher_r1", "score_plafond_r1", "fdr_r1", "fdr_r2", "fdr_r3",
                        "goals_r1", "assists_r1", "rating_r1", "minutes_r1", "statut"]].style.map(
             colorier_fdr, subset=["fdr_r1", "fdr_r2", "fdr_r3"]
         )
     )
+
+# SECTION SIMULATEUR DE BUDGET
+st.sidebar.header("Simulateur de budget")
+
+joueurs_a_vendre = st.sidebar.multiselect(
+    "Joueurs à vendre",
+    options=df["name"].tolist(),
+    key="vendre"
+)
+
+banque_actuelle = st.sidebar.number_input(
+    "Banque actuelle (M)",
+    value=2.5,
+    step=0.5
+)
+
+candidats_premium = st.sidebar.multiselect(
+    "Tes joueurs favoris à comparer 2 par 2",
+    options=df["name"].tolist(),
+    key="premium"
+)
+
+prix_3e_joueur_cible = st.sidebar.number_input(
+    "Prix visé pour le 3e joueur (M)",
+    value=5.0,
+    step=0.5
+)
+
+if len(joueurs_a_vendre) > 0 and len(candidats_premium) >= 2:
+    st.header("🧮 Simulateur de budget — paires favorites")
+
+    budget_total = df[df["name"].isin(joueurs_a_vendre)]["price"].sum() + banque_actuelle
+    st.write(f"Budget total disponible (sortants + banque) : {budget_total}M")
+
+    candidats_df = df[df["name"].isin(candidats_premium)][["name", "price"]]
+    resultats_paires = []
+
+    for paire in combinations(candidats_df.itertuples(), 2):
+        prix_paire = sum(p.price for p in paire)
+        noms_paire = " + ".join([p.name for p in paire])
+        budget_3e = budget_total - prix_paire
+        resultats_paires.append({
+            "paire": noms_paire,
+            "prix_paire": round(prix_paire, 1),
+            "budget_3e_joueur": round(budget_3e, 1)
+        })
+
+    df_paires = pd.DataFrame(resultats_paires).sort_values("budget_3e_joueur", ascending=False)
+    st.dataframe(df_paires)
+    df_paires["vente_necessaire"] = (prix_3e_joueur_cible - df_paires["budget_3e_joueur"]).round(1)
+
+    st.dataframe(df_paires)
 
 # CONTENU PRINCIPAL
 st.header("Joueurs")
 st.write(f"{df_filtre.shape[0]} joueurs trouvés")
 st.dataframe(
     df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price", 
-               "total_score", "owned_percentage", "penalty_order", "statut",
+               "total_score", "owned_percentage", "penalty_order", "statut", "score_plancher_r1", "score_plafond_r1",
                "fdr_r1", "fdr_r2", "fdr_r3",
                "goals_r1", "assists_r1", "yellow_r1", "red_r1", "cleansheet_r1",
                "rating_r1", "minutes_r1", "keypasses_r1", "interceptions_r1", "tackles_r1",
