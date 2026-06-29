@@ -41,7 +41,6 @@ df = df.merge(df_dates[["team", "match_date_r1", "match_time_et", "opponent_r1"]
 df_fdr = pd.read_csv("data/raw/fdr.csv")
 df = df.merge(df_fdr, on="team", how="left")
 
-# Charger les probabilités knockout
 df_knockout = pd.read_csv("data/raw/parcours_knockout.csv")
 df_knockout["score_parcours"] = (
     df_knockout["prob_last16"] +
@@ -79,6 +78,7 @@ def charger_stats(fichier, suffixe):
 df = df.merge(charger_stats("data/raw/player_stats_r1.csv", "r1"), on="name", how="left")
 df = df.merge(charger_stats("data/raw/player_stats_r2.csv", "r2"), on="name", how="left")
 df = df.merge(charger_stats("data/raw/player_stats_r3.csv", "r3"), on="name", how="left")
+df = df.loc[:, ~df.columns.duplicated()].copy().reset_index(drop=True)
 
 for s in ["r1", "r2", "r3"]:
     df[f"pass_ratio_{s}"] = (df[f"passes_completed_{s}"] / df[f"passes_total_{s}"]).fillna(0).round(2)
@@ -107,7 +107,8 @@ df["score_explosif_r1"] = (
     df["bonus_cleansheet"]
 ).round(1)
 
-# Score plancher/plafond multi-rounds avec seuils réels
+df["score_plafond_r1"] = (df["score_plancher_r1"] + df["score_explosif_r1"]).round(1)
+
 def pts_plancher_round(df, s):
     valide = (df[f"minutes_{s}"].fillna(0) >= 60).astype(float)
     pts_min = np.where(df[f"minutes_{s}"].fillna(0) >= 60, 2,
@@ -157,8 +158,7 @@ df["score_explosif"] = np.where(
 )
 
 df["score_plafond"] = (df["score_plancher"] + df["score_explosif"]).round(1)
-
-df["score_plafond_r1"] = (df["score_plancher_r1"] + df["score_explosif_r1"]).round(1)
+df["valeur_totale"] = (df["score_plafond"] * df["score_parcours"]).round(1)
 
 df["score_valeur"] = df["total_score"] / df["price"]
 df_joue = df[df["minutes_r1"] > 0]
@@ -190,6 +190,7 @@ fdr_r3_max = st.sidebar.slider("FDR R3 maximum", min_value=1, max_value=5, value
 # Sélection des colonnes
 toutes_colonnes = ["name", "team", "position", "price", "total_score", "score_parcours",
                    "owned_percentage", "penalty_order", "statut",
+                   "score_plancher", "score_explosif", "score_plafond", "valeur_totale", "rounds_valides",
                    "score_plancher_r1", "score_plafond_r1",
                    "fdr_r1", "fdr_r2", "fdr_r3",
                    "goals_r1", "assists_r1", "rating_r1", "minutes_r1",
@@ -212,15 +213,16 @@ toutes_colonnes = ["name", "team", "position", "price", "total_score", "score_pa
                    "duels_won_r3", "duels_total_r3", "duel_ratio_r3",
                    "dribbles_won_r3", "dribbles_total_r3", "dribble_ratio_r3",
                    "passes_completed_r3", "passes_total_r3",
-                   "long_balls_r3", "clearances_r3",
-                   "score_plancher", "score_explosif", "score_plafond", "rounds_valides"]
+                   "long_balls_r3", "clearances_r3"]
 
 colonnes_choisies = st.sidebar.multiselect(
     "Colonnes à afficher",
     options=toutes_colonnes,
     default=["name", "team", "position", "price", "total_score", "score_parcours",
-             "fdr_r1", "fdr_r2", "fdr_r3", "goals_r1", "assists_r1", "rating_r1",
-             "goals_r2", "assists_r2", "rating_r2", "goals_r3", "assists_r3", "rating_r3"]
+             "score_plancher", "score_explosif", "score_plafond", "valeur_totale",
+             "goals_r1", "assists_r1", "rating_r1",
+             "goals_r2", "assists_r2", "rating_r2",
+             "goals_r3", "assists_r3", "rating_r3"]
 )
 
 # FILTRES
@@ -253,7 +255,7 @@ if len(joueurs_compares) >= 2:
     st.dataframe(
         comparer_joueurs(df, joueurs_compares)[["name", "team", "position", "price",
                "total_score", "statut", "fdr_r1", "fdr_r2", "fdr_r3",
-               "score_plancher_r1", "score_plafond_r1",
+               "score_plancher", "score_explosif", "score_plafond", "valeur_totale",
                "goals_r1", "assists_r1", "rating_r1", "minutes_r1",
                "goals_r2", "assists_r2", "rating_r2", "minutes_r2",
                "goals_r3", "assists_r3", "rating_r3", "minutes_r3",
@@ -301,8 +303,8 @@ if len(mon_equipe) > 0:
 
     st.dataframe(
         df_mon_equipe[["name", "team", "position", "price", "total_score", "score_parcours",
-                       "score_plancher_r1", "score_plafond_r1",
-                       "fdr_r1", "fdr_r2", "fdr_r3",
+                       "score_plancher", "score_explosif", "score_plafond", "valeur_totale",
+                       "rounds_valides", "fdr_r1", "fdr_r2", "fdr_r3",
                        "goals_r1", "assists_r1", "rating_r1", "minutes_r1",
                        "goals_r2", "assists_r2", "rating_r2", "minutes_r2",
                        "goals_r3", "assists_r3", "rating_r3", "minutes_r3",
