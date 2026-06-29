@@ -126,7 +126,7 @@ recherche = st.sidebar.text_input("Rechercher un joueur")
 position_choisie = st.sidebar.selectbox("Position", ["Toutes", "F", "M", "D", "G"])
 budget = st.sidebar.slider("Budget maximum (M)", min_value=5.0, max_value=12.0, value=12.0, step=0.5)
 seuil = st.sidebar.slider("Choisi par combien de managers", min_value=0.0, max_value=100.0, value=50.0, step=1.0)
-pays_choisie = st.sidebar.selectbox("Pays", ["Tous"] + sorted(df["team"].unique().tolist()))
+pays_choisie = st.sidebar.multiselect("Pays", options=sorted(df["team"].unique().tolist()), default=[])
 groupe_choisi = st.sidebar.selectbox("Groupe", ["Tous"] + sorted(df["group"].dropna().unique().tolist()))
 difficulty_choisi = st.sidebar.selectbox("Difficulté", ["Toutes"] + sorted(df["difficulty"].dropna().unique().tolist()))
 favori_filtre = st.sidebar.selectbox("Statut favori", ["Tous", "strong", "likely", "unclear", "none"])
@@ -135,6 +135,29 @@ joueurs_compares = st.sidebar.multiselect("Comparer des joueurs", options=df["na
 fdr_max = st.sidebar.slider("FDR R1 maximum", min_value=1, max_value=5, value=5, step=1)
 fdr_r2_max = st.sidebar.slider("FDR R2 maximum", min_value=1, max_value=5, value=5, step=1)
 fdr_r3_max = st.sidebar.slider("FDR R3 maximum", min_value=1, max_value=5, value=5, step=1)
+
+# Sélection des colonnes
+toutes_colonnes = ["name", "team", "position", "price", "total_score", "score_parcours",
+                   "owned_percentage", "penalty_order", "statut",
+                   "score_plancher_r1", "score_plafond_r1",
+                   "fdr_r1", "fdr_r2", "fdr_r3",
+                   "goals_r1", "assists_r1", "rating_r1", "minutes_r1",
+                   "goals_r2", "assists_r2", "rating_r2", "minutes_r2",
+                   "goals_r3", "assists_r3", "rating_r3", "minutes_r3",
+                   "yellow_r1", "red_r1", "cleansheet_r1", "keypasses_r1",
+                   "interceptions_r1", "tackles_r1", "pass_ratio_r1",
+                   "yellow_r2", "red_r2", "cleansheet_r2", "keypasses_r2",
+                   "interceptions_r2", "tackles_r2", "pass_ratio_r2",
+                   "yellow_r3", "red_r3", "cleansheet_r3", "keypasses_r3",
+                   "interceptions_r3", "tackles_r3", "pass_ratio_r3"]
+
+colonnes_choisies = st.sidebar.multiselect(
+    "Colonnes à afficher",
+    options=toutes_colonnes,
+    default=["name", "team", "position", "price", "total_score", "score_parcours",
+             "fdr_r1", "fdr_r2", "fdr_r3", "goals_r1", "assists_r1", "rating_r1",
+             "goals_r2", "assists_r2", "rating_r2", "goals_r3", "assists_r3", "rating_r3"]
+)
 
 # FILTRES
 df_filtre = df.copy()
@@ -146,8 +169,8 @@ if position_choisie != "Toutes":
     df_filtre = df_filtre[df_filtre["position"] == position_choisie]
 df_filtre = df_filtre[df_filtre["price"] <= budget]
 df_filtre = df_filtre[df_filtre["owned_percentage"] <= seuil]
-if pays_choisie != "Tous":
-    df_filtre = df_filtre[df_filtre["team"] == pays_choisie]
+if len(pays_choisie) > 0:
+    df_filtre = df_filtre[df_filtre["team"].isin(pays_choisie)]
 if groupe_choisi != "Tous":
     df_filtre = df_filtre[df_filtre["group"] == groupe_choisi]
 if difficulty_choisi != "Toutes":
@@ -254,20 +277,8 @@ if len(joueurs_a_vendre) > 0 and len(candidats_premium) >= 2:
 st.header("Joueurs")
 st.write(f"{df_filtre.shape[0]} joueurs trouvés")
 st.dataframe(
-    df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price",
-               "total_score", "owned_percentage", "penalty_order", "statut", "score_parcours",
-               "score_plancher_r1", "score_plafond_r1",
-               "fdr_r1", "fdr_r2", "fdr_r3",
-               "goals_r1", "assists_r1", "rating_r1", "minutes_r1",
-               "goals_r2", "assists_r2", "rating_r2", "minutes_r2",
-               "goals_r3", "assists_r3", "rating_r3", "minutes_r3",
-               "yellow_r1", "red_r1", "cleansheet_r1", "keypasses_r1",
-               "interceptions_r1", "tackles_r1", "pass_ratio_r1", "dribble_ratio_r1", "duel_ratio_r1",
-               "yellow_r2", "red_r2", "cleansheet_r2", "keypasses_r2",
-               "interceptions_r2", "tackles_r2", "pass_ratio_r2", "dribble_ratio_r2", "duel_ratio_r2",
-               "yellow_r3", "red_r3", "cleansheet_r3", "keypasses_r3",
-               "interceptions_r3", "tackles_r3", "pass_ratio_r3", "dribble_ratio_r3", "duel_ratio_r3"]].style.map(
-        colorier_fdr, subset=["fdr_r1", "fdr_r2", "fdr_r3"]
+    df_filtre[colonnes_choisies].style.map(
+        colorier_fdr, subset=[c for c in ["fdr_r1", "fdr_r2", "fdr_r3"] if c in colonnes_choisies]
     )
 )
 
