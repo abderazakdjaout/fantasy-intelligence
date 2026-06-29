@@ -41,6 +41,17 @@ df = df.merge(df_dates[["team", "match_date_r1", "match_time_et", "opponent_r1"]
 df_fdr = pd.read_csv("data/raw/fdr.csv")
 df = df.merge(df_fdr, on="team", how="left")
 
+# Charger les probabilités knockout
+df_knockout = pd.read_csv("data/raw/parcours_knockout.csv")
+df_knockout["score_parcours"] = (
+    df_knockout["prob_last16"] +
+    df_knockout["prob_quarts"] +
+    df_knockout["prob_semis"] +
+    df_knockout["prob_finale"] +
+    df_knockout["prob_winner"]
+).round(2)
+df = df.merge(df_knockout, on="team", how="left")
+
 def charger_stats(fichier, suffixe):
     df_s = pd.read_csv(fichier)
     df_agg = df_s.groupby("name").agg({
@@ -202,7 +213,7 @@ if len(mon_equipe) > 0:
         st.info(f"ℹ️ {len(pas_joue)} joueur(s) n'ont pas encore joué : " + ", ".join(pas_joue["name"].tolist()))
 
     st.dataframe(
-        df_mon_equipe[["name", "team", "position", "price", "total_score",
+        df_mon_equipe[["name", "team", "position", "price", "total_score", "score_parcours",
                        "score_plancher_r1", "score_plafond_r1",
                        "fdr_r1", "fdr_r2", "fdr_r3",
                        "goals_r1", "assists_r1", "rating_r1", "minutes_r1",
@@ -244,7 +255,7 @@ st.header("Joueurs")
 st.write(f"{df_filtre.shape[0]} joueurs trouvés")
 st.dataframe(
     df_filtre[["name", "team", "group", "difficulty", "is_favorite", "position", "price",
-               "total_score", "owned_percentage", "penalty_order", "statut",
+               "total_score", "owned_percentage", "penalty_order", "statut", "score_parcours",
                "score_plancher_r1", "score_plafond_r1",
                "fdr_r1", "fdr_r2", "fdr_r3",
                "goals_r1", "assists_r1", "rating_r1", "minutes_r1",
