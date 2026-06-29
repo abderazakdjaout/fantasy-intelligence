@@ -81,9 +81,9 @@ df = df.merge(charger_stats("data/raw/player_stats_r2.csv", "r2"), on="name", ho
 df = df.merge(charger_stats("data/raw/player_stats_r3.csv", "r3"), on="name", how="left")
 
 for s in ["r1", "r2", "r3"]:
-    df[f"pass_ratio_{s}"] = (df[f"passes_completed_{s}"] / df[f"passes_total_{s}"]).round(2)
-    df[f"dribble_ratio_{s}"] = (df[f"dribbles_won_{s}"] / df[f"dribbles_total_{s}"]).round(2)
-    df[f"duel_ratio_{s}"] = (df[f"duels_won_{s}"] / df[f"duels_total_{s}"]).round(2)
+    df[f"pass_ratio_{s}"] = (df[f"passes_completed_{s}"] / df[f"passes_total_{s}"]).fillna(0).round(2)
+    df[f"dribble_ratio_{s}"] = (df[f"dribbles_won_{s}"] / df[f"dribbles_total_{s}"]).fillna(0).round(2)
+    df[f"duel_ratio_{s}"] = (df[f"duels_won_{s}"] / df[f"duels_total_{s}"]).fillna(0).round(2)
     df[f"minutes_{s}"] = df[f"minutes_{s}"].fillna(0)
 
 df["points_par_but"] = df["position"].map({"D": 6, "M": 5, "F": 4, "G": 6})
@@ -106,6 +106,57 @@ df["score_explosif_r1"] = (
     df["dribbles_won_r1"].fillna(0) * 1 +
     df["bonus_cleansheet"]
 ).round(1)
+
+# Score plancher/plafond multi-rounds avec seuils réels
+def pts_plancher_round(df, s):
+    valide = (df[f"minutes_{s}"].fillna(0) >= 60).astype(float)
+    pts_min = np.where(df[f"minutes_{s}"].fillna(0) >= 60, 2,
+              np.where(df[f"minutes_{s}"].fillna(0) > 0, 1, 0))
+    pts_passes = np.where(
+        (df[f"passes_total_{s}"].fillna(0) >= 40) & (df[f"pass_ratio_{s}"].fillna(0) >= 0.90), 1, 0)
+    pts_duels = np.where(
+        (df[f"duels_total_{s}"].fillna(0) >= 3) & (df[f"duel_ratio_{s}"].fillna(0) >= 0.50), 1, 0)
+    pts_dribbles = np.where(
+        (df[f"dribbles_total_{s}"].fillna(0) >= 3) & (df[f"dribble_ratio_{s}"].fillna(0) >= 0.60), 1, 0)
+    pts_tackles = (df[f"tackles_{s}"].fillna(0) // 3)
+    pts_interceptions = (df[f"interceptions_{s}"].fillna(0) // 3)
+    pts_keypasses = (df[f"keypasses_{s}"].fillna(0) // 2)
+    pts_clearances = (df[f"clearances_{s}"].fillna(0) // 5)
+    pts_long_balls = np.where(df[f"long_balls_{s}"].fillna(0) >= 3, 1, 0)
+    return (pts_min + pts_passes + pts_duels + pts_dribbles +
+            pts_tackles + pts_interceptions + pts_keypasses +
+            pts_clearances + pts_long_balls) * valide
+
+def pts_explosif_round(df, s):
+    valide = (df[f"minutes_{s}"].fillna(0) >= 60).astype(float)
+    bonus_cs = np.where(df["position"].isin(["D", "G"]),
+                        df[f"cleansheet_{s}"].fillna(0) * 4, 0)
+    return (
+        df[f"goals_{s}"].fillna(0) * df["points_par_but"] +
+        df[f"assists_{s}"].fillna(0) * 3 +
+        df[f"dribbles_won_{s}"].fillna(0) * 1 +
+        bonus_cs
+    ) * valide
+
+df["rounds_valides"] = (
+    (df["minutes_r1"].fillna(0) >= 60).astype(int) +
+    (df["minutes_r2"].fillna(0) >= 60).astype(int) +
+    (df["minutes_r3"].fillna(0) >= 60).astype(int)
+)
+
+df["score_plancher"] = np.where(
+    df["rounds_valides"] > 0,
+    ((pts_plancher_round(df, "r1") + pts_plancher_round(df, "r2") + pts_plancher_round(df, "r3")) / df["rounds_valides"]).round(1),
+    0
+)
+
+df["score_explosif"] = np.where(
+    df["rounds_valides"] > 0,
+    ((pts_explosif_round(df, "r1") + pts_explosif_round(df, "r2") + pts_explosif_round(df, "r3")) / df["rounds_valides"]).round(1),
+    0
+)
+
+df["score_plafond"] = (df["score_plancher"] + df["score_explosif"]).round(1)
 
 df["score_plafond_r1"] = (df["score_plancher_r1"] + df["score_explosif_r1"]).round(1)
 
@@ -146,10 +197,23 @@ toutes_colonnes = ["name", "team", "position", "price", "total_score", "score_pa
                    "goals_r3", "assists_r3", "rating_r3", "minutes_r3",
                    "yellow_r1", "red_r1", "cleansheet_r1", "keypasses_r1",
                    "interceptions_r1", "tackles_r1", "pass_ratio_r1",
+                   "duels_won_r1", "duels_total_r1", "duel_ratio_r1",
+                   "dribbles_won_r1", "dribbles_total_r1", "dribble_ratio_r1",
+                   "passes_completed_r1", "passes_total_r1",
+                   "long_balls_r1", "clearances_r1",
                    "yellow_r2", "red_r2", "cleansheet_r2", "keypasses_r2",
                    "interceptions_r2", "tackles_r2", "pass_ratio_r2",
+                   "duels_won_r2", "duels_total_r2", "duel_ratio_r2",
+                   "dribbles_won_r2", "dribbles_total_r2", "dribble_ratio_r2",
+                   "passes_completed_r2", "passes_total_r2",
+                   "long_balls_r2", "clearances_r2",
                    "yellow_r3", "red_r3", "cleansheet_r3", "keypasses_r3",
-                   "interceptions_r3", "tackles_r3", "pass_ratio_r3"]
+                   "interceptions_r3", "tackles_r3", "pass_ratio_r3",
+                   "duels_won_r3", "duels_total_r3", "duel_ratio_r3",
+                   "dribbles_won_r3", "dribbles_total_r3", "dribble_ratio_r3",
+                   "passes_completed_r3", "passes_total_r3",
+                   "long_balls_r3", "clearances_r3",
+                   "score_plancher", "score_explosif", "score_plafond", "rounds_valides"]
 
 colonnes_choisies = st.sidebar.multiselect(
     "Colonnes à afficher",
