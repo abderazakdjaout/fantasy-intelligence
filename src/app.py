@@ -214,6 +214,17 @@ colonnes_choisies = st.sidebar.multiselect(
              "goals_r3", "assists_r3", "rating_r3"]
 )
 
+# Tri
+colonnes_tri = st.sidebar.multiselect(
+    "Trier par (ordre de priorité)",
+    options=toutes_colonnes,
+    default=["valeur_totale"]
+)
+ordre_tri = st.sidebar.radio(
+    "Ordre de tri",
+    ["Décroissant", "Croissant"]
+)
+
 # FILTRES
 df_filtre = df.copy()
 if date_choisie != "Toutes":
@@ -328,6 +339,12 @@ if len(joueurs_a_vendre) > 0 and len(candidats_premium) >= 2:
     df_paires = pd.DataFrame(resultats_paires).sort_values("budget_3e_joueur", ascending=False)
     st.dataframe(df_paires)
 
+if colonnes_tri:
+    df_filtre = df_filtre.sort_values(
+        colonnes_tri,
+        ascending=(ordre_tri == "Croissant")
+    )
+    
 # CONTENU PRINCIPAL
 st.header("Joueurs")
 st.write(f"{df_filtre.shape[0]} joueurs trouvés")
