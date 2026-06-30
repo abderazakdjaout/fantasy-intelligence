@@ -149,7 +149,16 @@ df["score_explosif"] = np.where(
 
 df["score_plafond"] = (df["score_plancher"] + df["score_explosif"]).round(1)
 df["valeur_totale"] = (df["score_plafond"] * df["score_parcours"]).round(1)
+# Profil joueur automatique
+df["efficience"] = (df["valeur_totale"] / df["price"]).round(2)
 
+df["profil"] = np.where(
+    df["rounds_valides"] <= 1, "⚠️ Risqué",
+    np.where(df["efficience"] >= 2.5, "💎 Pépite",
+    np.where(df["efficience"] >= 1.5, "✅ Bon",
+    np.where(df["efficience"] >= 1.0, "🔵 Correct",
+    "❌ À éviter")))
+)
 df["score_valeur"] = df["total_score"] / df["price"]
 df_joue = df[df["minutes_r1"] > 0]
 moyennes = df_joue.groupby("position")["score_valeur"].mean()
@@ -180,7 +189,8 @@ fdr_r3_max = st.sidebar.slider("FDR R3 maximum", min_value=1, max_value=5, value
 # Sélection des colonnes
 toutes_colonnes = ["name", "team", "position", "price", "total_score", "score_parcours",
                    "owned_percentage", "penalty_order", "statut",
-                   "score_plancher", "score_explosif", "score_plafond", "valeur_totale", "rounds_valides",
+                   "score_plancher", "score_explosif", "score_plafond", 
+                   "valeur_totale", "efficience", "profil", "rounds_valides",
                    "fdr_r1", "fdr_r2", "fdr_r3",
                    "goals_r1", "assists_r1", "rating_r1", "minutes_r1",
                    "goals_r2", "assists_r2", "rating_r2", "minutes_r2",
@@ -209,6 +219,7 @@ colonnes_choisies = st.sidebar.multiselect(
     options=toutes_colonnes,
     default=["name", "team", "position", "price", "total_score", "score_parcours",
              "score_plancher", "score_explosif", "score_plafond", "valeur_totale",
+             "efficience", "profil", "rounds_valides",
              "goals_r1", "assists_r1", "rating_r1",
              "goals_r2", "assists_r2", "rating_r2",
              "goals_r3", "assists_r3", "rating_r3"]
@@ -344,7 +355,7 @@ if colonnes_tri:
         colonnes_tri,
         ascending=(ordre_tri == "Croissant")
     )
-    
+
 # CONTENU PRINCIPAL
 st.header("Joueurs")
 st.write(f"{df_filtre.shape[0]} joueurs trouvés")
