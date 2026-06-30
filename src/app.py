@@ -88,29 +88,17 @@ for s in ["r1", "r2", "r3"]:
 
 df["points_par_but"] = df["position"].map({"D": 6, "M": 5, "F": 4, "G": 6})
 
-df["score_plancher_r1"] = (
-    (df["minutes_r1"].fillna(0) / 90) * 2 +
-    df["pass_ratio_r1"].fillna(0) * 3 +
-    df["keypasses_r1"].fillna(0) * 1 +
-    df["tackles_r1"].fillna(0) * 1 +
-    df["interceptions_r1"].fillna(0) * 1 +
-    df["long_balls_r1"].fillna(0) * 1 +
-    df["clearances_r1"].fillna(0) * 1
-).round(1)
-
-df["bonus_cleansheet"] = np.where(df["position"].isin(["D", "G"]), df["cleansheet_r1"].fillna(0) * 4, 0)
-
-df["score_explosif_r1"] = (
-    df["goals_r1"].fillna(0) * df["points_par_but"] +
-    df["assists_r1"].fillna(0) * 3 +
-    df["dribbles_won_r1"].fillna(0) * 1 +
-    df["bonus_cleansheet"]
-).round(1)
-
-df["score_plafond_r1"] = (df["score_plancher_r1"] + df["score_explosif_r1"]).round(1)
-
 def pts_plancher_round(df, s):
     valide = (df[f"minutes_{s}"].fillna(0) >= 60).astype(float)
+    
+    # Rating points
+    rating = df[f"rating_{s}"].fillna(0)
+    pts_rating = np.where(rating >= 9.0, 3,
+                 np.where(rating >= 8.0, 2,
+                 np.where(rating >= 7.0, 1,
+                 np.where(rating >= 6.5, 0,
+                 np.where(rating >= 6.0, -1, -2)))))
+    
     pts_min = np.where(df[f"minutes_{s}"].fillna(0) >= 60, 2,
               np.where(df[f"minutes_{s}"].fillna(0) > 0, 1, 0))
     pts_passes = np.where(
@@ -124,9 +112,11 @@ def pts_plancher_round(df, s):
     pts_keypasses = (df[f"keypasses_{s}"].fillna(0) // 2)
     pts_clearances = (df[f"clearances_{s}"].fillna(0) // 5)
     pts_long_balls = np.where(df[f"long_balls_{s}"].fillna(0) >= 3, 1, 0)
-    return (pts_min + pts_passes + pts_duels + pts_dribbles +
+    pts_fouled = np.where(df[f"was_fouled_{s}"].fillna(0) >= 3, 1, 0)
+    
+    return (pts_rating + pts_min + pts_passes + pts_duels + pts_dribbles +
             pts_tackles + pts_interceptions + pts_keypasses +
-            pts_clearances + pts_long_balls) * valide
+            pts_clearances + pts_long_balls + pts_fouled) * valide
 
 def pts_explosif_round(df, s):
     valide = (df[f"minutes_{s}"].fillna(0) >= 60).astype(float)
@@ -191,7 +181,6 @@ fdr_r3_max = st.sidebar.slider("FDR R3 maximum", min_value=1, max_value=5, value
 toutes_colonnes = ["name", "team", "position", "price", "total_score", "score_parcours",
                    "owned_percentage", "penalty_order", "statut",
                    "score_plancher", "score_explosif", "score_plafond", "valeur_totale", "rounds_valides",
-                   "score_plancher_r1", "score_plafond_r1",
                    "fdr_r1", "fdr_r2", "fdr_r3",
                    "goals_r1", "assists_r1", "rating_r1", "minutes_r1",
                    "goals_r2", "assists_r2", "rating_r2", "minutes_r2",
